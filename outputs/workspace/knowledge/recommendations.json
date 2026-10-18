@@ -1,0 +1,173 @@
+{
+  "section_id": "recommendations",
+  "units": [
+    {
+      "id": "recommendations-01",
+      "topic": "freight document processing pilot priority",
+      "time_qualifier": "2 October 2026 assessment",
+      "summary": "Freight document processing was identified as the best first proof-of-concept candidate because it has high volume, measurable baselines, a clear business case, and mixed-quality multilingual documents that current vision-language models can handle reasonably well.",
+      "quote": "Document processing is the best first candidate: high volume, measurable baseline (clerk hours, error rate), clear ROI, and modern vision language models handle mixed-quality photos and multilingual documents reasonably well.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "7. ADVISORS' OBSERVATIONS (internal, Elina & Daniel)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "recommendations-02",
+      "topic": "freight document pilot scope",
+      "time_qualifier": "2 October 2026 assessment",
+      "summary": "The suggested initial scope is one document type, POD, at one site, Vantaa, before scaling.",
+      "quote": "Start with one document type (POD) and one site (Vantaa) before scaling.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "7. ADVISORS' OBSERVATIONS (internal, Elina & Daniel)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "recommendations-03",
+      "topic": "handwriting validation",
+      "time_qualifier": "2 October 2026 assessment",
+      "summary": "Handwriting is identified as the main risk for document processing and should be tested using real samples.",
+      "quote": "Handwriting is the main risk; must be tested on real samples.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "7. ADVISORS' OBSERVATIONS (internal, Elina & Daniel)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "recommendations-04",
+      "topic": "document processing human review",
+      "time_qualifier": "2 October 2026 assessment",
+      "summary": "The proposed document extraction process would have a person check only documents with low confidence.",
+      "quote": "automatic extraction of the fields into the TMS with a human check only for low-confidence documents",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.1 Freight document processing (highest priority for the company)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "recommendations-05",
+      "topic": "freight document sample",
+      "time_qualifier": "by 30 October 2026",
+      "summary": "The requested pilot sample is 200 anonymised freight documents across types, sites and languages, including at least 50 with handwritten remarks.",
+      "quote": "Jari: send anonymised sample of 200 freight documents (mix of types, sites, languages, at least 50 with handwritten remarks) - by 30 October 2026.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "8. ACTION ITEMS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "recommendations-06",
+      "topic": "warehouse forecasting data assessment",
+      "time_qualifier": "2 October 2026 assessment",
+      "summary": "A data assessment is the proposed first step for forecasting to determine whether the WMS data is suitable.",
+      "quote": "Forecasting is valuable but depends on data quality - need a data extract first.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "7. ADVISORS' OBSERVATIONS (internal, Elina & Daniel)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "recommendations-07",
+      "topic": "customer service email use case sequencing",
+      "time_qualifier": "2 October 2026 assessment",
+      "summary": "Email triage is proposed as a second step, after an AI usage policy is in place, because it has the most compliance work.",
+      "quote": "Email triage is relatively easy technically but has the most compliance work; good second step once an AI policy exists.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "7. ADVISORS' OBSERVATIONS (internal, Elina & Daniel)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "recommendations-08",
+      "topic": "AI usage policy and Copilot training",
+      "time_qualifier": "2 October 2026 assessment",
+      "summary": "An AI usage policy and short practical training on Copilot are identified as quick wins regardless of the proof of concept.",
+      "quote": "An AI usage policy and short Copilot training are quick wins regardless of the PoC.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "7. ADVISORS' OBSERVATIONS (internal, Elina & Daniel)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "recommendations-09",
+      "topic": "solution maintenance",
+      "time_qualifier": "2 October 2026 assessment",
+      "summary": "Because the IT function consists of one person, any solution should be low-maintenance or operated by a partner.",
+      "quote": "Risk: single IT person = bottleneck. Any solution must be low-maintenance or partner-operated.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "7. ADVISORS' OBSERVATIONS (internal, Elina & Daniel)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "recommendations-10",
+      "topic": "freight document pilot scope",
+      "time_qualifier": "24 September 2026 workshop",
+      "summary": "The workshop's proposed next-state ideas include starting with PODs in Vantaa.",
+      "quote": "Pilot: PODs in Vantaa first?",
+      "source": {
+        "file": "process_map_freight_documents.png",
+        "locator": "## Ideas from the workshop (TO-BE)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "recommendations-11",
+      "topic": "daily freight document volume estimate",
+      "time_qualifier": "2 October 2026 assessment",
+      "summary": "The meeting notes record an estimate of about 1,200 freight documents per day across all sites, subject to checking against volume data.",
+      "quote": "Mikko estimated about 1,200 documents per day across all sites. (To be checked against the volume data Jari will send - the TMS log may give a different number.)",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.1 Freight document processing (highest priority for the company)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "recommendations-12",
+      "topic": "daily freight document volume estimate",
+      "time_qualifier": "2 October 2026 assessment",
+      "summary": "The recording gives a TMS-log-based estimate of about 1,000 documents on a normal working day.",
+      "quote": "I would say it's a bit less, maybe around 1,000 on a normal working day according to the TMS document log.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": [
+    {
+      "topic": "daily freight document volume estimate",
+      "description": "The meeting notes record Mikko's estimate of about 1,200 documents per day across all sites. The recording gives a TMS-document-log estimate of around 1,000 on a normal working day. The notes say the estimate should be checked against volume data; the instructions establish no source priority, so the discrepancy is unresolved.",
+      "status": "unresolved",
+      "unit_ids": [
+        "recommendations-11",
+        "recommendations-12"
+      ]
+    }
+  ]
+}

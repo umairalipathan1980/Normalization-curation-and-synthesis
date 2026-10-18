@@ -1,0 +1,176 @@
+{
+  "section_id": "company_overview",
+  "units": [
+    {
+      "id": "company_overview-01",
+      "topic": "company business",
+      "time_qualifier": null,
+      "summary": "Lumivaara is a family-owned third-party logistics company founded in 2009.",
+      "quote": "Third-party logistics (3PL) company founded in 2009 by the Lindholm family.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "company_overview-02",
+      "topic": "company services",
+      "time_qualifier": null,
+      "summary": "The company provides contract warehousing, domestic road freight, e-commerce fulfilment, customs clearance and value-added logistics services.",
+      "quote": "The company provides contract warehousing, domestic road freight, e-commerce fulfilment, customs clearance and value-added logistics services to business customers across Finland.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 2"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "company_overview-03",
+      "topic": "warehouse locations",
+      "time_qualifier": null,
+      "summary": "The company operates warehouses in Vantaa, Tampere and Oulu; Vantaa is the main site and head office.",
+      "quote": "Three warehouses: Vantaa (main site and head office), Tampere and Oulu.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "company_overview-04",
+      "topic": "warehouse footprint",
+      "time_qualifier": null,
+      "summary": "The three warehouses have a combined area of 33,500 m².",
+      "quote": "Operations are run from three warehouses in Vantaa, Tampere and Oulu with a combined warehouse area of 33,500 m².",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 2"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "company_overview-05",
+      "topic": "company workforce",
+      "time_qualifier": "at the end of 2025",
+      "summary": "The company employed 134 people measured as full-time equivalents, with temporary agency staff during peak seasons.",
+      "quote": "The company employs 134 people (full-time equivalents at the end of 2025), complemented by temporary agency staff during peak seasons.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 2"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "company_overview-06",
+      "topic": "company revenue",
+      "time_qualifier": "2025",
+      "summary": "The company’s revenue was EUR 24.6 million.",
+      "quote": "Revenue in 2025 was EUR 24.6 million.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 2"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "company_overview-07",
+      "topic": "customer base",
+      "time_qualifier": null,
+      "summary": "The company has approximately 210 active business customers.",
+      "quote": "The company has approximately 210 active business customers.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "company_overview-08",
+      "topic": "customer market segments",
+      "time_qualifier": null,
+      "summary": "The company’s largest customer segments include retail and e-commerce, industrial spare parts, chilled food and beverage, and a growing pharma and healthcare segment.",
+      "quote": "Largest segments: retail and e-commerce, industrial spare parts, chilled food and beverage, and a small but growing pharma/healthcare segment (GDP-certified area in Vantaa since 2024).",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "company_overview-09",
+      "topic": "margin pressures",
+      "time_qualifier": null,
+      "summary": "The company described its margins as getting thinner amid fuel costs, wage settlements and price pressure from large customers.",
+      "quote": "Kaisa described margins as \"thin and getting thinner\" - fuel, wage settlements and price pressure from large customers.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "company_overview-10",
+      "topic": "growth and office staffing",
+      "time_qualifier": null,
+      "summary": "The company wants to grow without hiring more office staff for each new customer.",
+      "quote": "We want to grow, but we cannot keep hiring more office people for every new customer.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "company_overview-11",
+      "topic": "retail contract renewals",
+      "time_qualifier": "2027",
+      "summary": "Several of the company’s large retail contracts are due for renewal.",
+      "quote": "Several of the big retail contracts come up for renewal in 2027.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "company_overview-12",
+      "topic": "manual office work reduction target",
+      "time_qualifier": "by the end of 2028",
+      "summary": "The company’s strategy sets a target to reduce manual work in office processes by 30%.",
+      "quote": "Operational excellence – reduce manual work in office processes by 30 % by the end of 2028 so that growth does not require additional office staff.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 11"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "company_overview-13",
+      "topic": "profitable growth target",
+      "time_qualifier": "by 2028",
+      "summary": "The company’s strategy aims to grow revenue to EUR 30 million, particularly in pharma/healthcare and industrial spare parts, while improving the EBIT margin to 5%.",
+      "quote": "Profitable growth – grow revenue to EUR 30 million by 2028, especially in pharma/healthcare and industrial spare parts, while improving the EBIT margin to 5 %.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 11"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": []
+}

@@ -1,0 +1,390 @@
+{
+  "section_id": "validity_of_concept_and_authenticity_of_problem_addressed",
+  "units": [
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-01",
+      "topic": "freight document processing priority",
+      "time_qualifier": "2 October 2026",
+      "summary": "The company identified freight document processing as its highest-priority use case.",
+      "quote": "3.1 Freight document processing (highest priority for the company)",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-02",
+      "topic": "freight document volume estimate",
+      "time_qualifier": "2 October 2026",
+      "summary": "Mikko estimated approximately 1,200 freight documents per day across all sites; the estimate was to be checked against volume data.",
+      "quote": "Mikko estimated about 1,200 documents per day across all sites. (To be checked against the volume data Jari will send - the TMS log may give a different number.)",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "medium"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-03",
+      "topic": "freight document volume estimate",
+      "time_qualifier": "2 October 2026",
+      "summary": "Mikko gave an alternative estimate of around 1,000 documents on a normal working day from the TMS log, noting that counting depends on when paper documents are scanned.",
+      "quote": "I would say it's a bit less, maybe around 1,000 on a normal working day according to the TMS document log. But the log only counts paper documents when they are scanned, so it depends on how you count.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "medium"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-04",
+      "topic": "manual document handling capacity",
+      "time_qualifier": null,
+      "summary": "Six document clerks manually enter freight document data into the TMS, with invoicing-relevant fields also entered in Business Central.",
+      "quote": "Six document clerks (4 in Vantaa, 1 in Tampere, 1 in Oulu) key in the data manually into the TMS and, for invoicing-relevant fields, into Business Central.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-05",
+      "topic": "manual document entry error rate",
+      "time_qualifier": "at the meeting",
+      "summary": "Mikko estimated that manual data entry has an error rate of around 4%; he also said finance spends about a day a week correcting errors.",
+      "quote": "Mikko's estimate of the error rate in manual entry: around 4 %. Errors lead to wrong invoices, credit notes, and disputes; the finance team spends \"a day a week\" on corrections.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "medium"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-06",
+      "topic": "manual document processing time",
+      "time_qualifier": null,
+      "summary": "The process map estimates 3–4 minutes per document for manual data entry, in addition to about one minute to find the shipment in the TMS.",
+      "quote": "~1 min\n\n→\n\n**7. Key in data**\nPackages, weight, pallets, date, signature, remarks\n3–4 min / doc ~4 % errors",
+      "source": {
+        "file": "process_map_freight_documents.png",
+        "locator": "Freight document handling – current state (AS-IS)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-07",
+      "topic": "POD processing timeliness",
+      "time_qualifier": "2025 actual",
+      "summary": "The company processed 71% of PODs within two days of delivery.",
+      "quote": "71 %",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 10"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-08",
+      "topic": "invoice correction rate",
+      "time_qualifier": "2025 actual",
+      "summary": "The invoice correction rate was 3.1%, against a target below 1%; the overview attributes it mainly to document entry errors.",
+      "quote": "Invoice correction rate\n< 1 %\n3.1 %\nMainly caused by document entry\nerrors",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 10"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-09",
+      "topic": "document processing delay and claims risk",
+      "time_qualifier": null,
+      "summary": "Subcontractor documents may arrive 2–10 days late, and handwritten damage or shortage remarks are often noticed after the seven-day deadline for claiming against a haulier.",
+      "quote": "Documents from subcontractors arrive with a delay of 2–10 days, and invoicing of a shipment cannot be completed until its POD has been processed. Remarks about damage or shortages written by hand on the documents are often noticed late, after the deadline for raising a claim against the haulier (7 days under the company's subcontracting terms).",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "9.3 Freight document handling"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-10",
+      "topic": "freight document automation concept",
+      "time_qualifier": null,
+      "summary": "The desired concept is to extract fields into the TMS, require human review only for low-confidence documents, and flag handwritten remarks.",
+      "quote": "Desired outcome: automatic extraction of the fields into the TMS with a human check only for low-confidence documents; flagging of handwritten remarks.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-11",
+      "topic": "handwriting extraction risk",
+      "time_qualifier": null,
+      "summary": "The advisors identified handwriting as the main technical risk and said it should be tested using real documents.",
+      "quote": "Handwriting is the main risk; must be tested on real samples.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-12",
+      "topic": "freight document pilot scope",
+      "time_qualifier": null,
+      "summary": "The advisors recommended beginning with one document type, POD, at one site, Vantaa, before scaling.",
+      "quote": "Start with one document type (POD) and one site (Vantaa) before scaling.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-13",
+      "topic": "freight document pilot sample",
+      "time_qualifier": "by 30 October 2026",
+      "summary": "The requested pilot sample was 200 anonymised freight documents across types, sites, and languages, including at least 50 with handwritten remarks.",
+      "quote": "Jari: send anonymised sample of 200 freight documents (mix of types, sites, languages, at least\n    50 with handwritten remarks) - by 30 October 2026.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "8. ACTION ITEMS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-14",
+      "topic": "TMS integration constraint",
+      "time_qualifier": null,
+      "summary": "The TMS REST API supports single records only; bulk export is a paid service.",
+      "quote": "REST API (single records\nonly), WMS, driver\nmobile app",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "8. Information systems landscape"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-15",
+      "topic": "warehouse labour forecasting business problem",
+      "time_qualifier": "2025",
+      "summary": "Overtime costs were EUR 410,000, and Tampere was identified as the worst-affected site due to irregular volumes from a large spare-parts customer.",
+      "quote": "Overtime and last-minute agency staff are costly. Mikko: overtime costs were about EUR 410,000 in\n  2025, with the Tampere site the worst because of one large spare-parts customer with very\n  irregular volumes.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-16",
+      "topic": "warehouse labour forecasting concept",
+      "time_qualifier": null,
+      "summary": "The proposed forecast would predict daily inbound pallets and outbound order lines for each warehouse one to three weeks ahead, using WMS history, customer forecasts, calendar effects, and possibly weather.",
+      "quote": "Idea: forecast daily inbound pallets and outbound order lines per warehouse 1-3 weeks ahead, using\n  history from the WMS plus customer forecasts, calendar effects (holidays, campaigns), and maybe\n  weather for the chilled food customers.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-17",
+      "topic": "forecasting data history",
+      "time_qualifier": "as of 2 October 2026",
+      "summary": "The notes report six years of WMS history, but Jari was unsure whether pre-2020 data was comparable; Oulu data begins in 2023.",
+      "quote": "Six years of history exist in the WMS, but the system was replaced/upgraded in 2020 and Jari is not\n  sure whether pre-2020 data is comparable. Oulu has only data since 2023.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-18",
+      "topic": "customer forecast availability",
+      "time_qualifier": "at the meeting",
+      "summary": "Only about a third of key customers regularly provide volume forecasts for staffing.",
+      "quote": "Only about a third of the key customers send forecasts regularly.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-19",
+      "topic": "forecasting feasibility assessment",
+      "time_qualifier": null,
+      "summary": "The advisors said forecasting depends on data quality and that a data extract should be assessed first.",
+      "quote": "Forecasting is valuable but depends on data quality - need a data extract first.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-20",
+      "topic": "customer service email volume",
+      "time_qualifier": "average; December peak",
+      "summary": "The shared customer service mailbox receives roughly 380 emails per day on average and more than 600 per day at the December peak.",
+      "quote": "Roughly 380 emails per day on\n  average, peaking at over 600 in December.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-21",
+      "topic": "customer service response time",
+      "time_qualifier": "2025 actual",
+      "summary": "The customer service email response-time target is four hours; the 2025 average was 6.2 hours and the December average was 9.4 hours.",
+      "quote": "Customer service email response\ntime\n4 h\n6.2 h (avg), 9.4 h\n(Dec)",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 10"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-22",
+      "topic": "customer service triage concept",
+      "time_qualifier": null,
+      "summary": "The proposed concept is to classify incoming emails, route them, retrieve shipment status from the TMS, and draft replies for an agent to approve; fully automatic replies were not desired at this stage.",
+      "quote": "Idea: automatically classify incoming emails, route them, look up shipment status from the TMS and\n  draft a reply for the agent to approve. Not interested in fully automatic replies at this stage.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-23",
+      "topic": "customer service data and compliance constraint",
+      "time_qualifier": null,
+      "summary": "Customer service emails may contain consumer names, phone numbers, and home delivery addresses; GDPR and AI Act transparency questions were raised about access and data processing location.",
+      "quote": "Emails contain personal data (names, phone numbers, home delivery addresses of consumers for\n  e-commerce customers). GDPR and AI Act transparency questions came up - who can see what, where the\n  data is processed.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-24",
+      "topic": "customer service use case compliance effort",
+      "time_qualifier": null,
+      "summary": "The advisors considered email triage relatively easy technically but said it had the most compliance work and would be a good second step once an AI policy exists.",
+      "quote": "Email triage is relatively easy technically but has the most compliance work; good second step\n  once an AI policy exists.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-25",
+      "topic": "IT capacity and solution maintenance",
+      "time_qualifier": null,
+      "summary": "The advisors identified the single-person IT function as a bottleneck and said any solution must be low-maintenance or operated by a partner.",
+      "quote": "Risk: single IT person = bottleneck. Any solution must be low-maintenance or partner-operated.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-26",
+      "topic": "AI pilot budget",
+      "time_qualifier": "2027 budget proposal",
+      "summary": "The company overview says the 2027 budget proposal earmarks EUR 50,000 for digitalisation and AI pilots, in addition to ordinary IT operating costs.",
+      "quote": "Budget: The 2027 budget proposal earmarks EUR 50,000 for digitalisation and AI pilots, in\naddition to ordinary IT operating costs (approx. EUR 210,000 per year).",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "11.1 Digitalisation and AI goals"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-27",
+      "topic": "AI project investment budget",
+      "time_qualifier": "2027",
+      "summary": "Kaisa said the board would be open to investing EUR 60,000–80,000 in AI-related projects if the first pilot shows results.",
+      "quote": "Budget: Kaisa said the board would be open to investing EUR 60,000-80,000 in AI-related projects in\n  2027 if the first pilot shows results.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "validity_of_concept_and_authenticity_of_problem_addressed-28",
+      "topic": "manual office work reduction goal",
+      "time_qualifier": "by the end of 2028",
+      "summary": "The strategy sets a goal to reduce manual work in office processes by 30%.",
+      "quote": "Operational excellence – reduce manual work in office processes by 30 % by the end of 2028\nso that growth does not require additional office staff.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "11. Strategy 2026–2028 and digitalisation goals"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": [
+    {
+      "topic": "freight document volume estimate",
+      "description": "The meeting notes estimate about 1,200 documents per day across all sites. The recording gives an alternative estimate of around 1,000 on a normal working day from the TMS log and notes that scanning practices affect the count. The instructions establish no source priority, so the estimates remain unresolved.",
+      "status": "unresolved",
+      "unit_ids": [
+        "validity_of_concept_and_authenticity_of_problem_addressed-02",
+        "validity_of_concept_and_authenticity_of_problem_addressed-03"
+      ]
+    },
+    {
+      "topic": "AI pilot budget",
+      "description": "The company overview describes a 2027 budget proposal earmarking EUR 50,000 for digitalisation and AI pilots. The meeting notes report that the board would be open to investing EUR 60,000–80,000 in AI-related projects in 2027 if the first pilot shows results. The sources do not establish priority or reconcile the different figures, so the conflict is unresolved.",
+      "status": "unresolved",
+      "unit_ids": [
+        "validity_of_concept_and_authenticity_of_problem_addressed-26",
+        "validity_of_concept_and_authenticity_of_problem_addressed-27"
+      ]
+    }
+  ]
+}

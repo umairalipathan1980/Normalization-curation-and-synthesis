@@ -1,0 +1,111 @@
+{
+  "section_id": "technical_expertise_and_capability",
+  "units": [
+    {
+      "id": "technical_expertise_and_capability-01",
+      "topic": "in-house IT staffing and technical skills",
+      "time_qualifier": "2 October 2026",
+      "summary": "The IT function consists of Jari alone. He has good SQL and Power BI skills, but no Python or machine-learning experience.",
+      "quote": "One-person IT function (Jari). Good SQL and Power BI skills, no Python/ML experience.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "5. TECHNICAL CAPABILITY AND RESOURCES"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "technical_expertise_and_capability-02",
+      "topic": "in-house technical support responsibilities",
+      "time_qualifier": null,
+      "summary": "The IT Manager handles systems, reporting and user support; network and security are outsourced.",
+      "quote": "Systems, reporting, user support; network and security outsourced",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 6"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "technical_expertise_and_capability-03",
+      "topic": "external technical support",
+      "time_qualifier": "2 October 2026",
+      "summary": "The company uses a WMS vendor under a support contract, a Business Central consultancy partner, and an IT outsourcing provider for network and security.",
+      "quote": "External partners: WMS vendor (support contract), Business Central partner (Dynamics consultancy), IT outsourcing for network and security.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "5. TECHNICAL CAPABILITY AND RESOURCES"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "technical_expertise_and_capability-04",
+      "topic": "IT implementation capacity",
+      "time_qualifier": "2 October 2026",
+      "summary": "The single-person IT function is identified as a bottleneck; any solution needs to be low-maintenance or operated by a partner.",
+      "quote": "Risk: single IT person = bottleneck. Any solution must be low-maintenance or partner-operated.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "7. ADVISORS' OBSERVATIONS (internal, Elina & Daniel)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "technical_expertise_and_capability-05",
+      "topic": "data access capability",
+      "time_qualifier": null,
+      "summary": "The IT Manager has read access to the WMS data.",
+      "quote": "Jari has read access.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "4. DATA AND SYSTEMS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "technical_expertise_and_capability-06",
+      "topic": "data and reporting infrastructure",
+      "time_qualifier": "2 October 2026",
+      "summary": "The company has no data warehouse; reporting uses Excel exports and a few Power BI reports maintained by Jari.",
+      "quote": "No data warehouse; reporting is done in Excel exports and a few Power BI reports that Jari maintains.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "2. CURRENT USE OF AI AND DIGITAL TOOLS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "technical_expertise_and_capability-07",
+      "topic": "machine-learning deployment experience",
+      "time_qualifier": "2 October 2026",
+      "summary": "The company has no machine-learning models in production.",
+      "quote": "No machine learning models in production.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "2. CURRENT USE OF AI AND DIGITAL TOOLS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "technical_expertise_and_capability-08",
+      "topic": "TMS integration capability",
+      "time_qualifier": null,
+      "summary": "The TMS has a limited REST API without bulk export; the vendor offers a paid data export.",
+      "quote": "REST API available but limited (no bulk export; vendor offers a paid data export).",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "4. DATA AND SYSTEMS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": []
+}

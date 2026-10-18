@@ -1,0 +1,218 @@
+{
+  "section_id": "report_details",
+  "units": [
+    {
+      "id": "report_details-01",
+      "topic": "company name",
+      "time_qualifier": null,
+      "summary": "The meeting notes identify the company as Lumivaara Logistics Oy.",
+      "quote": "Company:        Lumivaara Logistics Oy",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "report_details-02",
+      "topic": "company name",
+      "time_qualifier": null,
+      "summary": "The recording transcript identifies the company as Lumavara Logistics.",
+      "quote": "I'm Kaisa Lindholm, CEO of Lumavara Logistics.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "report_details-03",
+      "topic": "company name",
+      "time_qualifier": null,
+      "summary": "The company overview identifies the company as Lumivaara Logistics Oy.",
+      "quote": "LUMIVAARA LOGISTICS OY",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 1"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "report_details-04",
+      "topic": "business ID",
+      "time_qualifier": null,
+      "summary": "The company's business ID is 3187654-2.",
+      "quote": "Business ID:    3187654-2 (fictional)",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "report_details-05",
+      "topic": "company location",
+      "time_qualifier": null,
+      "summary": "The company is located at Logistiikkatie 14, 01530 Vantaa, Finland.",
+      "quote": "Location:       Logistiikkatie 14, 01530 Vantaa, Finland",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "report_details-06",
+      "topic": "company location",
+      "time_qualifier": null,
+      "summary": "The company address is Logistiikkatie 14, 01530 Vantaa, Finland.",
+      "quote": "Logistiikkatie 14, 01530 Vantaa, Finland",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 1"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "report_details-07",
+      "topic": "assessment meeting date",
+      "time_qualifier": "2 October 2026",
+      "summary": "The assessment meeting took place on 2 October 2026.",
+      "quote": "Meeting date:   2 October 2026, 13:00-14:30",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "report_details-08",
+      "topic": "assessment meeting date",
+      "time_qualifier": "2 October 2026",
+      "summary": "The recording states that the meeting was on 2 October; the notes give the year as 2026.",
+      "quote": "Today is the 2nd of October",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "report_details-09",
+      "topic": "assessment meeting type",
+      "time_qualifier": "2 October 2026",
+      "summary": "The meeting was an initial AI assessment and consultation, held via Teams with an on-site visit to the Vantaa warehouse afterwards.",
+      "quote": "Meeting type:   Initial AI assessment and consultation (Teams + on-site visit to Vantaa warehouse afterwards)",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "report_details-10",
+      "topic": "company meeting participants and roles",
+      "time_qualifier": "2 October 2026",
+      "summary": "The notes list Kaisa Lindholm, CEO; Mikko Saarinen, Operations Director; Jari Koskela, IT Manager; and Anna Virtanen, Customer Service Team Lead as company participants.",
+      "quote": "  - Kaisa Lindholm, CEO (joined for the first 40 minutes)\n  - Mikko Saarinen, Operations Director\n  - Jari Koskela, IT Manager\n  - Anna Virtanen, Customer Service Team Lead (joined for the customer service part)",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "report_details-11",
+      "topic": "FAIR advisory participants and roles",
+      "time_qualifier": "2 October 2026",
+      "summary": "The notes list Elina Rautio as the business AI advisor and Daniel Okafor as the technical AI advisor.",
+      "quote": "  - Elina Rautio, AI advisor (business)\n  - Daniel Okafor, AI advisor (technical)",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "report_details-12",
+      "topic": "FAIR advisory participants and roles",
+      "time_qualifier": "2 October 2026",
+      "summary": "The recording transcript names Alina Rocchio as the business-side AI advisor and Daniel Akifer as the technical-side advisor.",
+      "quote": "My name is Alina Rocchio, I'm an AI advisor at FAIR, focusing on the business side. With me is my colleague Daniel Akifer, who covers the technical side.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "report_details-13",
+      "topic": "Anna Virtanen's meeting attendance",
+      "time_qualifier": "2 October 2026",
+      "summary": "The notes say Anna Virtanen joined for the customer service part of the meeting.",
+      "quote": "Anna Virtanen, Customer Service Team Lead (joined for the customer service part)",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "report_details-14",
+      "topic": "Anna Virtanen's meeting attendance",
+      "time_qualifier": "2 October 2026",
+      "summary": "The recording transcript says Anna was not able to join because she was covering the phone line.",
+      "quote": "Anna, our customer service team lead, would have joined but she's covering the phone line right now",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": [
+    {
+      "topic": "company name",
+      "description": "The meeting notes and company overview identify the company as Lumivaara Logistics Oy, while the recording transcript calls it Lumavara Logistics. The instructions give no source priority, so the discrepancy is unresolved.",
+      "status": "unresolved",
+      "unit_ids": [
+        "report_details-01",
+        "report_details-02",
+        "report_details-03"
+      ]
+    },
+    {
+      "topic": "FAIR advisory participants and roles",
+      "description": "The notes name Elina Rautio as the business advisor and Daniel Okafor as the technical advisor; the recording transcript gives Alina Rocchio and Daniel Akifer for those roles. The instructions give no source priority, so the name discrepancies are unresolved.",
+      "status": "unresolved",
+      "unit_ids": [
+        "report_details-11",
+        "report_details-12"
+      ]
+    },
+    {
+      "topic": "Anna Virtanen's meeting attendance",
+      "description": "The notes say Anna Virtanen joined for the customer service part, while the recording transcript says she could not join because she was covering the phone line. The instructions give no source priority, so her attendance is unresolved.",
+      "status": "unresolved",
+      "unit_ids": [
+        "report_details-13",
+        "report_details-14"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "section_id": "ai_maturity_level",
+  "units": [
+    {
+      "id": "ai_maturity_level-01",
+      "topic": "Microsoft Copilot pilot",
+      "time_qualifier": "spring 2026",
+      "summary": "Microsoft 365 Copilot licences were purchased for 25 office staff as a pilot.",
+      "quote": "Microsoft 365 Copilot licences purchased for 25 office staff in spring 2026 as a pilot.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "ai_maturity_level-02",
+      "topic": "Copilot adoption",
+      "time_qualifier": "at the assessment",
+      "summary": "Use of Copilot was uneven: some employees used it daily, while others had not opened it.",
+      "quote": "Usage is uneven: some people use it daily for emails and meeting summaries, others \"have not opened it\".",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "ai_maturity_level-03",
+      "topic": "Employee use of public AI tools",
+      "time_qualifier": "at the assessment",
+      "summary": "Several employees used free ChatGPT for translations and drafting customer letters.",
+      "quote": "Several employees use free ChatGPT for translations (Swedish, English, Estonian drivers) and for drafting customer letters.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "ai_maturity_level-04",
+      "topic": "AI usage policy and training",
+      "time_qualifier": "at the assessment",
+      "summary": "The company had no AI usage policy and had provided no training beyond a one-hour vendor webinar.",
+      "quote": "No guidelines or training beyond a one-hour vendor webinar.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "ai_maturity_level-05",
+      "topic": "Rule-based automation",
+      "time_qualifier": "since 2023",
+      "summary": "A UiPath RPA bot matched supplier invoices to purchase orders in Business Central, handling about 70% of invoices; the notes distinguish this from AI.",
+      "quote": "Works for ~70 % of invoices; the rest go to manual handling. This is rule-based, not AI, but it is the company's main automation experience.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "ai_maturity_level-06",
+      "topic": "Machine learning in production",
+      "time_qualifier": "at the assessment",
+      "summary": "The company had no machine-learning models in production.",
+      "quote": "No machine learning models in production.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "ai_maturity_level-07",
+      "topic": "Operational digitalisation",
+      "time_qualifier": "at the assessment",
+      "summary": "The company had strong operational digitalisation through its WMS, TMS and EDI, while AI use was individual and ad hoc.",
+      "quote": "Strong operational digitalisation (WMS, TMS, EDI) but AI use is individual and ad hoc",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "ai_maturity_level-08",
+      "topic": "AI maturity classification",
+      "time_qualifier": "at the assessment",
+      "summary": "FAIR's preliminary AI maturity rating was Low.",
+      "quote": "Preliminary AI maturity rating by FAIR: LOW.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "ai_maturity_level-09",
+      "topic": "AI maturity rationale",
+      "time_qualifier": "at the assessment",
+      "summary": "The notes cite the absence of an AI strategy, policy, roadmap and AI-specific in-house skills as reasons for the low maturity assessment.",
+      "quote": "no strategy, policy, roadmap or AI-specific skills in house.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "ai_maturity_level-10",
+      "topic": "Reporting and data infrastructure",
+      "time_qualifier": "at the assessment",
+      "summary": "The company had no data warehouse; reporting used Excel exports and a few Power BI reports maintained by the IT manager.",
+      "quote": "No data warehouse; reporting is done in Excel exports and a few Power BI reports that Jari maintains.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "ai_maturity_level-11",
+      "topic": "Reporting and data infrastructure",
+      "time_qualifier": "at the assessment",
+      "summary": "The company had no central data warehouse, and reporting relied on manual Excel exports prepared by the IT Manager.",
+      "quote": "There is no central data warehouse. Customer master data is maintained separately in the WMS, TMS and Business Central, and there is no shared customer identifier between the systems. Reporting relies on manual Excel exports prepared by the IT Manager.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 8"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "ai_maturity_level-12",
+      "topic": "AI-related strategy goals",
+      "time_qualifier": "2026–2028 strategy",
+      "summary": "The board-approved strategy included mapping automation and AI opportunities, running at least one measurable AI pilot in 2027, and introducing AI usage policy and training for office staff.",
+      "quote": "Map core processes and identify opportunities for automation and artificial intelligence (in progress, autumn 2026).\nRun at least one AI pilot in 2027 with a measurable business case.\nIntroduce an AI usage policy and training for office staff.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 11"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": []
+}

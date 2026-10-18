@@ -1,0 +1,53 @@
+{
+  "stages": {
+    "normalize": {
+      "run_id": "ed3909e7112b",
+      "time": "2026-10-17T22:20:18+00:00",
+      "inputs": {
+        "sources": {
+          "advisory_meeting_notes.txt": "e00e78aff21cef23e9324461582ff6856fb10b3d596f76fee16e4121c3ac603e",
+          "advisory_meeting_recording_part1.mp3": "583333ea773e8258136143a1158a6a08cb3cf55e76c53943d62f04429cf7fc91",
+          "advisory_meeting_recording_part2.mp3": "60760ffd9701516f92de8648f19f690e8e3ed9a736c9ff3f67f9010758520f49",
+          "company_overview_2026.pdf": "af08e75660198076e2e058c70f26eba7dc0ea207bcfd420048adef2efac5d4bd",
+          "operations_data_extract.xlsx": "03ab917026f6e07afc37a9d4d7284b0f92a136e523fd4e35efc8bad35d90dabf",
+          "process_map_freight_documents.png": "c24eebc76efb86045363b44b532f10d42f3a8628956e3e86b6abb234563bc69a"
+        },
+        "spec": "9ae6e4d52e9ccc832e81a7f5af7a76d3738d06633338225f14f358d6b941014c"
+      },
+      "models": {
+        "provider": "openai",
+        "vision": "gpt-5.4-2026-03-05",
+        "transcription": "gpt-4o-transcribe"
+      },
+      "warnings": [],
+      "uses": [
+        "audio",
+        "image"
+      ],
+      "sample_conversion": "82803c659c6a"
+    },
+    "curate": {
+      "run_id": "f220d50c2c45",
+      "time": "2026-10-17T22:26:22+00:00",
+      "inputs": {
+        "spec": "498266e0f23d977a1b075ba8c494b154e404496d1ba79cec677c93fb1dbeca1d"
+      },
+      "models": {
+        "provider": "openai",
+        "curator": "gpt-6-luna"
+      },
+      "warnings": [],
+      "upstream": "ed3909e7112b"
+    }
+  },
+  "sample": {
+    "conversion_id": "82803c659c6a",
+    "file": "sample_report.docx",
+    "sha256": "0e255bdca1b234633a507ee2675823efad33a3796b8ee179ba67cc5058ab5ba8",
+    "time": "2026-10-17T22:20:18+00:00"
+  },
+  "gaik": {
+    "version": "0.8.2.post1.dev37",
+    "editable": true
+  }
+}

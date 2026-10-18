@@ -1,0 +1,85 @@
+{
+  "section_id": "appendix_sources",
+  "units": [
+    {
+      "id": "appendix_sources-01",
+      "topic": "advisory meeting notes",
+      "time_qualifier": null,
+      "summary": "The source is titled “FAIR AI ADVISORY - MEETING NOTES.”",
+      "quote": "FAIR AI ADVISORY - MEETING NOTES",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "appendix_sources-02",
+      "topic": "AI assessment meeting recording, part 1",
+      "time_qualifier": "2 October 2026",
+      "summary": "The recording covers an initial session about the company’s AI use and possible proof-of-concept use cases.",
+      "quote": "Today is the 2nd of October, and the idea of this session is to understand your business, how you use AI today, and which use cases could make sense for a first proof of concept.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "appendix_sources-03",
+      "topic": "AI assessment meeting recording, part 2",
+      "time_qualifier": null,
+      "summary": "The recording includes advisory discussion of a data assessment for forecasting.",
+      "quote": "Second, for forecasting, the first step is a data assessment.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "appendix_sources-04",
+      "topic": "company overview and operations description",
+      "time_qualifier": "September 2026",
+      "summary": "The source is a company overview and operations description prepared as background material for the FAIR AI assessment.",
+      "quote": "Company Overview and\nOperations Description",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 1"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "appendix_sources-05",
+      "topic": "operational data extract",
+      "time_qualifier": "9 October 2026",
+      "summary": "The source is an operational data extract for the FAIR AI assessment.",
+      "quote": "Lumivaara Logistics Oy - Operational data extract for FAIR AI assessment",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet README, row 1"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "appendix_sources-06",
+      "topic": "freight document handling process map",
+      "time_qualifier": "24 Sept 2026",
+      "summary": "The source is a current-state process map for freight document handling, created in a process mapping workshop.",
+      "quote": "Freight document handling – current state (AS-IS)",
+      "source": {
+        "file": "process_map_freight_documents.png",
+        "locator": "Freight document handling – current state (AS-IS)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": []
+}

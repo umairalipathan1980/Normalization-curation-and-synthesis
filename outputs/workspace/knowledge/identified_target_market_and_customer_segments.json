@@ -1,0 +1,228 @@
+{
+  "section_id": "identified_target_market_and_customer_segments",
+  "units": [
+    {
+      "id": "identified_target_market_and_customer_segments-01",
+      "topic": "customer base",
+      "time_qualifier": null,
+      "summary": "The company has approximately 210 active business customers.",
+      "quote": "The company has approximately 210 active business customers.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_target_market_and_customer_segments-02",
+      "topic": "revenue concentration among largest customers",
+      "time_qualifier": "2025",
+      "summary": "The 15 largest customers account for 58% of revenue and are connected by EDI.",
+      "quote": "The 15 largest customers account for 58 % of revenue and are connected by EDI.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_target_market_and_customer_segments-03",
+      "topic": "customer segment portfolio",
+      "time_qualifier": "meeting, 2 October 2026",
+      "summary": "The largest segments are retail and e-commerce, industrial spare parts, and chilled food and beverage; pharma and healthcare is described as a small but growing segment.",
+      "quote": "Largest segments: retail and e-commerce, industrial spare parts,\n  chilled food and beverage, and a small but growing pharma/healthcare segment",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_target_market_and_customer_segments-04",
+      "topic": "retail and e-commerce customer segment",
+      "time_qualifier": "2025",
+      "summary": "Retail and e-commerce accounts for 41% of revenue.",
+      "quote": "41 %",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_target_market_and_customer_segments-05",
+      "topic": "retail and e-commerce customer segment",
+      "time_qualifier": null,
+      "summary": "Typical customers in the retail and e-commerce segment include clothing, home goods, and electronics retailers, as well as online shops.",
+      "quote": "Clothing, home goods and\nelectronics retailers; online shops",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_target_market_and_customer_segments-06",
+      "topic": "industrial spare-parts customer segment",
+      "time_qualifier": "2025",
+      "summary": "Industrial spare parts accounts for 27% of revenue.",
+      "quote": "27 %",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_target_market_and_customer_segments-07",
+      "topic": "industrial spare-parts customer segment",
+      "time_qualifier": null,
+      "summary": "Typical customers include machinery and equipment manufacturers and service companies.",
+      "quote": "Machinery and equipment\nmanufacturers, service companies",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_target_market_and_customer_segments-08",
+      "topic": "chilled food and beverage customer segment",
+      "time_qualifier": "2025",
+      "summary": "Chilled food and beverage accounts for 18% of revenue.",
+      "quote": "18 %",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_target_market_and_customer_segments-09",
+      "topic": "chilled food and beverage customer segment",
+      "time_qualifier": null,
+      "summary": "Typical customers include food producers and beverage importers.",
+      "quote": "Food producers, beverage\nimporters",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_target_market_and_customer_segments-10",
+      "topic": "pharma and healthcare customer segment",
+      "time_qualifier": "2025",
+      "summary": "Pharma and healthcare accounts for 9% of revenue.",
+      "quote": "9 %",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_target_market_and_customer_segments-11",
+      "topic": "pharma and healthcare customer segment",
+      "time_qualifier": null,
+      "summary": "Typical customers include medical device distributors and pharmaceutical wholesalers.",
+      "quote": "Medical device distributors,\npharmaceutical wholesalers",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_target_market_and_customer_segments-12",
+      "topic": "other customer segment",
+      "time_qualifier": "2025",
+      "summary": "The other segment accounts for 5% of revenue.",
+      "quote": "5 %",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_target_market_and_customer_segments-13",
+      "topic": "other customer segment",
+      "time_qualifier": null,
+      "summary": "Typical customers in the other segment include public sector, events, and construction.",
+      "quote": "Public sector, events, construction",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_target_market_and_customer_segments-14",
+      "topic": "industrial spare-parts volumes and warehouse labour forecasting",
+      "time_qualifier": null,
+      "summary": "The Tampere warehouse is described as the worst site for overtime because one large spare-parts customer has very irregular volumes.",
+      "quote": "with the Tampere site the worst because of one large spare-parts customer with very irregular volumes.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_target_market_and_customer_segments-15",
+      "topic": "industrial spare-parts volumes and warehouse labour forecasting",
+      "time_qualifier": null,
+      "summary": "One large spare-parts customer is described as having very irregular volumes, contributing to overtime or last-minute agency staffing.",
+      "quote": "Tampere is the worst, because one big spare parts customer has very irregular volumes.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_target_market_and_customer_segments-16",
+      "topic": "chilled food customer volumes and warehouse labour forecasting",
+      "time_qualifier": null,
+      "summary": "Weather is mentioned as a possible input to warehouse demand forecasts for chilled food customers.",
+      "quote": "and maybe weather for the chilled food customers.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_target_market_and_customer_segments-17",
+      "topic": "e-commerce consumers and customer service email triage",
+      "time_qualifier": null,
+      "summary": "Customer service emails include personal data about consumers receiving e-commerce deliveries, including names, phone numbers, and home delivery addresses.",
+      "quote": "Emails contain personal data (names, phone numbers, home delivery addresses of consumers for e-commerce customers).",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": []
+}

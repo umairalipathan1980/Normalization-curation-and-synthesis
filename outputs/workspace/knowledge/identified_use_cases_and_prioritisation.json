@@ -1,0 +1,212 @@
+{
+  "section_id": "identified_use_cases_and_prioritisation",
+  "units": [
+    {
+      "id": "identified_use_cases_and_prioritisation-01",
+      "topic": "freight document processing priority",
+      "time_qualifier": null,
+      "summary": "Freight document processing was identified as the company’s highest-priority use case.",
+      "quote": "Freight document processing (highest priority for the company)",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.1 Freight document processing (highest priority for the company)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_use_cases_and_prioritisation-02",
+      "topic": "freight document volume estimate",
+      "time_qualifier": "at the 2 October 2026 meeting",
+      "summary": "The meeting notes record an estimate of about 1,200 freight documents per day across all sites.",
+      "quote": "Mikko estimated about 1,200 documents per day across all sites.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.1 Freight document processing (highest priority for the company)"
+      },
+      "source_class": "primary",
+      "confidence": "medium"
+    },
+    {
+      "id": "identified_use_cases_and_prioritisation-03",
+      "topic": "freight document volume estimate",
+      "time_qualifier": "at the 2 October 2026 meeting",
+      "summary": "In the recording, one estimate is about 1,200 documents per day across all sites, while a TMS-log-based estimate is around 1,000 on a normal working day.",
+      "quote": "I would say it's a bit less, maybe around 1,000 on a normal working day according to the TMS document log.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "medium"
+    },
+    {
+      "id": "identified_use_cases_and_prioritisation-04",
+      "topic": "freight document processing priority rationale",
+      "time_qualifier": null,
+      "summary": "Advisors considered document processing the best first candidate because it has high volume, measurable baselines and clear return on investment; they also noted that handwriting is a risk to test on real samples.",
+      "quote": "Document processing is the best first candidate: high volume, measurable baseline (clerk hours, error rate), clear ROI, and modern vision language models handle mixed-quality photos and multilingual documents reasonably well.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "7. ADVISORS' OBSERVATIONS (internal, Elina & Daniel)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_use_cases_and_prioritisation-05",
+      "topic": "freight document pilot scope",
+      "time_qualifier": null,
+      "summary": "The proposed initial pilot would focus on proof-of-delivery documents at the Vantaa site before scaling.",
+      "quote": "Start with one document type (POD) and one site (Vantaa) before scaling.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "7. ADVISORS' OBSERVATIONS (internal, Elina & Daniel)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_use_cases_and_prioritisation-06",
+      "topic": "warehouse labour demand forecasting scope",
+      "time_qualifier": null,
+      "summary": "The forecasting idea is to predict daily inbound pallets and outbound order lines per warehouse one to three weeks ahead, using WMS history, customer forecasts and calendar effects, with weather as a possible input for chilled-food customers.",
+      "quote": "Idea: forecast daily inbound pallets and outbound order lines per warehouse 1-3 weeks ahead, using history from the WMS plus customer forecasts, calendar effects (holidays, campaigns), and maybe weather for the chilled food customers.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.2 Warehouse labour demand forecasting"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_use_cases_and_prioritisation-07",
+      "topic": "warehouse labour demand forecasting readiness",
+      "time_qualifier": null,
+      "summary": "The advisors considered forecasting valuable but dependent on data quality, and said a data extract was needed first.",
+      "quote": "Forecasting is valuable but depends on data quality - need a data extract first.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "7. ADVISORS' OBSERVATIONS (internal, Elina & Daniel)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_use_cases_and_prioritisation-08",
+      "topic": "customer service email triage and reply drafting",
+      "time_qualifier": null,
+      "summary": "The proposed use case is to classify and route incoming emails, look up shipment status in the TMS and draft replies for an agent to approve; fully automatic replies were not sought at this stage.",
+      "quote": "Idea: automatically classify incoming emails, route them, look up shipment status from the TMS and draft a reply for the agent to approve. Not interested in fully automatic replies at this stage.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.3 Customer service email triage and reply drafting"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_use_cases_and_prioritisation-09",
+      "topic": "customer service email triage prioritisation",
+      "time_qualifier": null,
+      "summary": "The advisors described email triage as a possible second step once an AI usage policy exists, noting that it has the most compliance work among the described cases.",
+      "quote": "Email triage is relatively easy technically but has the most compliance work; good second step once an AI policy exists.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "7. ADVISORS' OBSERVATIONS (internal, Elina & Daniel)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_use_cases_and_prioritisation-10",
+      "topic": "freight document processing comparative scoring",
+      "time_qualifier": null,
+      "summary": "In the management team’s preliminary scoring, freight document processing received business value 5, data availability 4, technical feasibility 4, compliance-risk score 3, and management priority 1; the comment cites a clear baseline in clerk hours, error rate and POD delay.",
+      "quote": "| 2 | Freight document processing (extraction to TMS/ERP) | 5 | 4 | 4 | 3 | 1 | Clear baseline: clerk hours, error rate, POD delay |",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Use_Case_Scoring, row 2"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_use_cases_and_prioritisation-11",
+      "topic": "warehouse labour demand forecasting comparative scoring",
+      "time_qualifier": null,
+      "summary": "In the preliminary scoring, warehouse labour demand forecasting received business value 4, data availability 3, technical feasibility 2, compliance-risk score 3, and management priority 2; the comment says it depends on WMS data quality and customer forecasts.",
+      "quote": "| 3 | Warehouse labour demand forecasting | 4 | 3 | 2 | 3 | 2 | Depends on WMS data quality and customer forecasts |",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Use_Case_Scoring, row 3"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_use_cases_and_prioritisation-12",
+      "topic": "customer service email triage comparative scoring",
+      "time_qualifier": null,
+      "summary": "In the preliminary scoring, customer service email triage and reply drafting received business value 4, data availability 4, technical feasibility 3, compliance-risk score 2, and management priority 3; the comment notes personal data and the need for an AI policy and DPA review.",
+      "quote": "| 4 | Customer service email triage and reply drafting | 4 | 4 | 3 | 2 | 3 | Personal data - needs AI policy and DPA review |",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Use_Case_Scoring, row 4"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_use_cases_and_prioritisation-13",
+      "topic": "route optimisation comparative scoring",
+      "time_qualifier": null,
+      "summary": "In the preliminary scoring, route optimisation with real unloading times received business value 3, data availability 2, technical feasibility 2, compliance-risk score 3, and management priority 4; a TMS vendor update was expected in 2027.",
+      "quote": "| 5 | Route optimisation with real unloading times | 3 | 2 | 2 | 3 | 4 | TMS vendor update expected 2027 |",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Use_Case_Scoring, row 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_use_cases_and_prioritisation-14",
+      "topic": "predictive maintenance comparative scoring",
+      "time_qualifier": null,
+      "summary": "In the preliminary scoring, predictive maintenance for trucks and forklifts received business value 2, data availability 3, technical feasibility 3, compliance-risk score 4, and management priority 5; the comment notes that telematics data exists but the fleet manager had not yet been involved.",
+      "quote": "| 6 | Predictive maintenance (trucks, forklifts) | 2 | 3 | 3 | 4 | 5 | Telematics data exists; fleet manager not yet involved |",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Use_Case_Scoring, row 6"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "identified_use_cases_and_prioritisation-15",
+      "topic": "automatic customs declarations comparative scoring",
+      "time_qualifier": null,
+      "summary": "In the preliminary scoring, automatic customs declarations received business value 3, data availability 2, technical feasibility 1, compliance-risk score 1, and management priority “Not now”; the comment says regulatory and liability risk was considered too high.",
+      "quote": "| 7 | Automatic customs declarations | 3 | 2 | 1 | 1 | Not now | Regulatory and liability risk considered too high |",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Use_Case_Scoring, row 7"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": [
+    {
+      "topic": "freight document volume estimate",
+      "description": "The meeting notes record Mikko’s estimate of about 1,200 documents per day across all sites. The recording gives a TMS-log-based estimate of around 1,000 on a normal working day (while also recording a separate estimate of about 1,200). The instructions establish no source priority, so the volume disagreement is unresolved.",
+      "status": "unresolved",
+      "unit_ids": [
+        "identified_use_cases_and_prioritisation-02",
+        "identified_use_cases_and_prioritisation-03"
+      ]
+    }
+  ]
+}

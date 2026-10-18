@@ -1,0 +1,91 @@
+[
+  {
+    "title": "Report Details",
+    "prompt": "A short factual block that identifies the company, the assessment event, its date and type, and who took part from the company and from the advisory side.",
+    "required_items": [
+      "the company's name, business ID and location",
+      "the date and type of the assessment meeting",
+      "the participants from the company and from the advisory side, with their roles"
+    ]
+  },
+  {
+    "title": "Executive Summary",
+    "prompt": "A concise summary of the company, its current AI maturity, the prioritised use cases and the main recommendations, in a few paragraphs.",
+    "summary_of": [
+      "Company Overview",
+      "AI Maturity Level",
+      "Identified Use Cases and Prioritisation",
+      "Recommendations"
+    ]
+  },
+  {
+    "title": "Company Overview",
+    "prompt": "What the company does: its business, services, size, locations, customers and the strategic drivers behind its interest in AI."
+  },
+  {
+    "title": "AI Maturity Level",
+    "prompt": "The company's current use of AI and related automation, its digital foundations, and a classification of its AI maturity as Low, Moderate or High, with the reasons for it.",
+    "required_items": ["the AI maturity classification: Low, Moderate or High"]
+  },
+  {
+    "title": "Current Solution Development Stage",
+    "prompt": "Whether the company is at the ideation, prototyping or implementation stage, or already has an AI product in use, and what has been done so far toward it."
+  },
+  {
+    "title": "Identified Use Cases and Prioritisation",
+    "prompt": "The AI use cases that were identified, how they compare, and which one is prioritised first and why."
+  },
+  {
+    "title": "Validity of Concept and Authenticity of Problem Addressed",
+    "prompt": "Whether each use case addresses a real, measurable business problem, and how practical and feasible the proposed concepts are."
+  },
+  {
+    "title": "Integration and Importance of AI in the Idea",
+    "prompt": "How central AI is to each use case and how important it is for solving the problem, and how it would fit into the company's existing systems and work."
+  },
+  {
+    "title": "Identified Target Market and Customer Segments",
+    "prompt": "The company's customer segments and how clearly they are defined, and which of them the AI use cases serve."
+  },
+  {
+    "title": "Data Requirement Assessment",
+    "prompt": "The data each use case needs, whether the company has it, in what form and how far back, and what limits its use."
+  },
+  {
+    "title": "Data Collection Strategy",
+    "prompt": "Whether the company has a strategy for collecting, storing and using data, and what it consists of if it exists.",
+    "required_items": ["whether the company has a strategy for collecting, storing and using data"]
+  },
+  {
+    "title": "Technical Expertise and Capability",
+    "prompt": "The company's in-house technical skills and development capability, and what it depends on partners or vendors for."
+  },
+  {
+    "title": "Risks, Compliance and Responsible AI",
+    "prompt": "The main risks, regulatory and contractual constraints, and responsible-use concerns that affect adopting AI."
+  },
+  {
+    "title": "Budget and Funding",
+    "prompt": "What the company has invested in AI so far, what it is willing to invest next, and what funding options it is considering.",
+    "required_items": [
+      "the budget the company has indicated for AI investment",
+      "the funding options the company is considering"
+    ]
+  },
+  {
+    "title": "Expectations from FAIR Services",
+    "prompt": "What the company expects from the advisory service and from the next phase of cooperation."
+  },
+  {
+    "title": "Recommendations",
+    "prompt": "Recommendations that follow from the assessment, as practical, specific points that combine analysis with guidance, in the order they should be taken up."
+  },
+  {
+    "title": "Next Steps and Action Items",
+    "prompt": "The next steps agreed or proposed, with who is responsible for each and when, where stated."
+  },
+  {
+    "title": "Appendix: Sources",
+    "prompt": "A list of the source materials the assessment draws on, described by what each one is."
+  }
+]

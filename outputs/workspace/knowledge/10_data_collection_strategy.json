@@ -1,0 +1,234 @@
+{
+  "section_id": "10_data_collection_strategy",
+  "units": [
+    {
+      "id": "10_data_collection_strategy-01",
+      "topic": "data ownership governance",
+      "time_qualifier": null,
+      "summary": "No data owner roles are defined.",
+      "quote": "No data owner roles defined.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "4. DATA AND SYSTEMS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "10_data_collection_strategy-02",
+      "topic": "data ownership governance",
+      "time_qualifier": "9 October 2026",
+      "summary": "The data inventory assigns Operations Director as owner for WMS data, TMS shipment data and the TMS document log; it assigns other datasets to roles such as the Customer Service Team Lead and HR manager.",
+      "quote": "Operations Director",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Data_Inventory, row 2"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "10_data_collection_strategy-03",
+      "topic": "central data warehouse",
+      "time_qualifier": null,
+      "summary": "The company has no central data warehouse, and reporting relies on manual Excel exports prepared by the IT Manager.",
+      "quote": "There is no central data warehouse.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 8"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "10_data_collection_strategy-04",
+      "topic": "customer master data quality",
+      "time_qualifier": null,
+      "summary": "Customer master data is maintained separately in the WMS, TMS and Business Central, without a shared customer identifier.",
+      "quote": "Customer master data is maintained separately in the WMS, TMS and Business Central, and there is no shared customer identifier between the systems.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 8"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "10_data_collection_strategy-05",
+      "topic": "WMS historical data coverage",
+      "time_qualifier": "current format since 2020",
+      "summary": "The WMS data is available from the 2020 upgrade, while older data is not directly comparable because the database structure changed.",
+      "quote": "We upgraded it in 2020 and the database structure changed, so older data is not directly comparable.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "10_data_collection_strategy-06",
+      "topic": "WMS data access",
+      "time_qualifier": null,
+      "summary": "The WMS is an on-premise SQL Server system, and the IT Manager has read-only SQL access.",
+      "quote": "Read-only SQL (IT Manager)",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Data_Inventory, row 2"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "10_data_collection_strategy-07",
+      "topic": "TMS data access and export",
+      "time_qualifier": null,
+      "summary": "The TMS offers a REST API for single records; bulk export is a paid service.",
+      "quote": "REST API, single records; bulk export as paid service",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Data_Inventory, row 3"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "10_data_collection_strategy-08",
+      "topic": "TMS document log recording",
+      "time_qualifier": null,
+      "summary": "For paper documents, the TMS document log records the scan date as the registration date.",
+      "quote": "Registration date = scan date for paper documents",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Data_Inventory, row 4"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "10_data_collection_strategy-09",
+      "topic": "freight document archive quality and indexing",
+      "time_qualifier": null,
+      "summary": "The scanned archive contains image-only PDFs with no text layer; it has no index, and its file names are inconsistent.",
+      "quote": "PDF (image only, no text layer)",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Data_Inventory, row 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "10_data_collection_strategy-10",
+      "topic": "customer forecast data availability",
+      "time_qualifier": "data since 2022",
+      "summary": "Weekly customer volume forecasts are available from about 12 customers, arrive irregularly as differently formatted Excel attachments, and are often missing.",
+      "quote": "Different formats per customer; often missing",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Data_Inventory, row 10"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "10_data_collection_strategy-11",
+      "topic": "customer service email data governance",
+      "time_qualifier": null,
+      "summary": "The shared mailbox contains consumer personal data, and categories are not stored in the email dataset.",
+      "quote": "Personal data of consumers; no categories stored",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Data_Inventory, row 8"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "10_data_collection_strategy-12",
+      "topic": "generative AI data governance",
+      "time_qualifier": "as of September 2026",
+      "summary": "The company has no written policy on the use of generative AI tools, while several customer contracts restrict transfers of customer data outside the EU/EEA.",
+      "quote": "The company has no written policy on the use of generative AI tools.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 11"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "10_data_collection_strategy-13",
+      "topic": "freight document volume estimate",
+      "time_qualifier": "per day",
+      "summary": "The operations director estimated that the company handles around 1,200 freight documents a day across all sites.",
+      "quote": "My feeling is around 1200 a day, all sites together.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "medium"
+    },
+    {
+      "id": "10_data_collection_strategy-14",
+      "topic": "freight document volume estimate",
+      "time_qualifier": "on a normal working day",
+      "summary": "A second estimate put the volume at around 1,000 documents on a normal working day according to the TMS log; the log counts paper documents when scanned.",
+      "quote": "I would say it's a bit less, maybe around a thousand on a normal working day according to the TMS document log. But the log only counts paper documents when they are scanned, so it depends on how you count.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "medium"
+    },
+    {
+      "id": "10_data_collection_strategy-15",
+      "topic": "planned data collection for document pilot",
+      "time_qualifier": "by the end of October 2026",
+      "summary": "The company agreed to provide about 200 anonymized freight documents spanning types, sites and languages, including at least 50 with handwritten remarks, and, if possible, the clerks’ corresponding entries.",
+      "quote": "For the document pilot, a sample of about 200 real documents, anonymized, a mix of types, sites, and languages, and at least 50 with handwritten remarks.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "10_data_collection_strategy-16",
+      "topic": "planned data collection for forecasting and document analysis",
+      "time_qualifier": "by 30 October 2026",
+      "summary": "The planned data extract includes daily WMS volumes per site since 2020 and the TMS document log for 2025.",
+      "quote": "[ ] Jari: export daily WMS volumes per site 2020-2026 and the TMS document log for 2025 - by\n    30 October 2026.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "8. ACTION ITEMS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": [
+    {
+      "topic": "data ownership governance",
+      "description": "The meeting notes state that no data owner roles are defined (unit 1), whereas the data inventory includes data-owner assignments, such as Operations Director (unit 2). The instructions specify no source priority, so the difference is unresolved.",
+      "status": "unresolved",
+      "unit_ids": [
+        "10_data_collection_strategy-01",
+        "10_data_collection_strategy-02"
+      ]
+    },
+    {
+      "topic": "freight document volume estimate",
+      "description": "One estimate is around 1,200 documents per day across all sites (unit 13); another is around 1,000 on a normal working day based on the TMS log, with the caveat that paper documents are counted when scanned (unit 14). No source hierarchy resolves the differing estimates.",
+      "status": "unresolved",
+      "unit_ids": [
+        "10_data_collection_strategy-13",
+        "10_data_collection_strategy-14"
+      ]
+    }
+  ]
+}

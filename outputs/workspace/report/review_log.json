@@ -1,0 +1,252 @@
+[
+  {
+    "section_id": "assessment_details",
+    "applied": [],
+    "unresolved": []
+  },
+  {
+    "section_id": "1_executive_summary",
+    "applied": [
+      {
+        "search": "with a Low AI maturity level:",
+        "replace": "with an AI maturity level preliminarily assessed by FAIR as Low:",
+        "reason": "The reference identifies Low as FAIR’s preliminary assessment, rather than an unqualified maturity rating."
+      }
+    ],
+    "unresolved": []
+  },
+  {
+    "section_id": "2_company_overview",
+    "applied": [],
+    "unresolved": []
+  },
+  {
+    "section_id": "3_ai_maturity_level",
+    "applied": [],
+    "unresolved": []
+  },
+  {
+    "section_id": "4_current_solution_development_stage",
+    "applied": [
+      {
+        "search": "The daily document volume is unresolved:",
+        "replace": "Unresolved: The daily document volume estimates differ:",
+        "reason": "The unresolved conflict must be explicitly marked “Unresolved:”; both estimates and their sources are already included."
+      },
+      {
+        "search": "7. ADVISORS’ OBSERVATIONS (internal, Elina & Daniel)",
+        "replace": "7. ADVISORS' OBSERVATIONS (internal, Elina & Daniel)",
+        "reason": "Match the source heading given in the reference material."
+      }
+    ],
+    "unresolved": []
+  },
+  {
+    "section_id": "5_identified_use_cases_and_prioritisation",
+    "applied": [
+      {
+        "search": "possible customer forecasts, calendar effects and weather",
+        "replace": "possible customer forecasts, calendar effects and weather for chilled food customers",
+        "reason": "The reference limits the possible weather input to chilled food customers."
+      },
+      {
+        "search": " (missing: current maintenance process and pain point)",
+        "replace": "",
+        "reason": "This item is neither in the knowledge's missing list nor a listed required item, so the report instructions prohibit this marker."
+      },
+      {
+        "search": "(missing: expected benefit of predictive maintenance)",
+        "replace": "",
+        "reason": "This item is neither in the knowledge's missing list nor a listed required item, so the report instructions prohibit this marker."
+      },
+      {
+        "search": "(missing: current process and pain point for automatic customs declarations)",
+        "replace": "",
+        "reason": "This item is neither in the knowledge's missing list nor a listed required item, so the report instructions prohibit this marker."
+      },
+      {
+        "search": "(missing: expected benefit of automatic customs declarations)",
+        "replace": "",
+        "reason": "This item is neither in the knowledge's missing list nor a listed required item, so the report instructions prohibit this marker."
+      },
+      {
+        "search": "The next use case is unresolved.",
+        "replace": "Unresolved: which use case comes next.",
+        "reason": "The unresolved sequencing conflict must be explicitly marked “Unresolved:”. Both sides are already presented in the following sentences."
+      }
+    ],
+    "unresolved": []
+  },
+  {
+    "section_id": "6_validity_of_concept_and_authenticity_of_problem_addressed",
+    "applied": [],
+    "unresolved": []
+  },
+  {
+    "section_id": "7_integration_and_importance_of_ai_in_the_idea",
+    "applied": [
+      {
+        "search": "Freight document processing is the strongest candidate for a first proof of concept.",
+        "replace": "The advisors considered freight document processing the best candidate for a first proof of concept (advisory_meeting_recording_part3.mp3).",
+        "reason": "Attribute this assessment to the advisors rather than presenting it as an established fact, and cite its source."
+      },
+      {
+        "search": "AI is central to automating document reading and data entry, with human review focused on uncertain cases.",
+        "replace": "AI is central to the proposed automation of document reading and data entry, with human review focused on uncertain cases (advisory_meeting_recording_part2.mp3; advisory_meeting_recording_part3.mp3).",
+        "reason": "Clarify that this is a proposed workflow and cite the supporting sources."
+      },
+      {
+        "search": "For warehouse staffing, the proposed approach is time-series machine learning, rather than generative AI, to forecast labour needs.",
+        "replace": "For warehouse staffing, the proposed approach is time-series machine learning, rather than generative AI, to forecast labour needs (advisory_meeting_recording_part2.mp3).",
+        "reason": "Cite the source supporting the proposed technique."
+      },
+      {
+        "search": " (missing: how forecast outputs would be used alongside supervisors’ planning)",
+        "replace": "",
+        "reason": "This item is neither listed as missing nor a required section item, so the report instructions prohibit this marker."
+      },
+      {
+        "search": "AI would support the agent’s work, while approval remains with a person.",
+        "replace": "AI would support the agent’s work, while approval remains with a person (advisory_meeting_recording_part3.mp3).",
+        "reason": "Cite the source supporting the division of work between AI and agents."
+      },
+      {
+        "search": "Other ideas raised were route optimisation, predictive maintenance for trucks and automatic customs declarations.",
+        "replace": "Other ideas raised were route optimisation, predictive maintenance for trucks and automatic customs declarations (advisory_meeting_recording_part3.mp3).",
+        "reason": "Cite the source for the additional ideas."
+      },
+      {
+        "search": " (missing: AI’s role and technique in route optimisation)",
+        "replace": "",
+        "reason": "This item is neither listed as missing nor a required section item, so the report instructions prohibit this marker."
+      },
+      {
+        "search": " (missing: AI’s role and technique in predictive maintenance)",
+        "replace": "",
+        "reason": "This item is neither listed as missing nor a required section item, so the report instructions prohibit this marker."
+      },
+      {
+        "search": " (missing: AI’s role and technique in customs declaration automation)",
+        "replace": "",
+        "reason": "This item is neither listed as missing nor a required section item, so the report instructions prohibit this marker."
+      }
+    ],
+    "unresolved": []
+  },
+  {
+    "section_id": "8_identified_target_market_and_customer_segments",
+    "applied": [
+      {
+        "search": "E-commerce delivery records include recipients’",
+        "replace": "The company processes e-commerce delivery recipients’",
+        "reason": "The reference states that the company processes recipients’ personal data; it does not specify that these data appear in delivery records."
+      }
+    ],
+    "unresolved": []
+  },
+  {
+    "section_id": "9_data_requirement_assessment",
+    "applied": [],
+    "unresolved": []
+  },
+  {
+    "section_id": "10_data_collection_strategy",
+    "applied": [],
+    "unresolved": []
+  },
+  {
+    "section_id": "11_technical_expertise_and_capability",
+    "applied": [
+      {
+        "search": "(advisory_meeting_recording_part3.mp3).",
+        "replace": "(advisory_meeting_recording_part3.mp3).\n\nUnresolved: the CEO said the board might be open to investing around EUR 60,000–80,000 in AI-related projects in 2027 if the first pilot shows results (advisory_meeting_recording_part2.mp3), while the company overview says the 2027 budget proposal earmarks EUR 50,000 for digitalisation and AI pilots, with further investment dependent on pilot results (company_overview_2026.pdf, page 11).",
+        "reason": "The unresolved AI project budget conflict must be included with both source accounts and an explicit “Unresolved:” label."
+      }
+    ],
+    "unresolved": []
+  },
+  {
+    "section_id": "12_risks_compliance_and_responsible_ai",
+    "applied": [],
+    "unresolved": []
+  },
+  {
+    "section_id": "13_budget_and_funding",
+    "applied": [
+      {
+        "search": "The amount available for AI-related investment in 2027 is unresolved:",
+        "replace": "Unresolved: The proposed amount for AI-related investment in 2027 differs by source:",
+        "reason": "The unresolved conflict must carry the explicit “Unresolved:” label. Both sources describe proposed or conditional investment, not an amount already available."
+      }
+    ],
+    "unresolved": []
+  },
+  {
+    "section_id": "14_expectations_from_fair_services",
+    "applied": [],
+    "unresolved": []
+  },
+  {
+    "section_id": "15_recommendations",
+    "applied": [
+      {
+        "search": "(advisory_meeting_recording_part3.mp3; process_map_freight_documents.png, “Ideas from the workshop (TO-BE)”).",
+        "replace": "(advisory_meeting_recording_part3.mp3; process_map_freight_documents.png; advisory_meeting_recording_part2.mp3).",
+        "reason": "The record-by-record API recommendation comes from advisory_meeting_recording_part2.mp3, which must be cited. The image must be cited by filename alone under the report instructions."
+      }
+    ],
+    "unresolved": []
+  },
+  {
+    "section_id": "16_next_steps_and_action_items",
+    "applied": [
+      {
+        "search": "| Anna | (missing: deadline)",
+        "replace": "| Anna |",
+        "reason": "No deadline is provided, and deadline is not an item eligible for a missing marker under the report instructions."
+      },
+      {
+        "search": "| Mikko | (missing: deadline)",
+        "replace": "| Mikko |",
+        "reason": "No deadline is provided, and deadline is not an item eligible for a missing marker under the report instructions."
+      },
+      {
+        "search": "| Daniel | (missing: deadline)",
+        "replace": "| Daniel |",
+        "reason": "No deadline is provided, and deadline is not an item eligible for a missing marker under the report instructions."
+      },
+      {
+        "search": "| Elina | (missing: deadline)",
+        "replace": "| Elina |",
+        "reason": "No deadline is provided, and deadline is not an item eligible for a missing marker under the report instructions."
+      },
+      {
+        "search": "| All |",
+        "replace": "|  |",
+        "reason": "The reference does not assign responsibility for the next meeting to “All.”"
+      }
+    ],
+    "unresolved": []
+  },
+  {
+    "section_id": "appendix_sources",
+    "applied": [
+      {
+        "search": "Advisory meeting recording, part 1;",
+        "replace": "(missing: source type for advisory_meeting_recording_part1.mp3);",
+        "reason": "The reference lists this source's type as missing, so the required marker must replace the unsupported type description."
+      },
+      {
+        "search": "prepared 9 October 2026",
+        "replace": "extract date: 9 October 2026",
+        "reason": "The spreadsheet identifies 9 October 2026 as the extract date, not the preparation date."
+      },
+      {
+        "search": "; date: (missing: source date for process_map_freight_documents.png)",
+        "replace": "",
+        "reason": "This source date is neither listed as missing nor a required section item, so the report instructions do not permit a missing marker for it."
+      }
+    ],
+    "unresolved": []
+  }
+]

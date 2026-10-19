@@ -1,0 +1,273 @@
+{
+  "section_id": "12_risks_compliance_and_responsible_ai",
+  "units": [
+    {
+      "id": "12_risks_compliance_and_responsible_ai-01",
+      "topic": "use of public AI tools",
+      "time_qualifier": null,
+      "summary": "Employees use the free version of ChatGPT mainly for translations and sometimes for customer letters.",
+      "quote": "people also use the free version of ChatGPT, for translations mostly. We have drivers from Estonia and Poland, so instructions are translated a lot. And sometimes for writing letters to customers.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "12_risks_compliance_and_responsible_ai-02",
+      "topic": "uncertainty about customer data in public AI tools",
+      "time_qualifier": null,
+      "summary": "The CEO is unsure whether customer data is being entered into public AI tools, and the company has no AI-use policy.",
+      "quote": "That worries me a bit, because I have no idea what customer data goes into those tools. We don't have any policy for AI use yet.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "12_risks_compliance_and_responsible_ai-03",
+      "topic": "Copilot guidance and training",
+      "time_qualifier": "spring 2026",
+      "summary": "Copilot licences were provided to 25 office staff as a pilot, but usage is uneven and training consisted of one vendor webinar.",
+      "quote": "This spring we bought Microsoft co-pilot licenses for 25 office people as a pilot. Some use it every day, for emails and meeting summaries. Some have never opened it. We had one webinar from the vendor, that's all the training.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "12_risks_compliance_and_responsible_ai-04",
+      "topic": "AI maturity and governance",
+      "time_qualifier": "at the advisory meeting",
+      "summary": "FAIR assessed the company as being at the lower end of AI maturity, with individual AI use and no AI strategy, policy, or roadmap.",
+      "quote": "Based on what you've told us, I would place you at the lower end of AI maturity at the moment. Your operational systems are quite digital, you have a WMS, a TMS, EDI with key customers, but AI use is individual and there is no strategy, policy, or roadmap for it yet.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "12_risks_compliance_and_responsible_ai-05",
+      "topic": "document extraction risks",
+      "time_qualifier": null,
+      "summary": "Handwriting is identified as the main risk for document extraction, and testing on real documents is needed.",
+      "quote": "Handwriting is the main risk, so we would need to test it on your real documents.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "12_risks_compliance_and_responsible_ai-06",
+      "topic": "customer service personal data and compliance",
+      "time_qualifier": null,
+      "summary": "Customer service emails include consumer personal data, raising GDPR and AI Act transparency questions.",
+      "quote": "One thing to keep in mind is that these emails contain personal data. For your e-commerce customers, you have consumer names, home addresses, and phone numbers. So there are GDPR questions, where the data is processed, and transparency obligations under the AI Act.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "12_risks_compliance_and_responsible_ai-07",
+      "topic": "contractual data-transfer restrictions",
+      "time_qualifier": "at the advisory meeting",
+      "summary": "Some pharma customer contracts restrict transfers of data outside the EU.",
+      "quote": "some pharma customer contracts restrict data transfers outside the EU.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "12_risks_compliance_and_responsible_ai-08",
+      "topic": "AI service data residency",
+      "time_qualifier": "at the advisory meeting",
+      "summary": "The IT manager said AI services would need to run in the EU; the advisor said major cloud providers offer EU data residency.",
+      "quote": "That is solvable, the major cloud providers offer EU data residency.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "12_risks_compliance_and_responsible_ai-09",
+      "topic": "human approval of AI-drafted replies",
+      "time_qualifier": "at the advisory meeting",
+      "summary": "The proposed customer-service system would not send replies fully automatically; an agent would approve every answer at least initially.",
+      "quote": "But not fully automatic replies. The agent should approve every answer, at least in the beginning.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "12_risks_compliance_and_responsible_ai-10",
+      "topic": "customs declaration automation risk",
+      "time_qualifier": "at the advisory meeting",
+      "summary": "Automatic customs declarations were considered too risky to pursue for now.",
+      "quote": "And Kaisa has mentioned automatic customs declarations, but she thinks that's too risky for now.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "12_risks_compliance_and_responsible_ai-11",
+      "topic": "IT capacity risk",
+      "time_qualifier": "at the advisory meeting",
+      "summary": "Because the company has only one IT person, the proposed solution needs to be low-maintenance or operated by a partner.",
+      "quote": "And because you have only one IT person, the solution must be low maintenance, or operated by a partner.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "12_risks_compliance_and_responsible_ai-12",
+      "topic": "data protection roles and documentation",
+      "time_qualifier": null,
+      "summary": "The company has a privacy statement and record of processing activities, the CFO is the data protection contact, and no data protection officer has been appointed.",
+      "quote": "A privacy statement and a record of processing activities exist; the CFO acts as the data protection contact person. No data protection officer has been appointed.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 11"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "12_risks_compliance_and_responsible_ai-13",
+      "topic": "information security controls",
+      "time_qualifier": null,
+      "summary": "Information security is managed with an outsourcing partner and includes Microsoft 365 multi-factor authentication, endpoint protection, and backups of the on-premise WMS.",
+      "quote": "Information security is managed together with an IT outsourcing partner: multi-factor authentication for Microsoft 365, endpoint protection, and backups of the on-premise WMS.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 11"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "12_risks_compliance_and_responsible_ai-14",
+      "topic": "written generative AI policy",
+      "time_qualifier": "as of September 2026",
+      "summary": "The company has no written policy on the use of generative AI tools.",
+      "quote": "The company has no written policy on the use of generative AI tools.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 11"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "12_risks_compliance_and_responsible_ai-15",
+      "topic": "contractual data-transfer restrictions",
+      "time_qualifier": "as of September 2026",
+      "summary": "Several customer contracts, especially in pharma, restrict transfers of customer data outside the EU/EEA.",
+      "quote": "Several customer contracts (especially in pharma) include clauses restricting the transfer of customer data outside the EU/EEA.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 11"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "12_risks_compliance_and_responsible_ai-16",
+      "topic": "data ownership",
+      "time_qualifier": "at the meeting",
+      "summary": "The company has not defined data-owner roles.",
+      "quote": "No data owner roles defined.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "4. DATA AND SYSTEMS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "12_risks_compliance_and_responsible_ai-17",
+      "topic": "fragmented customer data",
+      "time_qualifier": "at the meeting",
+      "summary": "Customer master data is duplicated across the TMS and Business Central, with no common customer ID.",
+      "quote": "customer master data duplicated between TMS and Business Central; no common customer ID.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "4. DATA AND SYSTEMS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "12_risks_compliance_and_responsible_ai-18",
+      "topic": "IT capacity risk",
+      "time_qualifier": "at the meeting",
+      "summary": "The IT manager is the company's only IT person, which is identified as a risk.",
+      "quote": "Risk: single IT person = bottleneck.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "7. ADVISORS' OBSERVATIONS (internal, Elina & Daniel)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "12_risks_compliance_and_responsible_ai-19",
+      "topic": "public AI tools and customer data",
+      "time_qualifier": null,
+      "summary": "The company overview identifies uncontrolled use of public AI tools with customer data as a risk, with no current mitigation.",
+      "quote": "Uncontrolled use of public AI tools with customer data",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 12"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": [
+    {
+      "topic": "use of public AI tools with customer data",
+      "description": "Unit 2 records the CEO's uncertainty about whether customer data is entered into the tools. Unit 18 characterizes public AI use with customer data as an existing risk. The sources do not establish whether this use is confirmed or remains uncertain, and no source hierarchy resolves the difference.",
+      "status": "unresolved",
+      "unit_ids": [
+        "12_risks_compliance_and_responsible_ai-02",
+        "12_risks_compliance_and_responsible_ai-18"
+      ]
+    },
+    {
+      "topic": "contractual data-transfer restrictions",
+      "description": "Unit 7 says some pharma customer contracts restrict transfers outside the EU; unit 15 says several customer contracts, especially in pharma, restrict transfers outside the EU/EEA. The geographic scope differs, and no source hierarchy resolves which boundary applies.",
+      "status": "unresolved",
+      "unit_ids": [
+        "12_risks_compliance_and_responsible_ai-07",
+        "12_risks_compliance_and_responsible_ai-15"
+      ]
+    }
+  ]
+}

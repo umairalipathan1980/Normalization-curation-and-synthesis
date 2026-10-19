@@ -1,0 +1,277 @@
+{
+  "section_id": "8_identified_target_market_and_customer_segments",
+  "units": [
+    {
+      "id": "8_identified_target_market_and_customer_segments-01",
+      "topic": "customer base",
+      "time_qualifier": null,
+      "summary": "The company has about 210 active business customers.",
+      "quote": "Our customers are business customers, about 210 active ones.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "8_identified_target_market_and_customer_segments-02",
+      "topic": "customer base",
+      "time_qualifier": null,
+      "summary": "The company has around 210 active B2B customers.",
+      "quote": "Around 210 active B2B customers.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "1. COMPANY BACKGROUND"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "8_identified_target_market_and_customer_segments-03",
+      "topic": "customer base",
+      "time_qualifier": null,
+      "summary": "The company has approximately 210 active business customers.",
+      "quote": "The company has approximately 210 active business customers.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "8_identified_target_market_and_customer_segments-04",
+      "topic": "customer segment mix",
+      "time_qualifier": null,
+      "summary": "Retail and e-commerce is the largest segment, followed by industrial spare parts, chilled food and beverage, and a growing pharma and healthcare segment.",
+      "quote": "Retail and e-commerce is the biggest segment, then industrial spare parts, chilled food, and beverage, and a growing pharma and healthcare segment.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "8_identified_target_market_and_customer_segments-05",
+      "topic": "customer segment mix",
+      "time_qualifier": null,
+      "summary": "The largest segments are retail and e-commerce, industrial spare parts, chilled food and beverage, and a small but growing pharma and healthcare segment.",
+      "quote": "Largest segments: retail and e-commerce, industrial spare parts, chilled food and beverage, and a small but growing pharma/healthcare segment",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "1. COMPANY BACKGROUND"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "8_identified_target_market_and_customer_segments-06",
+      "topic": "retail and e-commerce revenue share",
+      "time_qualifier": "2025",
+      "summary": "Retail and e-commerce accounted for 41% of revenue.",
+      "quote": "Retail and e- commerce 41 %",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "8_identified_target_market_and_customer_segments-07",
+      "topic": "industrial spare parts revenue share",
+      "time_qualifier": "2025",
+      "summary": "Industrial spare parts accounted for 27% of revenue.",
+      "quote": "Industrial spare parts 27 %",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "8_identified_target_market_and_customer_segments-08",
+      "topic": "chilled food and beverage revenue share",
+      "time_qualifier": "2025",
+      "summary": "Chilled food and beverage accounted for 18% of revenue.",
+      "quote": "Chilled food and beverage 18 %",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "8_identified_target_market_and_customer_segments-09",
+      "topic": "pharma and healthcare revenue share",
+      "time_qualifier": "2025",
+      "summary": "Pharma and healthcare accounted for 9% of revenue.",
+      "quote": "Pharma and healthcare 9 %",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "8_identified_target_market_and_customer_segments-10",
+      "topic": "other customer segment revenue share",
+      "time_qualifier": "2025",
+      "summary": "Other customers accounted for 5% of revenue.",
+      "quote": "Other 5 %",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "8_identified_target_market_and_customer_segments-11",
+      "topic": "pharma and healthcare segment growth",
+      "time_qualifier": "2025",
+      "summary": "Pharma and healthcare was the fastest-growing segment, with 31% growth in 2025.",
+      "quote": "The pharma and healthcare segment is the fastest-growing (+31 % in 2025)",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "8_identified_target_market_and_customer_segments-12",
+      "topic": "retail customer price pressure and contract renewals",
+      "time_qualifier": "2027 contract renewals",
+      "summary": "Retail customers apply the strongest price pressure, and several large retail contracts are due for renewal in 2027.",
+      "quote": "Retail customers apply the strongest price pressure, and several large retail contracts are due for renewal in 2027.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "8_identified_target_market_and_customer_segments-13",
+      "topic": "retail customer contract renewals",
+      "time_qualifier": "2027",
+      "summary": "Several large retail contracts are due for renewal in 2027.",
+      "quote": "Several of the big retail contracts come up for renewal in 2027.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "8_identified_target_market_and_customer_segments-14",
+      "topic": "e-commerce consumers affected by customer service data use",
+      "time_qualifier": null,
+      "summary": "For e-commerce customers, customer service emails include consumer names, home addresses, and phone numbers.",
+      "quote": "For your e-commerce customers, you have consumer names, home addresses, and phone numbers.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "8_identified_target_market_and_customer_segments-15",
+      "topic": "e-commerce consumers affected by customer service data use",
+      "time_qualifier": null,
+      "summary": "The company processes e-commerce delivery recipients’ names, addresses, phone numbers, and sometimes delivery instructions.",
+      "quote": "consumers (recipients of e-commerce deliveries: names, addresses, phone numbers, sometimes delivery instructions).",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 11"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "8_identified_target_market_and_customer_segments-16",
+      "topic": "pharma customer data transfer restrictions",
+      "time_qualifier": null,
+      "summary": "Some pharma customer contracts restrict data transfers outside the EU.",
+      "quote": "some pharma customer contracts restrict data transfers outside the EU.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "8_identified_target_market_and_customer_segments-17",
+      "topic": "pharma customer data transfer restrictions",
+      "time_qualifier": null,
+      "summary": "Several customer contracts, especially in pharma, include clauses restricting transfer of customer data outside the EU/EEA.",
+      "quote": "Several customer contracts (especially in pharma) include clauses restricting the transfer of customer data outside the EU/EEA.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 11"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "8_identified_target_market_and_customer_segments-18",
+      "topic": "initial AI pilot scope and affected segment",
+      "time_qualifier": null,
+      "summary": "The advisors recommended starting the document-processing pilot with proof-of-delivery documents at the Vantaa site, then scaling if it works; no customer segment was specified for the initial pilot.",
+      "quote": "We would suggest starting narrow, with one document type, the proof of delivery, and one site, Vantaa, and then scaling if it works.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "8_identified_target_market_and_customer_segments-19",
+      "topic": "customer forecast participation",
+      "time_qualifier": null,
+      "summary": "Only about one third of key customers regularly provide volume forecasts.",
+      "quote": "Only about a third of the key customers send forecasts regularly.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "8_identified_target_market_and_customer_segments-20",
+      "topic": "customer forecast participation",
+      "time_qualifier": null,
+      "summary": "Only about one third of key customers provide regular volume forecasts.",
+      "quote": "Only about a third of the key customers provide regular volume forecasts.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "9.5 Workforce planning"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": [
+    {
+      "topic": "pharma customer data transfer restrictions",
+      "description": "The meeting recording says some pharma customer contracts restrict data transfers outside the EU, while the company overview says several customer contracts, especially in pharma, restrict transfers outside the EU/EEA. The sources describe different geographic boundaries for the restrictions, and the instructions provide no hierarchy to resolve the difference.",
+      "status": "unresolved",
+      "unit_ids": [
+        "8_identified_target_market_and_customer_segments-16",
+        "8_identified_target_market_and_customer_segments-17"
+      ]
+    }
+  ]
+}

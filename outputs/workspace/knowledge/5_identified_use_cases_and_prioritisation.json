@@ -1,0 +1,395 @@
+{
+  "section_id": "5_identified_use_cases_and_prioritisation",
+  "units": [
+    {
+      "id": "5_identified_use_cases_and_prioritisation-01",
+      "topic": "freight document processing current process",
+      "time_qualifier": null,
+      "summary": "Six document clerks manually enter freight-document data into the TMS and re-enter invoicing-relevant data in Business Central.",
+      "quote": "Six document clerks (4 in Vantaa, 1 in Tampere, 1 in Oulu) key in the data manually into the TMS and, for invoicing-relevant fields, into Business Central.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.1 Freight document processing (highest priority for the company)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-02",
+      "topic": "freight document processing pain points",
+      "time_qualifier": null,
+      "summary": "Manual entry errors lead to incorrect invoices, credit notes and disputes; finance spends about a day a week on corrections.",
+      "quote": "Errors lead to wrong invoices, credit notes, and disputes; the finance team spends \"a day a week\" on corrections.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.1 Freight document processing (highest priority for the company)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-03",
+      "topic": "handwritten damage remarks",
+      "time_qualifier": null,
+      "summary": "Handwritten remarks on PODs are sometimes missed, so damage claims are raised late and the company loses the right to claim against the haulier.",
+      "quote": "Biggest pain: PODs with handwritten remarks (\"1 lava rikki\", \"vastaanotettu varauksin\") are missed, so damage claims are raised late and the company loses the right to claim against the haulier.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.1 Freight document processing (highest priority for the company)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-04",
+      "topic": "freight document processing expected benefit",
+      "time_qualifier": null,
+      "summary": "The desired outcome is automatic field extraction into the TMS, with a person checking only low-confidence documents and handwritten remarks flagged.",
+      "quote": "Desired outcome: automatic extraction of the fields into the TMS with a human check only for low-confidence documents; flagging of handwritten remarks.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.1 Freight document processing (highest priority for the company)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-05",
+      "topic": "freight document processing prioritisation",
+      "time_qualifier": null,
+      "summary": "The preliminary scoring gives freight document processing business value 5, data availability 4, technical feasibility 4, compliance-risk score 3, and management priority 1.",
+      "quote": "| 2 | Freight document processing (extraction to TMS/ERP) | 5 | 4 | 4 | 3 | 1 | Clear baseline: clerk hours, error rate, POD delay |",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Use_Case_Scoring, row 2"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-06",
+      "topic": "warehouse labour forecasting current process",
+      "time_qualifier": null,
+      "summary": "Shift supervisors plan staffing weekly using experience and customer forecasts that arrive by email, if they arrive.",
+      "quote": "Staffing for each warehouse is planned weekly by shift supervisors using experience and the customer forecasts that arrive by email (if they arrive at all).",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.2 Warehouse labour demand forecasting"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-07",
+      "topic": "warehouse labour forecasting staffing costs",
+      "time_qualifier": null,
+      "summary": "Overtime and last-minute agency staff are costly.",
+      "quote": "Overtime and last-minute agency staff are costly.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.2 Warehouse labour demand forecasting"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-08",
+      "topic": "warehouse labour forecasting potential",
+      "time_qualifier": null,
+      "summary": "The proposed use case is to forecast daily inbound pallets and outbound order lines per warehouse one to three weeks ahead using WMS history and other potential inputs.",
+      "quote": "Idea: forecast daily inbound pallets and outbound order lines per warehouse 1-3 weeks ahead, using history from the WMS plus customer forecasts, calendar effects (holidays, campaigns), and maybe weather for the chilled food customers.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.2 Warehouse labour demand forecasting"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-09",
+      "topic": "warehouse labour forecasting data limitations",
+      "time_qualifier": null,
+      "summary": "The WMS was replaced or upgraded in 2020, and pre-2020 data may not be comparable; Oulu data starts in 2023.",
+      "quote": "Six years of history exist in the WMS, but the system was replaced/upgraded in 2020 and Jari is not sure whether pre-2020 data is comparable. Oulu has only data since 2023.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.2 Warehouse labour demand forecasting"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-10",
+      "topic": "warehouse labour forecasting prioritisation",
+      "time_qualifier": null,
+      "summary": "The preliminary scoring gives warehouse labour forecasting business value 4, data availability 3, technical feasibility 2, compliance-risk score 3, and management priority 2.",
+      "quote": "| 3 | Warehouse labour demand forecasting | 4 | 3 | 2 | 3 | 2 | Depends on WMS data quality and customer forecasts |",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Use_Case_Scoring, row 3"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-11",
+      "topic": "customer service email process and pain point",
+      "time_qualifier": null,
+      "summary": "A seven-person team handles a shared mailbox with about 380 emails per day, rising above 600 in December. The messages include track-and-trace questions, booking changes, delivery time requests, damage claims, invoicing questions and quote requests that can remain in the mailbox for days.",
+      "quote": "The team has seven people and one shared mailbox. Roughly 380 emails a day, in December over 600. About half are track and trace questions, where is my shipment? Then booking changes, delivery time requests, damage claims, invoicing questions and quote requests that should go to sales but often stay in the mailbox for days.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-12",
+      "topic": "customer service email response time",
+      "time_qualifier": "peak periods",
+      "summary": "The response-time target is four working hours; the average in peak periods is around nine hours.",
+      "quote": "Our target is four working hours. In peak periods the average is around nine hours.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-13",
+      "topic": "customer service email triage expected benefit",
+      "time_qualifier": null,
+      "summary": "The proposed system would classify and route incoming emails, look up shipment status from the TMS, and draft replies for an agent to approve.",
+      "quote": "So the idea would be to classify incoming emails, route them, look up the shipment status from the TMS, and draft a reply for the agent?",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-14",
+      "topic": "customer service email triage human approval",
+      "time_qualifier": "at the beginning",
+      "summary": "The company wanted agents to approve every answer rather than send fully automatic replies, at least initially.",
+      "quote": "But not fully automatic replies. The agent should approve every answer, at least in the beginning.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-15",
+      "topic": "customer service email triage compliance",
+      "time_qualifier": null,
+      "summary": "The emails contain consumer personal data, and GDPR, AI Act transparency and customer-contract restrictions on transfers outside the EU were raised.",
+      "quote": "One thing to keep in mind is that these emails contain personal data. For your e-commerce customers, you have consumer names, home addresses, and phone numbers. So there are GDPR questions, where the data is processed, and transparency obligations under the AI Act.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-16",
+      "topic": "customer service email triage prioritisation",
+      "time_qualifier": null,
+      "summary": "The preliminary scoring gives customer service email triage business value 4, data availability 4, technical feasibility 3, compliance-risk score 2, and management priority 3.",
+      "quote": "| 4 | Customer service email triage and reply drafting | 4 | 4 | 3 | 2 | 3 | Personal data - needs AI policy and DPA review |",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Use_Case_Scoring, row 4"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-17",
+      "topic": "route optimisation current issue",
+      "time_qualifier": null,
+      "summary": "The TMS route planning does not account for customers' actual unloading times, so planners override it.",
+      "quote": "Route optimization, because our TMS planning doesn't know the customer's real unloading times, so the planners override it.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-18",
+      "topic": "route optimisation timing",
+      "time_qualifier": "2027",
+      "summary": "The TMS vendor might provide an update in 2027.",
+      "quote": "But the TMS vendor might have an update in 2027.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-19",
+      "topic": "route optimisation prioritisation",
+      "time_qualifier": null,
+      "summary": "The preliminary scoring gives route optimisation business value 3, data availability 2, technical feasibility 2, compliance-risk score 3, and management priority 4.",
+      "quote": "| 5 | Route optimisation with real unloading times | 3 | 2 | 2 | 3 | 4 | TMS vendor update expected 2027 |",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Use_Case_Scoring, row 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-20",
+      "topic": "predictive maintenance data and readiness",
+      "time_qualifier": null,
+      "summary": "Telematics data exists for predictive maintenance, but the fleet manager was not present at the meeting.",
+      "quote": "Predictive maintenance for the trucks, we have telematics data, but our fleet manager wasn't able to join today.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-21",
+      "topic": "predictive maintenance prioritisation",
+      "time_qualifier": null,
+      "summary": "The preliminary scoring gives predictive maintenance business value 2, data availability 3, technical feasibility 3, compliance-risk score 4, and management priority 5.",
+      "quote": "| 6 | Predictive maintenance (trucks, forklifts) | 2 | 3 | 3 | 4 | 5 | Telematics data exists; fleet manager not yet involved |",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Use_Case_Scoring, row 6"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-22",
+      "topic": "automatic customs declarations deferral",
+      "time_qualifier": "at the meeting",
+      "summary": "Automatic customs declarations were considered too risky for now.",
+      "quote": "And Kaisa has mentioned automatic customs declarations, but she thinks that's too risky for now.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-23",
+      "topic": "automatic customs declarations prioritisation",
+      "time_qualifier": null,
+      "summary": "The preliminary scoring gives automatic customs declarations business value 3, data availability 2, technical feasibility 1, compliance-risk score 1, and management priority “Not now”.",
+      "quote": "| 7 | Automatic customs declarations | 3 | 2 | 1 | 1 | Not now | Regulatory and liability risk considered too high |",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Use_Case_Scoring, row 7"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-24",
+      "topic": "first proof-of-concept priority",
+      "time_qualifier": null,
+      "summary": "The advisors identified freight document processing as the best candidate for the first proof of concept because it has high volume, a measurable baseline and a clear business case.",
+      "quote": "First, we think the freight document processing is the best candidate for a first proof of concept. High volume, a clear baseline with clerk hours and error rates, and a clear business case.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-25",
+      "topic": "first proof-of-concept scope",
+      "time_qualifier": null,
+      "summary": "The advisors proposed beginning with one document type, proof of delivery, at one site, Vantaa, and scaling if successful.",
+      "quote": "We would suggest starting narrow, with one document type, the proof of delivery, and one site, Vantaa, and then scaling if it works.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-26",
+      "topic": "next use case in sequence",
+      "time_qualifier": null,
+      "summary": "In the meeting summary, forecasting is presented as the second use case, after freight document processing.",
+      "quote": "Second, for forecasting, the first step is a data assessment.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-27",
+      "topic": "next use case in sequence",
+      "time_qualifier": null,
+      "summary": "The meeting summary presents customer service as the third use case, following forecasting.",
+      "quote": "Third, the customer service case is technically quite easy, but it has the most compliance work, so it's a good second step once you have an AI usage policy.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-28",
+      "topic": "next use case in sequence",
+      "time_qualifier": null,
+      "summary": "The meeting notes describe email triage as a good second step once an AI policy exists.",
+      "quote": "Email triage is relatively easy technically but has the most compliance work; good second step once an AI policy exists.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "7. ADVISORS' OBSERVATIONS (internal, Elina & Daniel)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "5_identified_use_cases_and_prioritisation-29",
+      "topic": "forecasting project format",
+      "time_qualifier": "spring 2027",
+      "summary": "Forecasting could be a master's thesis topic, and the company would be interested in a thesis worker in spring 2027.",
+      "quote": "It could be a good topic for a master's thesis student. We would be interested in that. A thesis worker in spring 2027 would be great.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": [
+    {
+      "topic": "next use case in sequence",
+      "description": "The meeting recording presents forecasting as second after document processing (unit 24), and customer service as third (unit 25). The meeting notes instead call email triage a good second step once an AI policy exists (unit 26). The instructions establish no source hierarchy to resolve this disagreement.",
+      "status": "unresolved",
+      "unit_ids": [
+        "5_identified_use_cases_and_prioritisation-24",
+        "5_identified_use_cases_and_prioritisation-25",
+        "5_identified_use_cases_and_prioritisation-26"
+      ]
+    }
+  ]
+}

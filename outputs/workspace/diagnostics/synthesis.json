@@ -1,0 +1,35 @@
+{
+  "time": "2026-10-19T22:16:02+00:00",
+  "usage": {
+    "completion_tokens": 20127,
+    "prompt_tokens": 190033,
+    "total_tokens": 210160
+  },
+  "sections": [
+    "assessment_details",
+    "1_executive_summary",
+    "2_company_overview",
+    "3_ai_maturity_level",
+    "4_current_solution_development_stage",
+    "5_identified_use_cases_and_prioritisation",
+    "6_validity_of_concept_and_authenticity_of_problem_addressed",
+    "7_integration_and_importance_of_ai_in_the_idea",
+    "8_identified_target_market_and_customer_segments",
+    "9_data_requirement_assessment",
+    "10_data_collection_strategy",
+    "11_technical_expertise_and_capability",
+    "12_risks_compliance_and_responsible_ai",
+    "13_budget_and_funding",
+    "14_expectations_from_fair_services",
+    "15_recommendations",
+    "16_next_steps_and_action_items",
+    "appendix_sources"
+  ],
+  "missing_markers": 5,
+  "unresolved_review_edits": {},
+  "applied_review_edits": 30,
+  "export": {
+    "status": "ok",
+    "path": "workspace\\report\\report.docx"
+  }
+}

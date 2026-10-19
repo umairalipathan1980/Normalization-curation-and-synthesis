@@ -1,0 +1,300 @@
+{
+  "section_id": "assessment_details",
+  "units": [
+    {
+      "id": "assessment_details-01",
+      "topic": "company name",
+      "time_qualifier": null,
+      "summary": "The recording identifies the company as Lumavara Logistics.",
+      "quote": "CEO of Lumavara Logistics.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "assessment_details-02",
+      "topic": "company name",
+      "time_qualifier": null,
+      "summary": "The meeting notes identify the company as Lumivaara Logistics Oy.",
+      "quote": "Company:        Lumivaara Logistics Oy (fictional example company)",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "FAIR AI ADVISORY - MEETING NOTES"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "assessment_details-03",
+      "topic": "company business ID",
+      "time_qualifier": null,
+      "summary": "The meeting notes list the business ID as 3187654-2.",
+      "quote": "Business ID:    3187654-2 (fictional)",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "FAIR AI ADVISORY - MEETING NOTES"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "assessment_details-04",
+      "topic": "industry",
+      "time_qualifier": null,
+      "summary": "The company is described as a third-party logistics company.",
+      "quote": "We are a third-party logistics company, founded in 2009.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "assessment_details-05",
+      "topic": "industry",
+      "time_qualifier": null,
+      "summary": "The company overview describes Lumivaara as a Finnish family-owned third-party logistics company.",
+      "quote": "Finnish family-owned third-party logistics (3PL) company",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 2"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "assessment_details-06",
+      "topic": "assessment date",
+      "time_qualifier": "at the meeting",
+      "summary": "The recording gives the meeting date as October 2, without stating a year.",
+      "quote": "Today is the 2nd of October",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "assessment_details-07",
+      "topic": "assessment date",
+      "time_qualifier": "2 October 2026",
+      "summary": "The meeting notes date the assessment meeting to 2 October 2026.",
+      "quote": "Meeting date:   2 October 2026, 13:00-14:30",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "FAIR AI ADVISORY - MEETING NOTES"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "assessment_details-08",
+      "topic": "business advisor",
+      "time_qualifier": "at the assessment",
+      "summary": "The recording names Alina Rossio as FAIR's AI advisor focusing on the business side.",
+      "quote": "My name is Alina Rossio, I'm an AI advisor at FAIR, focusing on the business side.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "assessment_details-09",
+      "topic": "business advisor",
+      "time_qualifier": "at the assessment",
+      "summary": "The meeting notes name Elina Rautio as the business AI advisor.",
+      "quote": "Elina Rautio, AI advisor (business)",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "Attendees"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "assessment_details-10",
+      "topic": "technical advisor",
+      "time_qualifier": "at the assessment",
+      "summary": "Daniel Okafor is identified in the recording as the advisor covering the technical side.",
+      "quote": "Daniel Okafor, who covers the technical side.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "assessment_details-11",
+      "topic": "technical advisor",
+      "time_qualifier": "at the assessment",
+      "summary": "The meeting notes identify Daniel Okafor as the technical AI advisor.",
+      "quote": "Daniel Okafor, AI advisor (technical)",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "Attendees"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "assessment_details-12",
+      "topic": "CEO participant",
+      "time_qualifier": "at the assessment",
+      "summary": "Kaisa Lindholm participated as CEO.",
+      "quote": "I'm Kaisa Lindholm, CEO of Lumavara Logistics.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "assessment_details-13",
+      "topic": "CEO participant",
+      "time_qualifier": "at the assessment",
+      "summary": "The meeting notes list Kaisa Lindholm as CEO and note that she joined for the first 40 minutes.",
+      "quote": "Kaisa Lindholm, CEO (joined for the first 40 minutes)",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "Attendees"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "assessment_details-14",
+      "topic": "operations director participant",
+      "time_qualifier": "at the assessment",
+      "summary": "The recording names Miko Saranen as operations director.",
+      "quote": "I'm Miko Saranen, operations director.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "assessment_details-15",
+      "topic": "operations director participant",
+      "time_qualifier": "at the assessment",
+      "summary": "The meeting notes name Mikko Saarinen as Operations Director.",
+      "quote": "Mikko Saarinen, Operations Director",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "Attendees"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "assessment_details-16",
+      "topic": "IT manager participant",
+      "time_qualifier": "at the assessment",
+      "summary": "The recording names Yari Kaskila as IT manager.",
+      "quote": "And I'm Yari Kaskila, the IT manager.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "assessment_details-17",
+      "topic": "IT manager participant",
+      "time_qualifier": "at the assessment",
+      "summary": "The meeting notes name Jari Koskela as IT Manager.",
+      "quote": "Jari Koskela, IT Manager",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "Attendees"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "assessment_details-18",
+      "topic": "customer service team lead participant",
+      "time_qualifier": "at the customer service part of the assessment",
+      "summary": "The recording identifies Anna as the customer service team lead and says she was covering the phone line instead of joining.",
+      "quote": "Anna, our customer service team lead, would have joined but she's covering the phone line right now",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "assessment_details-19",
+      "topic": "customer service team lead participant",
+      "time_qualifier": "at the customer service part of the assessment",
+      "summary": "The meeting notes identify Anna Virtanen as Customer Service Team Lead and say she joined for the customer service part.",
+      "quote": "Anna Virtanen, Customer Service Team Lead (joined for the customer service part)",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "Attendees"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": [
+    {
+      "topic": "company name",
+      "description": "The recording says “Lumavara Logistics”; the meeting notes say “Lumivaara Logistics Oy.” The instructions establish no source priority, so the difference in spelling and legal suffix is unresolved.",
+      "status": "unresolved",
+      "unit_ids": [
+        "assessment_details-01",
+        "assessment_details-02"
+      ]
+    },
+    {
+      "topic": "business advisor",
+      "description": "The recording names Alina Rossio as the business advisor; the meeting notes name Elina Rautio. The instructions establish no source priority, so the differing name is unresolved.",
+      "status": "unresolved",
+      "unit_ids": [
+        "assessment_details-08",
+        "assessment_details-09"
+      ]
+    },
+    {
+      "topic": "operations director participant",
+      "description": "The recording names Miko Saranen as operations director; the meeting notes name Mikko Saarinen. The instructions establish no source priority, so the differing name is unresolved.",
+      "status": "unresolved",
+      "unit_ids": [
+        "assessment_details-14",
+        "assessment_details-15"
+      ]
+    },
+    {
+      "topic": "IT manager participant",
+      "description": "The recording names Yari Kaskila as IT manager; the meeting notes name Jari Koskela. The instructions establish no source priority, so the differing name is unresolved.",
+      "status": "unresolved",
+      "unit_ids": [
+        "assessment_details-16",
+        "assessment_details-17"
+      ]
+    },
+    {
+      "topic": "customer service team lead participant",
+      "description": "The recording says Anna, the customer service team lead, did not join because she was covering the phone line; the meeting notes name Anna Virtanen and say she joined for the customer service part. The instructions establish no source priority, so her attendance is unresolved.",
+      "status": "unresolved",
+      "unit_ids": [
+        "assessment_details-18",
+        "assessment_details-19"
+      ]
+    }
+  ]
+}

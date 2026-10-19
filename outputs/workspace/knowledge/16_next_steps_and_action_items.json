@@ -1,0 +1,189 @@
+{
+  "section_id": "16_next_steps_and_action_items",
+  "units": [
+    {
+      "id": "16_next_steps_and_action_items-01",
+      "topic": "freight document sample",
+      "time_qualifier": "by 30 October 2026",
+      "summary": "Jari is to send an anonymised sample of 200 freight documents, including at least 50 with handwritten remarks.",
+      "quote": "[ ] Jari: send anonymised sample of 200 freight documents (mix of types, sites, languages, at least 50 with handwritten remarks) - by 30 October 2026.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "8. ACTION ITEMS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "16_next_steps_and_action_items-02",
+      "topic": "WMS and TMS data extract",
+      "time_qualifier": "by 30 October 2026",
+      "summary": "Jari is to export daily WMS volumes per site for 2020–2026 and the TMS document log for 2025.",
+      "quote": "[ ] Jari: export daily WMS volumes per site 2020-2026 and the TMS document log for 2025 - by 30 October 2026.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "8. ACTION ITEMS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "16_next_steps_and_action_items-03",
+      "topic": "customer service category tally",
+      "time_qualifier": null,
+      "summary": "Anna is to share the customer service category tally for the last six months.",
+      "quote": "[ ] Anna: share the customer service category tally for the last 6 months.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "8. ACTION ITEMS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "16_next_steps_and_action_items-04",
+      "topic": "Vantaa document time study",
+      "time_qualifier": null,
+      "summary": "Mikko is to collect the current clerk time per document type through a one-week time study in Vantaa.",
+      "quote": "[ ] Mikko: collect current clerk time per document type (one-week time study in Vantaa).",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "8. ACTION ITEMS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "16_next_steps_and_action_items-05",
+      "topic": "document extraction note and proof-of-concept outline",
+      "time_qualifier": null,
+      "summary": "Daniel is to prepare a short note on document extraction options and a proof-of-concept outline.",
+      "quote": "[ ] Daniel: prepare a short note on document extraction options and a PoC outline.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "8. ACTION ITEMS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "16_next_steps_and_action_items-06",
+      "topic": "AI usage policy template and funding instruments",
+      "time_qualifier": null,
+      "summary": "Elina is to send an AI usage policy template and a list of funding instruments.",
+      "quote": "[ ] Elina: send an AI usage policy template and a list of funding instruments.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "8. ACTION ITEMS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "16_next_steps_and_action_items-07",
+      "topic": "next meeting",
+      "time_qualifier": "12 November 2026",
+      "summary": "The next meeting is scheduled for 12 November 2026, on-site in Vantaa, to review sample documents and data.",
+      "quote": "[ ] Next meeting: 12 November 2026, on-site in Vantaa, to review sample documents and data.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "8. ACTION ITEMS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "16_next_steps_and_action_items-08",
+      "topic": "freight document sample",
+      "time_qualifier": "by the end of October",
+      "summary": "A speaker agrees to provide the requested document sample by the end of October.",
+      "quote": "I can do that by the end of October.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "medium"
+    },
+    {
+      "id": "16_next_steps_and_action_items-09",
+      "topic": "freight document sample",
+      "time_qualifier": null,
+      "summary": "The requested pilot sample is about 200 anonymized real documents, across types, sites and languages, with at least 50 containing handwritten remarks.",
+      "quote": "For the document pilot, a sample of about 200 real documents, anonymized, a mix of types, sites, and languages, and at least 50 with handwritten remarks.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "16_next_steps_and_action_items-10",
+      "topic": "WMS and TMS data extract",
+      "time_qualifier": null,
+      "summary": "The requested data includes daily WMS volumes per site since 2020 and the TMS document log for 2025.",
+      "quote": "And the WMS daily volumes per site since 2020, plus the TMS document log for 2025.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "16_next_steps_and_action_items-11",
+      "topic": "Vantaa document time study",
+      "time_qualifier": null,
+      "summary": "A speaker agrees to conduct a one-week time study in Vantaa to establish how long each document type takes.",
+      "quote": "I'll also do a one-week time study in Vantaa, so we know exactly how long each document type takes.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "16_next_steps_and_action_items-12",
+      "topic": "document extraction note and proof-of-concept outline",
+      "time_qualifier": null,
+      "summary": "Daniel is to prepare a short note on document extraction options and an outline for the proof of concept.",
+      "quote": "Daniel will prepare a short note on the document extraction options and an outline for the proof of concept",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "16_next_steps_and_action_items-13",
+      "topic": "AI usage policy template and funding instruments",
+      "time_qualifier": null,
+      "summary": "The advisor speaking is to send an AI usage policy template and a list of possible funding instruments.",
+      "quote": "I'll send you an AI usage policy template and a list of possible funding instruments.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "16_next_steps_and_action_items-14",
+      "topic": "next meeting",
+      "time_qualifier": "12 November",
+      "summary": "The next meeting is set for 12 November, potentially on-site in Vantaa.",
+      "quote": "The 12th of November works for us.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": []
+}

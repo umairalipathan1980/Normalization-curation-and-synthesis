@@ -1,41 +1,48 @@
 [
   {
-    "id": "01_advisory_meeting_notes",
-    "file": "advisory_meeting_notes.txt",
-    "source_class": "primary",
-    "source_type": "text",
-    "tool": "text"
-  },
-  {
-    "id": "02_advisory_meeting_recording_part1",
+    "id": "01_advisory_meeting_recording_part1",
     "file": "advisory_meeting_recording_part1.mp3",
     "source_class": "primary",
     "source_type": "audio",
     "tool": "Transcriber"
   },
   {
-    "id": "03_advisory_meeting_recording_part2",
+    "id": "02_advisory_meeting_recording_part2",
     "file": "advisory_meeting_recording_part2.mp3",
     "source_class": "primary",
     "source_type": "audio",
     "tool": "Transcriber"
   },
   {
-    "id": "04_company_overview_2026",
+    "id": "03_advisory_meeting_recording_part3",
+    "file": "advisory_meeting_recording_part3.mp3",
+    "source_class": "primary",
+    "source_type": "audio",
+    "tool": "Transcriber"
+  },
+  {
+    "id": "04_advisory_meeting_notes",
+    "file": "advisory_meeting_notes.txt",
+    "source_class": "primary",
+    "source_type": "text",
+    "tool": "text"
+  },
+  {
+    "id": "05_company_overview_2026",
     "file": "company_overview_2026.pdf",
     "source_class": "primary",
     "source_type": "pdf",
     "tool": "PyMuPDFParser"
   },
   {
-    "id": "05_operations_data_extract",
+    "id": "06_operations_data_extract",
     "file": "operations_data_extract.xlsx",
     "source_class": "primary",
     "source_type": "spreadsheet",
     "tool": "SpreadsheetParser"
   },
   {
-    "id": "06_process_map_freight_documents",
+    "id": "07_process_map_freight_documents",
     "file": "process_map_freight_documents.png",
     "source_class": "primary",
     "source_type": "image",

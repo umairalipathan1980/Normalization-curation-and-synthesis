@@ -3,23 +3,10 @@
   "units": [
     {
       "id": "appendix_sources-01",
-      "topic": "advisory meeting notes",
-      "time_qualifier": null,
-      "summary": "The source is titled “FAIR AI ADVISORY - MEETING NOTES.”",
-      "quote": "FAIR AI ADVISORY - MEETING NOTES",
-      "source": {
-        "file": "advisory_meeting_notes.txt",
-        "locator": null
-      },
-      "source_class": "primary",
-      "confidence": "high"
-    },
-    {
-      "id": "appendix_sources-02",
-      "topic": "AI assessment meeting recording, part 1",
-      "time_qualifier": "2 October 2026",
-      "summary": "The recording covers an initial session about the company’s AI use and possible proof-of-concept use cases.",
-      "quote": "Today is the 2nd of October, and the idea of this session is to understand your business, how you use AI today, and which use cases could make sense for a first proof of concept.",
+      "topic": "source date — advisory meeting recording, part 1",
+      "time_qualifier": "2 October (year not stated in recording)",
+      "summary": "The recording states that the meeting is on 2 October.",
+      "quote": "Today is the 2nd of October",
       "source": {
         "file": "advisory_meeting_recording_part1.mp3",
         "locator": null
@@ -28,23 +15,36 @@
       "confidence": "high"
     },
     {
-      "id": "appendix_sources-03",
-      "topic": "AI assessment meeting recording, part 2",
+      "id": "appendix_sources-02",
+      "topic": "source type — advisory meeting notes",
       "time_qualifier": null,
-      "summary": "The recording includes advisory discussion of a data assessment for forecasting.",
-      "quote": "Second, for forecasting, the first step is a data assessment.",
+      "summary": "The source is meeting notes.",
+      "quote": "FAIR AI ADVISORY - MEETING NOTES",
       "source": {
-        "file": "advisory_meeting_recording_part2.mp3",
-        "locator": null
+        "file": "advisory_meeting_notes.txt",
+        "locator": "FAIR AI ADVISORY - MEETING NOTES"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "appendix_sources-03",
+      "topic": "source date — advisory meeting notes",
+      "time_qualifier": "2 October 2026",
+      "summary": "The meeting notes give the meeting date as 2 October 2026.",
+      "quote": "Meeting date:   2 October 2026, 13:00-14:30",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "FAIR AI ADVISORY - MEETING NOTES"
       },
       "source_class": "primary",
       "confidence": "high"
     },
     {
       "id": "appendix_sources-04",
-      "topic": "company overview and operations description",
-      "time_qualifier": "September 2026",
-      "summary": "The source is a company overview and operations description prepared as background material for the FAIR AI assessment.",
+      "topic": "source type — company overview",
+      "time_qualifier": null,
+      "summary": "The source is a company overview and operations description.",
       "quote": "Company Overview and\nOperations Description",
       "source": {
         "file": "company_overview_2026.pdf",
@@ -55,8 +55,21 @@
     },
     {
       "id": "appendix_sources-05",
-      "topic": "operational data extract",
-      "time_qualifier": "9 October 2026",
+      "topic": "source date — company overview",
+      "time_qualifier": "September 2026",
+      "summary": "The company overview is version 1.2, dated September 2026.",
+      "quote": "Version 1.2 · September 2026",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 1"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "appendix_sources-06",
+      "topic": "source type — operational data extract",
+      "time_qualifier": null,
       "summary": "The source is an operational data extract for the FAIR AI assessment.",
       "quote": "Lumivaara Logistics Oy - Operational data extract for FAIR AI assessment",
       "source": {
@@ -67,19 +80,38 @@
       "confidence": "high"
     },
     {
-      "id": "appendix_sources-06",
-      "topic": "freight document handling process map",
-      "time_qualifier": "24 Sept 2026",
-      "summary": "The source is a current-state process map for freight document handling, created in a process mapping workshop.",
-      "quote": "Freight document handling – current state (AS-IS)",
+      "id": "appendix_sources-07",
+      "topic": "source date — operational data extract",
+      "time_qualifier": "9 October 2026",
+      "summary": "The data extract gives its extract date as 9 October 2026.",
+      "quote": "Prepared by: Jari Koskela, IT Manager. Extract date: 9 October 2026.",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet README, row 2"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "appendix_sources-08",
+      "topic": "source type — freight document process map",
+      "time_qualifier": null,
+      "summary": "The source is a process-mapping workshop artifact.",
+      "quote": "Process mapping workshop",
       "source": {
         "file": "process_map_freight_documents.png",
-        "locator": "Freight document handling – current state (AS-IS)"
+        "locator": null
       },
       "source_class": "primary",
       "confidence": "high"
     }
   ],
-  "missing": [],
+  "missing": [
+    "source type for advisory_meeting_recording_part1.mp3",
+    "source type for advisory_meeting_recording_part2.mp3",
+    "source date for advisory_meeting_recording_part2.mp3",
+    "source type for advisory_meeting_recording_part3.mp3",
+    "source date for advisory_meeting_recording_part3.mp3"
+  ],
   "conflicts": []
 }

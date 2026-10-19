@@ -1,0 +1,329 @@
+{
+  "section_id": "4_current_solution_development_stage",
+  "units": [
+    {
+      "id": "4_current_solution_development_stage-01",
+      "topic": "AI work development stage",
+      "time_qualifier": "autumn 2026",
+      "summary": "The company’s AI assessment was in progress in autumn 2026.",
+      "quote": "Map core processes and identify opportunities for automation and artificial intelligence (in progress, autumn 2026).",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 11"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "4_current_solution_development_stage-02",
+      "topic": "AI models in production",
+      "time_qualifier": "at the meeting",
+      "summary": "The company had no machine learning models in production.",
+      "quote": "No machine learning models in production.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "2. CURRENT USE OF AI AND DIGITAL TOOLS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "4_current_solution_development_stage-03",
+      "topic": "Copilot pilot",
+      "time_qualifier": "this spring",
+      "summary": "The company had purchased Copilot licences for 25 office staff as a pilot.",
+      "quote": "This spring we bought Microsoft co-pilot licenses for 25 office people as a pilot.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "4_current_solution_development_stage-04",
+      "topic": "Freight document volume estimate",
+      "time_qualifier": "per day, at the meeting",
+      "summary": "Miko estimated that the company handled around 1,200 freight documents per day across all sites.",
+      "quote": "My feeling is around 1200 a day, all sites together.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "medium"
+    },
+    {
+      "id": "4_current_solution_development_stage-05",
+      "topic": "Freight document volume estimate",
+      "time_qualifier": "normal working day, at the meeting",
+      "summary": "A second estimate put the daily volume at around 1,000 according to the TMS document log; the log counts paper documents when scanned.",
+      "quote": "I would say it's a bit less, maybe around a thousand on a normal working day according to the TMS document log. But the log only counts paper documents when they are scanned, so it depends on how you count.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "medium"
+    },
+    {
+      "id": "4_current_solution_development_stage-06",
+      "topic": "Freight document channels",
+      "time_qualifier": "current process",
+      "summary": "Freight documents arrive as email attachments, through the driver app, and on paper at the warehouse gates.",
+      "quote": "Documents arrive as email attachments (PDF, some JPG photos taken by drivers), via the driver app (photos) and on paper at the warehouse gates.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.1 Freight document processing (highest priority for the company)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "4_current_solution_development_stage-07",
+      "topic": "Freight document manual entry",
+      "time_qualifier": "current process",
+      "summary": "Six document clerks manually enter freight document data into the TMS and enter invoicing-relevant fields into Business Central.",
+      "quote": "Six document clerks (4 in Vantaa, 1 in Tampere, 1 in Oulu) key in the data manually into the TMS and, for invoicing-relevant fields, into Business Central.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.1 Freight document processing (highest priority for the company)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "4_current_solution_development_stage-08",
+      "topic": "Freight document fields entered",
+      "time_qualifier": "current process",
+      "summary": "The fields entered include shipment and customer references, sender and receiver, package and weight data, pallet details, delivery date and time, signature status, and remarks.",
+      "quote": "Fields entered: shipment/consignment number, customer reference, sender, receiver, number of packages, gross weight, pallet count and type, delivery date and time, signature present Y/N, remarks (damage, shortages).",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.1 Freight document processing (highest priority for the company)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "4_current_solution_development_stage-09",
+      "topic": "Freight document entry errors and corrections",
+      "time_qualifier": "current process",
+      "summary": "The estimated manual-entry error rate is around 4%; errors lead to invoice corrections and disputes, and finance spends about a day a week on corrections.",
+      "quote": "Mikko's estimate of the error rate in manual entry: around 4 %. Errors lead to wrong invoices, credit notes, and disputes; the finance team spends \"a day a week\" on corrections.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.1 Freight document processing (highest priority for the company)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "4_current_solution_development_stage-10",
+      "topic": "Handwritten damage remarks",
+      "time_qualifier": "current process",
+      "summary": "PODs with handwritten remarks are sometimes missed, delaying damage claims and causing the company to lose the right to claim against the haulier.",
+      "quote": "Biggest pain: PODs with handwritten remarks (\"1 lava rikki\", \"vastaanotettu varauksin\") are missed, so damage claims are raised late and the company loses the right to claim against the haulier.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.1 Freight document processing (highest priority for the company)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "4_current_solution_development_stage-11",
+      "topic": "Freight document extraction objective",
+      "time_qualifier": null,
+      "summary": "The desired outcome is automatic extraction into the TMS, human review of low-confidence documents, and flagging of handwritten remarks.",
+      "quote": "Desired outcome: automatic extraction of the fields into the TMS with a human check only for low-confidence documents; flagging of handwritten remarks.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.1 Freight document processing (highest priority for the company)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "4_current_solution_development_stage-12",
+      "topic": "Freight document pilot scope",
+      "time_qualifier": "proposed first proof of concept",
+      "summary": "The proposed first proof of concept would focus on PODs at the Vantaa site before scaling.",
+      "quote": "Start with one document type (POD) and one site (Vantaa) before scaling.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "7. ADVISORS' OBSERVATIONS (internal, Elina & Daniel)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "4_current_solution_development_stage-13",
+      "topic": "Freight document pilot testing",
+      "time_qualifier": "proposed pilot",
+      "summary": "The proposed pilot would test a vision language model on real documents, including poor-quality photos and handwritten remarks, and compare field-level accuracy with clerk entries.",
+      "quote": "And technically, we would test a vision language model on a sample of your real documents, including the bad photos and the handwritten remarks, and measure field level accuracy against what your clerks entered.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "4_current_solution_development_stage-14",
+      "topic": "Warehouse staffing shortfalls",
+      "time_qualifier": "current process",
+      "summary": "Short-term staffing gaps are covered with overtime or agency workers booked the previous afternoon at a premium price.",
+      "quote": "Short-term gaps are covered with overtime or agency workers booked the previous afternoon at a premium price.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 10"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "4_current_solution_development_stage-15",
+      "topic": "Warehouse labour forecasting objective",
+      "time_qualifier": "proposed use case",
+      "summary": "The proposed forecasting use case would predict daily inbound pallets and outbound order lines for each warehouse one to three weeks ahead.",
+      "quote": "Idea: forecast daily inbound pallets and outbound order lines per warehouse 1-3 weeks ahead, using history from the WMS plus customer forecasts, calendar effects (holidays, campaigns), and maybe weather for the chilled food customers.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.2 Warehouse labour demand forecasting"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "4_current_solution_development_stage-16",
+      "topic": "Customer service email volume and handling",
+      "time_qualifier": "current process",
+      "summary": "A seven-person customer service team handles a shared mailbox receiving roughly 380 emails per day, rising to over 600 in December; about half are track-and-trace questions.",
+      "quote": "The team has seven people and one shared mailbox. Roughly 380 emails a day, in December over 600. About half are track and trace questions, where is my shipment?",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "4_current_solution_development_stage-17",
+      "topic": "Customer service response times",
+      "time_qualifier": "peak periods",
+      "summary": "The response-time target is four working hours, while the average in peak periods is around nine hours.",
+      "quote": "Our target is four working hours. In peak periods the average is around nine hours.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "4_current_solution_development_stage-18",
+      "topic": "Customer service email triage objective",
+      "time_qualifier": "proposed use case",
+      "summary": "The proposed use case would classify incoming emails, route them, look up shipment status in the TMS and draft replies for an agent to approve; fully automatic replies are not intended at the outset.",
+      "quote": "Idea: automatically classify incoming emails, route them, look up shipment status from the TMS and draft a reply for the agent to approve. Not interested in fully automatic replies at this stage.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.3 Customer service email triage and reply drafting"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "4_current_solution_development_stage-19",
+      "topic": "Route optimization use case",
+      "time_qualifier": "current process and possible 2027 update",
+      "summary": "Planners override the TMS route-planning module because it does not know customers’ unloading times; a TMS vendor update may be available in 2027.",
+      "quote": "The TMS has a built-in route planning module. Planners use it for Vantaa-area distribution but override it often because \"it does not know the customers' unloading times\".",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "2. CURRENT USE OF AI AND DIGITAL TOOLS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "4_current_solution_development_stage-20",
+      "topic": "Predictive maintenance use case",
+      "time_qualifier": "at the meeting",
+      "summary": "Predictive maintenance for trucks was raised as another idea, with telematics data available; the fleet manager was not present.",
+      "quote": "Predictive maintenance for the trucks, we have telematics data, but our fleet manager wasn't able to join today.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "4_current_solution_development_stage-21",
+      "topic": "Automatic customs declarations",
+      "time_qualifier": "at the meeting",
+      "summary": "Automatic customs declarations were mentioned, but Kaisa considered them too risky for now.",
+      "quote": "And Kaisa has mentioned automatic customs declarations, but she thinks that's too risky for now.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "4_current_solution_development_stage-22",
+      "topic": "AI pilot objective",
+      "time_qualifier": "2027",
+      "summary": "The strategy sets a goal of running at least one AI pilot in 2027 with a measurable business case.",
+      "quote": "Run at least one AI pilot in 2027 with a measurable business case.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 11"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "4_current_solution_development_stage-23",
+      "topic": "Office-work reduction objective",
+      "time_qualifier": "by the end of 2028",
+      "summary": "The strategy aims to reduce manual work in office processes by 30% by the end of 2028, so growth does not require additional office staff.",
+      "quote": "Operational excellence – reduce manual work in office processes by 30 % by the end of 2028 so that growth does not require additional office staff.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 11"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "4_current_solution_development_stage-24",
+      "topic": "AI usage policy and training objective",
+      "time_qualifier": null,
+      "summary": "The company’s digitalisation goals include introducing an AI usage policy and training for office staff.",
+      "quote": "Introduce an AI usage policy and training for office staff.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 11"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": [
+    {
+      "topic": "Freight document volume estimate",
+      "description": "Unit 4 reports Miko’s estimate of around 1,200 documents per day across all sites. Unit 5 gives a lower estimate of around 1,000 on a normal working day according to the TMS log, while noting that paper documents are counted when scanned and that the count depends on how it is measured. The report instructions establish no source priority, so the estimates remain unresolved.",
+      "status": "unresolved",
+      "unit_ids": [
+        "4_current_solution_development_stage-04",
+        "4_current_solution_development_stage-05"
+      ]
+    }
+  ]
+}

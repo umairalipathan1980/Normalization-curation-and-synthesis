@@ -1,0 +1,221 @@
+{
+  "section_id": "11_technical_expertise_and_capability",
+  "units": [
+    {
+      "id": "11_technical_expertise_and_capability-01",
+      "topic": "IT manager identity",
+      "time_qualifier": null,
+      "summary": "The recording identifies the IT manager as Yari Kaskila.",
+      "quote": "I'm Yari Kaskila, the IT manager.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "11_technical_expertise_and_capability-02",
+      "topic": "IT manager identity",
+      "time_qualifier": null,
+      "summary": "The meeting notes identify Jari as the one-person IT function.",
+      "quote": "One-person IT function (Jari).",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "5. TECHNICAL CAPABILITY AND RESOURCES"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "11_technical_expertise_and_capability-03",
+      "topic": "in-house IT capacity",
+      "time_qualifier": null,
+      "summary": "The IT manager describes himself as the IT department and says his responsibilities span servers, phones and Power BI reports.",
+      "quote": "Which in practice means I'm the IT department. Everything from servers to phones to Power BI reports.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "11_technical_expertise_and_capability-04",
+      "topic": "in-house IT skills",
+      "time_qualifier": null,
+      "summary": "The one-person IT function has SQL and Power BI skills, but no Python or machine-learning experience.",
+      "quote": "One-person IT function (Jari). Good SQL and Power BI skills, no Python/ML experience.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "5. TECHNICAL CAPABILITY AND RESOURCES"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "11_technical_expertise_and_capability-05",
+      "topic": "external technical partners",
+      "time_qualifier": null,
+      "summary": "External partners include the WMS vendor, a Business Central partner and an IT outsourcing provider for network and security.",
+      "quote": "External partners: WMS vendor (support contract), Business Central partner (Dynamics consultancy), IT outsourcing for network and security.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "5. TECHNICAL CAPABILITY AND RESOURCES"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "11_technical_expertise_and_capability-06",
+      "topic": "digital and AI readiness",
+      "time_qualifier": "at the advisory meeting",
+      "summary": "The advisors described the operational systems as quite digital, but AI use as individual, with no AI strategy, policy or roadmap.",
+      "quote": "Your operational systems are quite digital, you have a WMS, a TMS, EDI with key customers, but AI use is individual and there is no strategy, policy, or roadmap for it yet.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "11_technical_expertise_and_capability-07",
+      "topic": "automation experience",
+      "time_qualifier": "2023",
+      "summary": "The company implemented a UiPath RPA bot for supplier-invoice matching in Business Central. It handles about 70% of invoices, and the notes characterize it as rule-based rather than AI.",
+      "quote": "An RPA bot (UiPath) was implemented in 2023 for matching supplier invoices to purchase orders in Business Central. Works for ~70 % of invoices; the rest go to manual handling. This is rule-based, not AI, but it is the company's main automation experience.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "2. CURRENT USE OF AI AND DIGITAL TOOLS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "11_technical_expertise_and_capability-08",
+      "topic": "warehouse management system hosting",
+      "time_qualifier": "current version since 2020",
+      "summary": "The WMS is on-premise and uses SQL Server.",
+      "quote": "On-premise,\nSQL Server",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 8"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "11_technical_expertise_and_capability-09",
+      "topic": "transport management system integration",
+      "time_qualifier": "at the advisory meeting",
+      "summary": "The TMS has an API that works one record at a time; bulk export is a separate paid service.",
+      "quote": "One technical issue, the TMS has an API, but it only works one record at a time. Bulk export is a separate paid service.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "11_technical_expertise_and_capability-10",
+      "topic": "transport management system integration",
+      "time_qualifier": null,
+      "summary": "The TMS API is limited to single records, and bulk export is available as a paid service.",
+      "quote": "REST API (single records only), WMS, driver mobile app",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 8"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "11_technical_expertise_and_capability-11",
+      "topic": "customer master data and reporting infrastructure",
+      "time_qualifier": null,
+      "summary": "There is no central data warehouse or shared customer identifier across the WMS, TMS and Business Central; reporting relies on manual Excel exports prepared by the IT Manager.",
+      "quote": "There is no central data warehouse. Customer master data is maintained separately in the WMS, TMS and Business Central, and there is no shared customer identifier between the systems. Reporting relies on manual Excel exports prepared by the IT Manager.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 8"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "11_technical_expertise_and_capability-12",
+      "topic": "readiness for change",
+      "time_qualifier": null,
+      "summary": "The operations team is described as process-savvy and open to change, while supervisors are concerned about extra work during implementation.",
+      "quote": "Operations team is process-savvy and open to change; supervisors are worried about extra work during the implementation.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "5. TECHNICAL CAPABILITY AND RESOURCES"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "11_technical_expertise_and_capability-13",
+      "topic": "delivery and maintenance capacity",
+      "time_qualifier": "at the advisory meeting",
+      "summary": "The proposed solution needs to be low-maintenance or operated by a partner because the company has only one IT person.",
+      "quote": "And because you have only one IT person, the solution must be low maintenance, or operated by a partner.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "11_technical_expertise_and_capability-14",
+      "topic": "AI project budget",
+      "time_qualifier": "2027",
+      "summary": "The CEO said the board might be open to investing around €60,000–80,000 in AI-related projects if the first pilot shows results.",
+      "quote": "For 2027, I think the board would be open to investing around €60,000-80,000 in AI-related projects, if the first pilot shows results.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "medium"
+    },
+    {
+      "id": "11_technical_expertise_and_capability-15",
+      "topic": "AI project budget",
+      "time_qualifier": "2027",
+      "summary": "The company overview says the 2027 budget proposal earmarks EUR 50,000 for digitalisation and AI pilots, with further investment to depend on pilot results.",
+      "quote": "Budget: The 2027 budget proposal earmarks EUR 50,000 for digitalisation and AI pilots, in addition to ordinary IT operating costs (approx. EUR 210,000 per year). Further investment will be decided based on pilot results.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 11"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": [
+    {
+      "topic": "IT manager identity",
+      "description": "The meeting recording identifies the IT manager as Yari Kaskila (unit 1), while the meeting notes identify the one-person IT function as Jari (unit 2). The report instructions set no source hierarchy to resolve the discrepancy.",
+      "status": "unresolved",
+      "unit_ids": [
+        "11_technical_expertise_and_capability-01",
+        "11_technical_expertise_and_capability-02"
+      ]
+    },
+    {
+      "topic": "AI project budget",
+      "description": "The meeting recording says the board may be open to investing around EUR 60,000–80,000 in AI-related projects in 2027 if the first pilot shows results (unit 14). The company overview says the 2027 budget proposal earmarks EUR 50,000 for digitalisation and AI pilots, with further investment decided based on pilot results (unit 15). The sources do not establish a hierarchy that resolves these figures.",
+      "status": "unresolved",
+      "unit_ids": [
+        "11_technical_expertise_and_capability-14",
+        "11_technical_expertise_and_capability-15"
+      ]
+    }
+  ]
+}

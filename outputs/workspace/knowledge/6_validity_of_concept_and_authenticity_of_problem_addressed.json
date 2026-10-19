@@ -1,0 +1,277 @@
+{
+  "section_id": "6_validity_of_concept_and_authenticity_of_problem_addressed",
+  "units": [
+    {
+      "id": "6_validity_of_concept_and_authenticity_of_problem_addressed-01",
+      "topic": "freight documents received per day",
+      "time_qualifier": "meeting, 2 October",
+      "summary": "Mikko estimated that the company receives about 1,200 freight documents per day across all sites.",
+      "quote": "My feeling is around 1200 a day, all sites together.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "medium"
+    },
+    {
+      "id": "6_validity_of_concept_and_authenticity_of_problem_addressed-02",
+      "topic": "freight documents received per day",
+      "time_qualifier": "meeting, 2 October",
+      "summary": "A second meeting estimate put the number at around 1,000 on a normal working day based on the TMS document log; the log counts paper documents when they are scanned, so the count depends on how it is measured.",
+      "quote": "I would say it's a bit less, maybe around a thousand on a normal working day according to the TMS document log. But the log only counts paper documents when they are scanned, so it depends on how you count.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "medium"
+    },
+    {
+      "id": "6_validity_of_concept_and_authenticity_of_problem_addressed-03",
+      "topic": "freight document manual processing",
+      "time_qualifier": "meeting, 2 October",
+      "summary": "Six document clerks manually enter freight-document information into the transport system. Invoicing fields are also entered into Business Central.",
+      "quote": "And then we have six document clerks, four in Vantaa, one in Tampere and one in Oulu, who type everything into our transport system by hand.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "6_validity_of_concept_and_authenticity_of_problem_addressed-04",
+      "topic": "freight document processing time",
+      "time_qualifier": "meeting, 2 October",
+      "summary": "Finding the shipment in the TMS takes about a minute, and entering document data takes 3–4 minutes, depending on the document.",
+      "quote": "that takes maybe a minute. Then keying in the data, 3-4 minutes, depending on the document",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "6_validity_of_concept_and_authenticity_of_problem_addressed-05",
+      "topic": "freight document double entry",
+      "time_qualifier": "meeting, 2 October",
+      "summary": "Invoicing fields are entered again into Business Central, resulting in double entry.",
+      "quote": "And for the invoicing fields, they type them again into Business Central. So it's double entry.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "6_validity_of_concept_and_authenticity_of_problem_addressed-06",
+      "topic": "freight document entry errors",
+      "time_qualifier": "meeting, 2 October",
+      "summary": "Miko estimated that about 4% of documents have an entry error, such as an incorrect weight, pallet count or reference.",
+      "quote": "I estimate around 4% of documents have some error. Wrong weight, wrong pallet count, wrong reference.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "medium"
+    },
+    {
+      "id": "6_validity_of_concept_and_authenticity_of_problem_addressed-07",
+      "topic": "cost of freight document errors",
+      "time_qualifier": "meeting, 2 October",
+      "summary": "Document errors can lead to incorrect invoices, credit notes and customer disputes; finance staff spend about one day a week correcting them.",
+      "quote": "That ends up as a wrong invoice, then a credit note, then a dispute with the customer. Our finance people spend about one day a week fixing those.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "6_validity_of_concept_and_authenticity_of_problem_addressed-08",
+      "topic": "handwritten damage remarks and claims",
+      "time_qualifier": "meeting, 2 October",
+      "summary": "Handwritten damage or reservation remarks on proof-of-delivery documents can be missed, delaying damage detection; the company has seven days to claim against a haulier under its terms.",
+      "quote": "Then we notice the damage too late, and under our terms with subcontractors we have 7 days to make a claim against the haulier.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "6_validity_of_concept_and_authenticity_of_problem_addressed-09",
+      "topic": "POD processing timeliness",
+      "time_qualifier": "2025 actual",
+      "summary": "71% of proof-of-delivery documents were processed within two days of delivery, against a 95% target.",
+      "quote": "POD processed within 2 days of delivery\n95 %\n71 %",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 10"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "6_validity_of_concept_and_authenticity_of_problem_addressed-10",
+      "topic": "Vantaa freight document volume",
+      "time_qualifier": "2026-09",
+      "summary": "The Vantaa TMS document log registered 15,126 freight documents in September 2026.",
+      "quote": "15126",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Monthly_Volumes, row 98"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "6_validity_of_concept_and_authenticity_of_problem_addressed-11",
+      "topic": "Vantaa freight document processing effort",
+      "time_qualifier": "2026-09",
+      "summary": "The monthly data extract records 724.6 hours of manual document entry for Vantaa in September 2026.",
+      "quote": "724.6",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Monthly_Volumes, row 98"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "6_validity_of_concept_and_authenticity_of_problem_addressed-12",
+      "topic": "Vantaa freight document entry corrections",
+      "time_qualifier": "2026-09",
+      "summary": "The data extract records 616 documents for which a later correction was made in TMS or Business Central for Vantaa in September 2026.",
+      "quote": "616",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Monthly_Volumes, row 98"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "6_validity_of_concept_and_authenticity_of_problem_addressed-13",
+      "topic": "freight document sample",
+      "time_qualifier": "28 September–2 October 2026",
+      "summary": "The operational extract includes 150 freight documents logged during a one-week time study across Vantaa, Tampere and Oulu.",
+      "quote": "Document_Log_Sample - 150 freight documents logged during a one-week time study in Vantaa, Tampere and Oulu (28 Sep - 2 Oct 2026).",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet README, row 8"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "6_validity_of_concept_and_authenticity_of_problem_addressed-14",
+      "topic": "freight document system integration",
+      "time_qualifier": "meeting, 2 October",
+      "summary": "The TMS has an API, but it supports one record at a time; bulk export is a separate paid service.",
+      "quote": "One technical issue, the TMS has an API, but it only works one record at a time. Bulk export is a separate paid service.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "6_validity_of_concept_and_authenticity_of_problem_addressed-15",
+      "topic": "freight document proof of concept priority",
+      "time_qualifier": "meeting, 2 October",
+      "summary": "The advisors identified freight document processing as the best candidate for a first proof of concept, citing its volume and measurable baseline.",
+      "quote": "First, we think the freight document processing is the best candidate for a first proof of concept. High volume, a clear baseline with clerk hours and error rates, and a clear business case.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "6_validity_of_concept_and_authenticity_of_problem_addressed-16",
+      "topic": "freight document proof of concept scope",
+      "time_qualifier": "meeting, 2 October",
+      "summary": "The advisors proposed initially testing one document type, proof of delivery, at one site, Vantaa, before scaling.",
+      "quote": "We would suggest starting narrow, with one document type, the proof of delivery, and one site, Vantaa, and then scaling if it works.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "6_validity_of_concept_and_authenticity_of_problem_addressed-17",
+      "topic": "freight document extraction test",
+      "time_qualifier": "meeting, 2 October",
+      "summary": "The proposed technical test is to use a sample of real documents, including poor-quality photos and handwritten remarks, and compare field-level accuracy with clerk entries.",
+      "quote": "we would test a vision language model on a sample of your real documents, including the bad photos and the handwritten remarks, and measure field level accuracy against what your clerks entered.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "6_validity_of_concept_and_authenticity_of_problem_addressed-18",
+      "topic": "human review in freight document processing",
+      "time_qualifier": "meeting, 2 October",
+      "summary": "The proposed workflow sends only uncertain documents for human review, based on the model's confidence level.",
+      "quote": "The human in the loop design is important, the model gives a confidence level, and only uncertain documents go to a person.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "6_validity_of_concept_and_authenticity_of_problem_addressed-19",
+      "topic": "forecasting concept readiness",
+      "time_qualifier": "meeting, 2 October",
+      "summary": "For the workforce forecasting case, the advisors recommended a data assessment as the first step.",
+      "quote": "Second, for forecasting, the first step is a data assessment.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "6_validity_of_concept_and_authenticity_of_problem_addressed-20",
+      "topic": "customer service concept readiness",
+      "time_qualifier": "meeting, 2 October",
+      "summary": "The advisors described customer-service email triage as technically easy but requiring the most compliance work, and suggested it as a second step after an AI usage policy is in place.",
+      "quote": "Third, the customer service case is technically quite easy, but it has the most compliance work, so it's a good second step once you have an AI usage policy.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": [
+    {
+      "topic": "freight documents received per day",
+      "description": "The part 1 recording gives Mikko's estimate of about 1,200 documents per day across all sites. The part 2 recording gives a lower estimate of around 1,000 on a normal working day based on the TMS document log, while noting that paper documents are registered when scanned. The instructions give no source priority, so the estimates remain unresolved.",
+      "status": "unresolved",
+      "unit_ids": [
+        "6_validity_of_concept_and_authenticity_of_problem_addressed-01",
+        "6_validity_of_concept_and_authenticity_of_problem_addressed-02"
+      ]
+    }
+  ]
+}

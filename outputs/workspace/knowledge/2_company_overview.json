@@ -1,0 +1,382 @@
+{
+  "section_id": "2_company_overview",
+  "units": [
+    {
+      "id": "2_company_overview-01",
+      "topic": "company founding",
+      "time_qualifier": "2009",
+      "summary": "The company was founded in 2009.",
+      "quote": "We are a third-party logistics company, founded in 2009.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-02",
+      "topic": "ownership transition",
+      "time_qualifier": "2021",
+      "summary": "Kaisa Lindholm took over the company from her parents in 2021.",
+      "quote": "I took over from my parents in 2021.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-03",
+      "topic": "company founding",
+      "time_qualifier": "2009",
+      "summary": "The company was founded in 2009 by the Lindholm family.",
+      "quote": "Third-party logistics (3PL) company founded in 2009 by the Lindholm family.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "1. COMPANY BACKGROUND"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-04",
+      "topic": "ownership transition",
+      "time_qualifier": "since 2021",
+      "summary": "The company has been under second-generation management since 2021, when Kaisa Lindholm took over as CEO.",
+      "quote": "Second-generation management since 2021 (Kaisa Lindholm took over as CEO).",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "1. COMPANY BACKGROUND"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-05",
+      "topic": "company ownership",
+      "time_qualifier": null,
+      "summary": "Lumivaara is a Finnish family-owned logistics company.",
+      "quote": "Lumivaara Logistics Oy is a Finnish family-owned third-party logistics (3PL) company headquartered in Vantaa.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 2"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-06",
+      "topic": "employee count",
+      "time_qualifier": null,
+      "summary": "The company has around 130 people, in addition to agency staff during peak season.",
+      "quote": "we are around 130 people, plus agency staff in the peak season.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "medium"
+    },
+    {
+      "id": "2_company_overview-07",
+      "topic": "employee count",
+      "time_qualifier": null,
+      "summary": "The company has about 130 employees, with temporary agency staff in peak seasons in addition.",
+      "quote": "About 130 employees in total; on top of that, temporary agency staff in peak seasons",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "1. COMPANY BACKGROUND"
+      },
+      "source_class": "primary",
+      "confidence": "medium"
+    },
+    {
+      "id": "2_company_overview-08",
+      "topic": "employee count",
+      "time_qualifier": "at the end of 2025",
+      "summary": "The company had 134 employees measured as full-time equivalents at the end of 2025.",
+      "quote": "The company employs 134 people (full-time equivalents at the end of 2025), complemented by temporary agency staff during peak seasons.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 2"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-09",
+      "topic": "annual revenue",
+      "time_qualifier": "2025",
+      "summary": "Revenue in 2025 was about EUR 24.6 million.",
+      "quote": "Revenue last year was about 24.6 million euros",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-10",
+      "topic": "annual revenue",
+      "time_qualifier": "2025",
+      "summary": "Revenue in 2025 was approximately EUR 24.6 million.",
+      "quote": "Revenue 2025 approx. EUR 24.6 million",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "1. COMPANY BACKGROUND"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-11",
+      "topic": "annual revenue",
+      "time_qualifier": "2025",
+      "summary": "Revenue in 2025 was EUR 24.6 million.",
+      "quote": "Revenue in 2025 was EUR 24.6 million.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 2"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-12",
+      "topic": "warehouse sites",
+      "time_qualifier": null,
+      "summary": "The company operates three warehouses in Vantaa, Tampere and Oulu.",
+      "quote": "We have three warehouses, Vantaa, Tampere, and Oulu.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-13",
+      "topic": "warehouse sites",
+      "time_qualifier": null,
+      "summary": "The company operates three warehouses: Vantaa, Tampere and Oulu.",
+      "quote": "Three warehouses: Vantaa (main site and head office), Tampere and Oulu.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "1. COMPANY BACKGROUND"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-14",
+      "topic": "warehouse sites",
+      "time_qualifier": null,
+      "summary": "The company operates warehouses in Vantaa, Tampere and Oulu.",
+      "quote": "Operations are run from three warehouses in Vantaa, Tampere and Oulu",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 2"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-15",
+      "topic": "company services",
+      "time_qualifier": null,
+      "summary": "The company provides contract warehousing, domestic road freight, e-commerce fulfillment, customs clearance and value-added services including labeling and kitting.",
+      "quote": "We do contract warehousing, domestic road freight, e-commerce fulfillment, customs clearance, and some value-added services like labeling and kitting.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-16",
+      "topic": "company services",
+      "time_qualifier": null,
+      "summary": "Services include contract warehousing, domestic road freight, e-commerce fulfilment, customs clearance and value-added logistics services.",
+      "quote": "Services: contract warehousing, domestic road freight, e-commerce fulfilment, customs clearance for customers importing from outside the EU, and value-added services (labelling, kitting, returns handling).",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "1. COMPANY BACKGROUND"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-17",
+      "topic": "company services",
+      "time_qualifier": null,
+      "summary": "The company provides contract warehousing, domestic road freight, e-commerce fulfilment, customs clearance and value-added logistics services.",
+      "quote": "The company provides contract warehousing, domestic road freight, e-commerce fulfilment, customs clearance and value-added logistics services to business customers across Finland.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 2"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-18",
+      "topic": "active customers",
+      "time_qualifier": null,
+      "summary": "The company has about 210 active business customers.",
+      "quote": "Our customers are business customers, about 210 active ones.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-19",
+      "topic": "active customers",
+      "time_qualifier": null,
+      "summary": "The company has around 210 active B2B customers.",
+      "quote": "Around 210 active B2B customers.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "1. COMPANY BACKGROUND"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-20",
+      "topic": "customer segments",
+      "time_qualifier": null,
+      "summary": "Retail and e-commerce is the largest segment, followed by industrial spare parts, chilled food and beverage, and a growing pharma and healthcare segment.",
+      "quote": "Retail and e-commerce is the biggest segment, then industrial spare parts, chilled food, and beverage, and a growing pharma and healthcare segment.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-21",
+      "topic": "customer segments",
+      "time_qualifier": null,
+      "summary": "The largest customer segments are retail and e-commerce, industrial spare parts, chilled food and beverage, and pharma/healthcare.",
+      "quote": "Largest segments: retail and e-commerce, industrial spare parts, chilled food and beverage, and a small but growing pharma/healthcare segment (GDP-certified area in Vantaa since 2024).",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "1. COMPANY BACKGROUND"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-22",
+      "topic": "pharma and healthcare segment",
+      "time_qualifier": "2025",
+      "summary": "The pharma and healthcare segment was the fastest-growing segment in 2025 and had the highest margin.",
+      "quote": "The pharma and healthcare segment is the fastest-growing (+31 % in 2025) and has the highest margin.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-23",
+      "topic": "current business pressures",
+      "time_qualifier": null,
+      "summary": "The company faces narrowing margins, rising wages and fuel costs, and downward price pressure from large retail customers.",
+      "quote": "our margins are getting thinner every year. Wages go up, fuel goes up, and the big retail customers push prices down.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-24",
+      "topic": "current business pressures",
+      "time_qualifier": null,
+      "summary": "Margins are described as thin and getting thinner, with fuel, wage settlements and price pressure from large customers identified as pressures.",
+      "quote": "Kaisa described margins as \"thin and getting thinner\" - fuel, wage settlements and price pressure from large customers.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "1. COMPANY BACKGROUND"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-25",
+      "topic": "retail contract renewals",
+      "time_qualifier": "2027",
+      "summary": "Several large retail contracts are due for renewal in 2027, and retail customers apply the strongest price pressure.",
+      "quote": "Retail customers apply the strongest price pressure, and several large retail contracts are due for renewal in 2027.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-26",
+      "topic": "growth and office staffing",
+      "time_qualifier": null,
+      "summary": "The company wants to grow without hiring more office staff for each new customer.",
+      "quote": "We want to grow, but we cannot keep hiring more office people for every new customer.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-27",
+      "topic": "manual office work reduction goal",
+      "time_qualifier": "by 2028",
+      "summary": "The strategy sets a goal to reduce manual office work by 30% by 2028.",
+      "quote": "In our new strategy we have a goal to reduce manual office work by 30% by 2028.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "2_company_overview-28",
+      "topic": "manual office work reduction goal",
+      "time_qualifier": "by the end of 2028",
+      "summary": "The strategy aims to reduce manual work in office processes by 30% by the end of 2028, so growth does not require additional office staff.",
+      "quote": "reduce manual work in office processes by 30 % by the end of 2028\nso that growth does not require additional office staff.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 11"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": [
+    {
+      "topic": "employee count",
+      "description": "The recording and meeting notes estimate around/about 130 employees, with agency staff additional; the company overview gives 134 people measured as full-time equivalents at the end of 2025. The discrepancy is unresolved because no source hierarchy determines which figure to follow, and the sources describe the measure differently.",
+      "status": "unresolved",
+      "unit_ids": [
+        "2_company_overview-06",
+        "2_company_overview-07",
+        "2_company_overview-08"
+      ]
+    }
+  ]
+}

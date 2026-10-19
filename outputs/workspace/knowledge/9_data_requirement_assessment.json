@@ -1,0 +1,447 @@
+{
+  "section_id": "9_data_requirement_assessment",
+  "units": [
+    {
+      "id": "9_data_requirement_assessment-01",
+      "topic": "daily freight document volume",
+      "time_qualifier": null,
+      "summary": "Miko estimated about 1,200 freight documents per day across all sites.",
+      "quote": "My feeling is around 1200 a day, all sites together.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "medium"
+    },
+    {
+      "id": "9_data_requirement_assessment-02",
+      "topic": "daily freight document volume",
+      "time_qualifier": "on a normal working day",
+      "summary": "The TMS document log was said to indicate around 1,000 documents on a normal working day, with the count affected by when paper documents are scanned.",
+      "quote": "I would say it's a bit less, maybe around a thousand on a normal working day according to the TMS document log. But the log only counts paper documents when they are scanned, so it depends on how you count.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "medium"
+    },
+    {
+      "id": "9_data_requirement_assessment-03",
+      "topic": "daily freight document volume",
+      "time_qualifier": null,
+      "summary": "The meeting notes record an estimate of about 1,200 documents per day across the sites and say it should be checked against the TMS log.",
+      "quote": "Mikko estimated about 1,200 documents per day across all sites. (To be checked against the volume data Jari will send - the TMS log may give a different number.)",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.1 Freight document processing (highest priority for the company)"
+      },
+      "source_class": "primary",
+      "confidence": "medium"
+    },
+    {
+      "id": "9_data_requirement_assessment-04",
+      "topic": "freight document data fields",
+      "time_qualifier": null,
+      "summary": "The freight document process uses shipment and customer references, sender and receiver details, package and weight information, pallet details, delivery date and time, signature status, and remarks.",
+      "quote": "Fields entered: shipment/consignment number, customer reference, sender, receiver, number of packages, gross weight, pallet count and type, delivery date and time, signature present Y/N, remarks (damage, shortages).",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.1 Freight document processing (highest priority for the company)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-05",
+      "topic": "freight document sources and formats",
+      "time_qualifier": null,
+      "summary": "Freight documents arrive as email PDFs, driver-app photos, and paper documents at warehouse gates; paper documents are scanned in batches.",
+      "quote": "Documents arrive as email attachments (PDF, some JPG photos taken by drivers), via the driver app (photos) and on paper at the warehouse gates. Paper documents are scanned in batches.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.1 Freight document processing (highest priority for the company)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-06",
+      "topic": "freight document languages and quality",
+      "time_qualifier": null,
+      "summary": "Documents include Finnish, Swedish, English, Estonian, and some Polish and Lithuanian, and their quality varies, including photos taken in truck cabins at night.",
+      "quote": "Documents are in Finnish, Swedish, English, Estonian and some Polish and Lithuanian (international hauliers). Quality varies a lot - photos taken in truck cabins at night.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.1 Freight document processing (highest priority for the company)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-07",
+      "topic": "freight document processing data",
+      "time_qualifier": null,
+      "summary": "Document clerks match documents to shipments in the TMS and enter delivery, package, weight, pallet, and remark information; invoicing-related data is also entered in Business Central.",
+      "quote": "Document clerks open each document, find the matching shipment in the TMS and key in the delivery confirmation, package and weight data, pallet exchange information and any remarks. Invoicing-relevant data is also entered in Business Central.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 9"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-08",
+      "topic": "freight document archive",
+      "time_qualifier": "since 2019",
+      "summary": "The document archive contains scanned freight-document PDFs on a file server, organized by site and month without indexing or search; the notes estimate 1.5 million documents.",
+      "quote": "Document archive: scanned documents stored as PDFs on a file server, folder per site and month. Not indexed. Estimated 1.5 million documents since 2019.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "4. DATA AND SYSTEMS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-09",
+      "topic": "freight document archive quality and access",
+      "time_qualifier": "since 2019-06",
+      "summary": "The archive contains about 1.5 million image-only PDF files totaling 2.3 TB, accessed through a file share; it has no index, inconsistent filenames, and mixed image quality.",
+      "quote": "Document archive | Scanned freight documents | 2019-06 | approx. 1.5 M PDF files, 2.3 TB | PDF (image only, no text layer) | File share | No owner | No index; file names inconsistent; mixed quality",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Data_Inventory, row 5"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-10",
+      "topic": "driver-app document data",
+      "time_qualifier": "since 2020-05",
+      "summary": "The driver app holds about 400,000 POD photos and signatures as JPG images in the TMS; reported quality issues include night photos, blur, and partial documents.",
+      "quote": "Driver app | POD photos and signatures | 2020-05 | approx. 400 k images | JPG in TMS | Via TMS | Operations Director | Night photos, blur, partial documents",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Data_Inventory, row 6"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-11",
+      "topic": "TMS document log history and quality",
+      "time_qualifier": "since 2019-06",
+      "summary": "The TMS document log has about 1.5 million registered freight-document entries and can be exported as a CSV report, up to 100,000 rows. For paper documents, the registration date is the scan date.",
+      "quote": "RouteLine TMS | Document log (registered freight documents) | 2019-06 | approx. 1.5 M entries | Cloud database | Report export (CSV), max 100,000 rows | Operations Director | Registration date = scan date for paper documents",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Data_Inventory, row 4"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-12",
+      "topic": "TMS API and historical export",
+      "time_qualifier": null,
+      "summary": "The TMS API works one record at a time; bulk export is a separately paid service.",
+      "quote": "One technical issue, the TMS has an API, but it only works one record at a time. Bulk export is a separate paid service.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-13",
+      "topic": "document sample for assessment",
+      "time_qualifier": "28 Sep - 2 Oct 2026",
+      "summary": "The operational extract contains a sample of 150 freight documents logged during a one-week time study across Vantaa, Tampere, and Oulu.",
+      "quote": "Document_Log_Sample - 150 freight documents logged during a one-week time study in Vantaa, Tampere and Oulu (28 Sep - 2 Oct 2026).",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet README, row 8"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-14",
+      "topic": "forecasting data needs",
+      "time_qualifier": null,
+      "summary": "The proposed warehouse labour forecast would use WMS history and customer forecasts, with calendar effects and possibly weather as additional inputs.",
+      "quote": "Idea: forecast daily inbound pallets and outbound order lines per warehouse 1-3 weeks ahead, using history from the WMS plus customer forecasts, calendar effects (holidays, campaigns), and maybe weather for the chilled food customers.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.2 Warehouse labour demand forecasting"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-15",
+      "topic": "WMS data history and access",
+      "time_qualifier": "current format since 2020",
+      "summary": "The WMS has data in its current format since 2020; the database structure changed in the 2020 upgrade, making older data not directly comparable. Jari has read access.",
+      "quote": "The WMS has data since 2020 in the current format. We upgraded it in 2020 and the database structure changed, so older data is not directly comparable.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-16",
+      "topic": "WMS data history and quality",
+      "time_qualifier": "current version since 2020",
+      "summary": "The WMS dataset begins in 2020 and contains about 48 million transaction rows; pre-2020 data is in an older structure, and pallet types are inconsistent.",
+      "quote": "WMS | Receipts, putaways, picks, shipments, inventory movements | 2020-01 | approx. 48 M transaction rows | SQL Server tables | Read-only SQL (IT Manager) | Operations Director | Pre-2020 data in old structure; pallet types inconsistent",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Data_Inventory, row 2"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-17",
+      "topic": "WMS data history and quality",
+      "time_qualifier": "since 2020",
+      "summary": "The WMS table lists an on-premise SQL Server system with read-only SQL access for IT.",
+      "quote": "On-premise, SQL Server",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 8"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-18",
+      "topic": "Oulu WMS data history",
+      "time_qualifier": "since 2023",
+      "summary": "Oulu's data begins when the site opened in 2023; the operational extract includes only 2024 onwards.",
+      "quote": "Oulu warehouse data starts from its opening in 2023; only 2024 onwards is included here.",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet README, row 16"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-19",
+      "topic": "customer forecast data availability",
+      "time_qualifier": null,
+      "summary": "Only about a third of key customers regularly provide forecasts, and the forecasts are received by email if provided.",
+      "quote": "Only about a third of the key customers send forecasts regularly.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-20",
+      "topic": "customer forecast data quality",
+      "time_qualifier": "since 2022",
+      "summary": "Weekly customer volume forecasts are held as Excel email attachments, are irregular, come from about 12 customers, use different formats, and are often missing.",
+      "quote": "Customer forecasts | Weekly volume forecasts from customers | 2022 | approx. 12 customers, irregular | Excel attachments in email | Manual | Site managers | Different formats per customer; often missing",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Data_Inventory, row 10"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-21",
+      "topic": "customer service email data",
+      "time_qualifier": "since 2021-01",
+      "summary": "The shared Outlook mailbox contains about 300,000 emails, accessible through Microsoft Graph; categories are not stored.",
+      "quote": "Outlook shared mailbox | Customer service emails | 2021-01 | approx. 300 k emails | Exchange Online | Microsoft Graph | Customer Service Team Lead | Personal data of consumers; no categories stored",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Data_Inventory, row 8"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-22",
+      "topic": "customer service email data needs",
+      "time_qualifier": null,
+      "summary": "The proposed email-triage use case would classify incoming emails, route them, retrieve shipment status from the TMS, and draft replies for agent approval.",
+      "quote": "So the idea would be to classify incoming emails, route them, look up the shipment status from the TMS, and draft a reply for the agent?",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-23",
+      "topic": "customer service email tally",
+      "time_qualifier": "April–September 2026",
+      "summary": "The extract includes one customer-service category tally week per month from April through September 2026.",
+      "quote": "CS_Email_Tally - customer service mailbox category tally (one tally week per month), Apr - Sep 2026.",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet README, row 9"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-24",
+      "topic": "customer service email personal data",
+      "time_qualifier": null,
+      "summary": "Customer-service emails may contain consumer names, phone numbers, and home delivery addresses.",
+      "quote": "For your e-commerce customers, you have consumer names, home addresses, and phone numbers.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-25",
+      "topic": "customer data protection and transfer limits",
+      "time_qualifier": null,
+      "summary": "Several customer contracts, especially in pharma, restrict transfers of customer data outside the EU/EEA.",
+      "quote": "Several customer contracts (especially in pharma) include clauses restricting the transfer of customer data outside the EU/EEA.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 11"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-26",
+      "topic": "customer master data quality",
+      "time_qualifier": null,
+      "summary": "Customer master data is maintained separately in the WMS, TMS, and Business Central, with no shared customer identifier.",
+      "quote": "Customer master data is maintained separately in the WMS, TMS and Business Central, and there is no shared customer identifier between the systems.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 8"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-27",
+      "topic": "pallet data quality",
+      "time_qualifier": null,
+      "summary": "Pallet types are recorded inconsistently.",
+      "quote": "Pallet types recorded inconsistently",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "4. DATA AND SYSTEMS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-28",
+      "topic": "central data warehouse availability",
+      "time_qualifier": null,
+      "summary": "The company has no central data warehouse and relies on manual Excel exports for reporting.",
+      "quote": "There is no central data warehouse. Customer master data is maintained separately in the WMS, TMS and Business Central, and there is no shared customer identifier between the systems. Reporting relies on manual Excel exports prepared by the IT Manager.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 8"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-29",
+      "topic": "data ownership",
+      "time_qualifier": null,
+      "summary": "No data-owner roles are defined.",
+      "quote": "No data owner roles defined.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "4. DATA AND SYSTEMS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-30",
+      "topic": "route optimization data gap",
+      "time_qualifier": null,
+      "summary": "The TMS route-planning module does not use customers' actual unloading times, so planners often override its plans.",
+      "quote": "The TMS has a built-in route planning module. Planners use it for Vantaa-area distribution but override it often because \"it does not know the customers' unloading times\".",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "2. CURRENT USE OF AI AND DIGITAL TOOLS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-31",
+      "topic": "telematics data for predictive maintenance",
+      "time_qualifier": "since 2019-09",
+      "summary": "Telematics data includes vehicle position, fuel, and driving events, with about 120 million position points; it is available by CSV export but is not linked to shipments.",
+      "quote": "Telematics | Vehicle position, fuel, driving events | 2019-09 | approx. 120 M position points | Vendor cloud | CSV export | Fleet manager | Not linked to shipments",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Data_Inventory, row 9"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-32",
+      "topic": "predictive maintenance data availability",
+      "time_qualifier": null,
+      "summary": "Telematics data exists for the truck predictive-maintenance idea, but the fleet manager was not present at the meeting.",
+      "quote": "Predictive maintenance for the trucks, we have telematics data, but our fleet manager wasn't able to join today.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "9_data_requirement_assessment-33",
+      "topic": "workforce data availability",
+      "time_qualifier": "since 2021-01",
+      "summary": "Payroll and HR data includes about 250,000 time entries, is available by Excel export, and contains employee personal data.",
+      "quote": "Payroll / HR | Working hours, overtime, agency invoices | 2021-01 | approx. 250 k time entries | Payroll system | Excel export | HR manager | Contains employee personal data",
+      "source": {
+        "file": "operations_data_extract.xlsx",
+        "locator": "sheet Data_Inventory, row 11"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": [
+    {
+      "topic": "daily freight document volume",
+      "description": "The part 1 recording and meeting notes give an estimate of about 1,200 documents per day across all sites. The part 2 recording gives a lower estimate of around 1,000 on a normal working day based on the TMS document log, and notes that paper documents are counted when scanned. The instructions establish no source hierarchy, so the difference remains unresolved.",
+      "status": "unresolved",
+      "unit_ids": [
+        "9_data_requirement_assessment-01",
+        "9_data_requirement_assessment-02",
+        "9_data_requirement_assessment-03"
+      ]
+    }
+  ]
+}

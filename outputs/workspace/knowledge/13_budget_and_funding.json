@@ -1,0 +1,69 @@
+{
+  "section_id": "13_budget_and_funding",
+  "units": [
+    {
+      "id": "13_budget_and_funding-01",
+      "topic": "past AI investment",
+      "time_qualifier": "spring 2026",
+      "summary": "The company bought Microsoft Copilot licenses for 25 office employees as a pilot.",
+      "quote": "This spring we bought Microsoft co-pilot licenses for 25 office people as a pilot.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "13_budget_and_funding-02",
+      "topic": "proposed 2027 AI investment",
+      "time_qualifier": "2027",
+      "summary": "The board would be open to investing around €60,000–80,000 in AI-related projects if the first pilot showed results.",
+      "quote": "For 2027, I think the board would be open to investing around €60,000-80,000 in AI-related projects, if the first pilot shows results.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "13_budget_and_funding-03",
+      "topic": "proposed 2027 AI investment",
+      "time_qualifier": "2027",
+      "summary": "The budget proposal earmarks EUR 50,000 for digitalisation and AI pilots, in addition to ordinary IT operating costs.",
+      "quote": "Budget: The 2027 budget proposal earmarks EUR 50,000 for digitalisation and AI pilots, in addition to ordinary IT operating costs (approx. EUR 210,000 per year).",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 11"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "13_budget_and_funding-04",
+      "topic": "funding options considered",
+      "time_qualifier": "2 October 2026 meeting",
+      "summary": "The company was interested in public funding through Business Finland or the ELY Center and had not applied before.",
+      "quote": "We are also interested in public funding, Business Finland or the ELI Center, but we have never applied, so we would need help with that.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": [
+    {
+      "topic": "proposed 2027 AI investment",
+      "description": "The meeting recording says the board would be open to investing around €60,000–80,000 in AI-related projects if the first pilot shows results. The company overview says the 2027 budget proposal earmarks EUR 50,000 for digitalisation and AI pilots. The instructions specify no source priority, so the different figures are unresolved.",
+      "status": "unresolved",
+      "unit_ids": [
+        "13_budget_and_funding-02",
+        "13_budget_and_funding-03"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "section_id": "3_ai_maturity_level",
+  "units": [
+    {
+      "id": "3_ai_maturity_level-01",
+      "topic": "operational systems",
+      "time_qualifier": "2 October 2026 meeting",
+      "summary": "The company has a WMS, a TMS and EDI connections with key customers.",
+      "quote": "Your operational systems are quite digital, you have a WMS, a TMS, EDI with key customers",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "3_ai_maturity_level-02",
+      "topic": "AI use and governance",
+      "time_qualifier": "2 October 2026 meeting",
+      "summary": "AI use is individual, and the company has no AI strategy, policy or roadmap.",
+      "quote": "AI use is individual and there is no strategy, policy, or roadmap for it yet.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "3_ai_maturity_level-03",
+      "topic": "Copilot use",
+      "time_qualifier": "spring 2026 pilot",
+      "summary": "The company purchased Copilot licences for 25 office staff; usage was uneven, with some using it daily and others not opening it.",
+      "quote": "Microsoft 365 Copilot licences purchased for 25 office staff in spring 2026 as a pilot. Usage is uneven: some people use it daily for emails and meeting summaries, others \"have not opened it\".",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "2. CURRENT USE OF AI AND DIGITAL TOOLS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "3_ai_maturity_level-04",
+      "topic": "employee use of public AI tools",
+      "time_qualifier": "at the 2 October 2026 meeting",
+      "summary": "Several employees use free ChatGPT for translations and drafting customer letters; there is concern about customer data being entered into those tools.",
+      "quote": "Several employees use free ChatGPT for translations (Swedish, English, Estonian drivers) and for drafting customer letters. Jari is worried about customer data being pasted into free tools",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "2. CURRENT USE OF AI AND DIGITAL TOOLS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "3_ai_maturity_level-05",
+      "topic": "AI and machine learning in production",
+      "time_qualifier": "at the 2 October 2026 meeting",
+      "summary": "The company has no machine-learning models in production.",
+      "quote": "No machine learning models in production.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "2. CURRENT USE OF AI AND DIGITAL TOOLS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "3_ai_maturity_level-06",
+      "topic": "RPA automation",
+      "time_qualifier": "since 2023",
+      "summary": "A UiPath RPA bot matches supplier invoices to purchase orders in Business Central and handles about 70% of invoices automatically; the rest are handled manually. The bot is rule-based, not AI.",
+      "quote": "An RPA bot (UiPath) was implemented in 2023 for matching supplier invoices to purchase orders in Business Central. Works for ~70 % of invoices; the rest go to manual handling. This is rule-based, not AI, but it is the company's main automation experience.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "2. CURRENT USE OF AI AND DIGITAL TOOLS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "3_ai_maturity_level-07",
+      "topic": "IT team capacity",
+      "time_qualifier": "at the 2 October 2026 meeting",
+      "summary": "The IT function consists of one person, with SQL and Power BI skills but no Python or machine-learning experience.",
+      "quote": "One-person IT function (Jari). Good SQL and Power BI skills, no Python/ML experience.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "5. TECHNICAL CAPABILITY AND RESOURCES"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "3_ai_maturity_level-08",
+      "topic": "business motivation for AI",
+      "time_qualifier": "at the 2 October 2026 meeting",
+      "summary": "The company is facing margin pressure from rising wages and fuel costs and lower prices demanded by large retail customers; it wants to grow without hiring more office staff for each new customer.",
+      "quote": "Honestly, because our margins are getting thinner every year. Wages go up, fuel goes up, and the big retail customers push prices down. Several of the big retail contracts come up for renewal in 2027. We want to grow, but we cannot keep hiring more office people for every new customer.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "3_ai_maturity_level-09",
+      "topic": "manual office work reduction goal",
+      "time_qualifier": "by 2028",
+      "summary": "The company’s strategy sets a goal of reducing manual office work by 30% by 2028.",
+      "quote": "In our new strategy we have a goal to reduce manual office work by 30% by 2028.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "3_ai_maturity_level-10",
+      "topic": "AI maturity rating",
+      "time_qualifier": "preliminary assessment, autumn 2026",
+      "summary": "FAIR rated the company’s AI maturity as low.",
+      "quote": "Preliminary AI maturity rating by FAIR: LOW.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "2. CURRENT USE OF AI AND DIGITAL TOOLS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "3_ai_maturity_level-11",
+      "topic": "AI maturity justification",
+      "time_qualifier": "preliminary assessment, autumn 2026",
+      "summary": "The rating was supported by strong operational digitalisation but individual, ad hoc AI use, no AI strategy, policy or roadmap, and no AI-specific skills in house.",
+      "quote": "Strong operational digitalisation (WMS, TMS, EDI) but AI use is individual and ad hoc; no strategy, policy, roadmap or AI-specific skills in house.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "2. CURRENT USE OF AI AND DIGITAL TOOLS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "3_ai_maturity_level-12",
+      "topic": "proposed 2027 AI investment",
+      "time_qualifier": "2027",
+      "summary": "The CEO said the board would be open to investing around €60,000–80,000 in AI-related projects if the first pilot shows results.",
+      "quote": "For 2027, I think the board would be open to investing around €60,000-80,000 in AI-related projects, if the first pilot shows results.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "3_ai_maturity_level-13",
+      "topic": "proposed 2027 AI investment",
+      "time_qualifier": "2027 budget proposal",
+      "summary": "The strategy document’s 2027 budget proposal earmarks EUR 50,000 for digitalisation and AI pilots, in addition to ordinary IT operating costs; further investment would depend on pilot results.",
+      "quote": "Budget: The 2027 budget proposal earmarks EUR 50,000 for digitalisation and AI pilots, in addition to ordinary IT operating costs (approx. EUR 210,000 per year). Further investment will be decided based on pilot results.",
+      "source": {
+        "file": "company_overview_2026.pdf",
+        "locator": "page 11"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": [
+    {
+      "topic": "proposed 2027 AI investment",
+      "description": "The meeting recording says the board would be open to investing around €60,000–80,000 in AI-related projects if the first pilot shows results. The strategy document says the 2027 budget proposal earmarks EUR 50,000 for digitalisation and AI pilots, with further investment to be decided based on results. The meeting notes flag the strategy document as giving a different figure; the instructions establish no source hierarchy, so the discrepancy is unresolved.",
+      "status": "unresolved",
+      "unit_ids": [
+        "3_ai_maturity_level-11",
+        "3_ai_maturity_level-12"
+      ]
+    }
+  ]
+}

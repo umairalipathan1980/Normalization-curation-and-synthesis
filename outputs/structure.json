@@ -1,91 +1,138 @@
 [
   {
-    "title": "Report Details",
-    "prompt": "A short factual block that identifies the company, the assessment event, its date and type, and who took part from the company and from the advisory side.",
+    "title": "Assessment Details",
+    "prompt": "A two-column table of the key details of the assessment: company, industry, date, advisors and company participants.",
     "required_items": [
-      "the company's name, business ID and location",
-      "the date and type of the assessment meeting",
-      "the participants from the company and from the advisory side, with their roles"
-    ]
+      "company name and business ID",
+      "industry",
+      "assessment date",
+      "advisors and their roles",
+      "company participants and their titles"
+    ],
+    "summary_of": []
   },
   {
-    "title": "Executive Summary",
-    "prompt": "A concise summary of the company, its current AI maturity, the prioritised use cases and the main recommendations, in a few paragraphs.",
+    "title": "1. Executive Summary",
+    "prompt": "One paragraph: the company, its AI maturity, the top-priority use case and its expected benefit, and the main recommendation.",
+    "required_items": [],
     "summary_of": [
-      "Company Overview",
-      "AI Maturity Level",
-      "Identified Use Cases and Prioritisation",
-      "Recommendations"
+      "2. Company Overview",
+      "3. AI Maturity Level",
+      "4. Current Solution Development Stage",
+      "5. Identified Use Cases and Prioritisation",
+      "6. Validity of Concept and Authenticity of Problem Addressed",
+      "7. Integration and Importance of AI in the Idea",
+      "11. Technical Expertise and Capability",
+      "12. Risks, Compliance and Responsible AI",
+      "13. Budget and Funding",
+      "14. Expectations from FAIR Services"
     ]
   },
   {
-    "title": "Company Overview",
-    "prompt": "What the company does: its business, services, size, locations, customers and the strategic drivers behind its interest in AI."
-  },
-  {
-    "title": "AI Maturity Level",
-    "prompt": "The company's current use of AI and related automation, its digital foundations, and a classification of its AI maturity as Low, Moderate or High, with the reasons for it.",
-    "required_items": ["the AI maturity classification: Low, Moderate or High"]
-  },
-  {
-    "title": "Current Solution Development Stage",
-    "prompt": "Whether the company is at the ideation, prototyping or implementation stage, or already has an AI product in use, and what has been done so far toward it."
-  },
-  {
-    "title": "Identified Use Cases and Prioritisation",
-    "prompt": "The AI use cases that were identified, how they compare, and which one is prioritised first and why."
-  },
-  {
-    "title": "Validity of Concept and Authenticity of Problem Addressed",
-    "prompt": "Whether each use case addresses a real, measurable business problem, and how practical and feasible the proposed concepts are."
-  },
-  {
-    "title": "Integration and Importance of AI in the Idea",
-    "prompt": "How central AI is to each use case and how important it is for solving the problem, and how it would fit into the company's existing systems and work."
-  },
-  {
-    "title": "Identified Target Market and Customer Segments",
-    "prompt": "The company's customer segments and how clearly they are defined, and which of them the AI use cases serve."
-  },
-  {
-    "title": "Data Requirement Assessment",
-    "prompt": "The data each use case needs, whether the company has it, in what form and how far back, and what limits its use."
-  },
-  {
-    "title": "Data Collection Strategy",
-    "prompt": "Whether the company has a strategy for collecting, storing and using data, and what it consists of if it exists.",
-    "required_items": ["whether the company has a strategy for collecting, storing and using data"]
-  },
-  {
-    "title": "Technical Expertise and Capability",
-    "prompt": "The company's in-house technical skills and development capability, and what it depends on partners or vendors for."
-  },
-  {
-    "title": "Risks, Compliance and Responsible AI",
-    "prompt": "The main risks, regulatory and contractual constraints, and responsible-use concerns that affect adopting AI."
-  },
-  {
-    "title": "Budget and Funding",
-    "prompt": "What the company has invested in AI so far, what it is willing to invest next, and what funding options it is considering.",
+    "title": "2. Company Overview",
+    "prompt": "Founding and ownership, size, sites, services, customer segments, current pressures and strategic goals.",
     "required_items": [
-      "the budget the company has indicated for AI investment",
-      "the funding options the company is considering"
-    ]
+      "number of employees",
+      "latest annual revenue"
+    ],
+    "summary_of": []
   },
   {
-    "title": "Expectations from FAIR Services",
-    "prompt": "What the company expects from the advisory service and from the next phase of cooperation."
+    "title": "3. AI Maturity Level",
+    "prompt": "Current systems, current use of AI and automation, how the work is organised, and the company's motivation. End with the maturity rating and its justification.",
+    "required_items": [
+      "AI maturity rating: Low, Moderate or High"
+    ],
+    "summary_of": []
   },
   {
-    "title": "Recommendations",
-    "prompt": "Recommendations that follow from the assessment, as practical, specific points that combine analysis with guidance, in the order they should be taken up."
+    "title": "4. Current Solution Development Stage",
+    "prompt": "The stage of the AI work (for example ideation or pilot), the use cases identified so far, how the relevant processes run today, and the objectives.",
+    "required_items": [
+      "development stage of the AI solutions"
+    ],
+    "summary_of": []
   },
   {
-    "title": "Next Steps and Action Items",
-    "prompt": "The next steps agreed or proposed, with who is responsible for each and when, where stated."
+    "title": "5. Identified Use Cases and Prioritisation",
+    "prompt": "A table of the identified use cases with current process and pain point, expected benefit, feasibility and priority, followed by short prose on which use case comes first, which next and which is deferred, and why.",
+    "required_items": [],
+    "summary_of": []
+  },
+  {
+    "title": "6. Validity of Concept and Authenticity of Problem Addressed",
+    "prompt": "Evidence that the problems are real and measurable, and which concept is closest to implementation.",
+    "required_items": [],
+    "summary_of": []
+  },
+  {
+    "title": "7. Integration and Importance of AI in the Idea",
+    "prompt": "The role of AI in each use case, the technique, and how central it is compared with conventional methods or human work.",
+    "required_items": [],
+    "summary_of": []
+  },
+  {
+    "title": "8. Identified Target Market and Customer Segments",
+    "prompt": "The customer base and segments, attitudes, and which segments the AI initiatives would affect first.",
+    "required_items": [],
+    "summary_of": []
+  },
+  {
+    "title": "9. Data Requirement Assessment",
+    "prompt": "The data each use case needs, where it is held, its history and quality, and the gaps.",
+    "required_items": [],
+    "summary_of": []
+  },
+  {
+    "title": "10. Data Collection Strategy",
+    "prompt": "Data strategy, owners, how data is recorded and governed, and what is needed to close the gaps.",
+    "required_items": [],
+    "summary_of": []
+  },
+  {
+    "title": "11. Technical Expertise and Capability",
+    "prompt": "In-house skills, external partners, system landscape and readiness for change, and implications for delivery.",
+    "required_items": [],
+    "summary_of": []
+  },
+  {
+    "title": "12. Risks, Compliance and Responsible AI",
+    "prompt": "Technical, organisational and compliance risks, how public AI tools are used and governed, data protection and ownership, public-sector or regulatory mitigations.",
+    "required_items": [],
+    "summary_of": []
+  },
+  {
+    "title": "13. Budget and Funding",
+    "prompt": "Past investments in AI, the willingness to invest, the amount management is willing to commit, and funding options considered.",
+    "required_items": [
+      "the amount management is willing to invest in AI"
+    ],
+    "summary_of": []
+  },
+  {
+    "title": "14. Expectations from FAIR Services",
+    "prompt": "What the company expects from the advisory service: scoping, advice, policy, training and funding support.",
+    "required_items": [],
+    "summary_of": []
+  },
+  {
+    "title": "15. Recommendations",
+    "prompt": "A bulleted list of concrete recommendations made during the assessment: scope, data preparation, human-in-the-loop controls, what to postpone and why.",
+    "required_items": [],
+    "summary_of": []
+  },
+  {
+    "title": "16. Next Steps and Action Items",
+    "prompt": "A table of agreed action items with the person responsible and the deadline, and the next meeting.",
+    "required_items": [
+      "date of the next meeting"
+    ],
+    "summary_of": []
   },
   {
     "title": "Appendix: Sources",
-    "prompt": "A list of the source materials the assessment draws on, described by what each one is."
+    "prompt": "A bulleted list of the source materials used, each with its type and date.",
+    "required_items": [],
+    "summary_of": []
   }
 ]

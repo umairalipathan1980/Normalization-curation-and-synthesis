@@ -1,133 +1,148 @@
 {
-  "title": "AI Assessment and Consultation Report",
-  "description": "AI assessment and consultation report for a company, written from the advisory meeting recording and notes, company documents, data extracts and process material. Not sent to any model.",
+  "title": "AI Assessment and Consultation Report: Lumivaara Logistics",
+  "description": "FAIR AI advisory assessment report following the structure and style of sample_report.docx.",
   "language": "English",
   "sections": [
     {
-      "id": "report_details",
-      "title": "Report Details",
-      "instructions": "A short factual block that identifies the company, the assessment event, its date and type, and who took part from the company and from the advisory side.",
+      "id": "assessment_details",
+      "title": "Assessment Details",
+      "instructions": "A two-column table of the key details of the assessment: company, industry, date, advisors and company participants.",
       "required_items": [
-        "the company's name, business ID and location",
-        "the date and type of the assessment meeting",
-        "the participants from the company and from the advisory side, with their roles"
+        "company name and business ID",
+        "industry",
+        "assessment date",
+        "advisors and their roles",
+        "company participants and their titles"
       ]
     },
     {
-      "id": "executive_summary",
-      "title": "Executive Summary",
-      "instructions": "A concise summary of the company, its current AI maturity, the prioritised use cases and the main recommendations, in a few paragraphs.",
+      "id": "1_executive_summary",
+      "title": "1. Executive Summary",
+      "instructions": "One paragraph: the company, its AI maturity, the top-priority use case and its expected benefit, and the main recommendation.",
       "depends_on": [
-        "company_overview",
-        "ai_maturity_level",
-        "identified_use_cases_and_prioritisation",
-        "recommendations"
+        "2_company_overview",
+        "3_ai_maturity_level",
+        "4_current_solution_development_stage",
+        "5_identified_use_cases_and_prioritisation",
+        "6_validity_of_concept_and_authenticity_of_problem_addressed",
+        "7_integration_and_importance_of_ai_in_the_idea",
+        "11_technical_expertise_and_capability",
+        "12_risks_compliance_and_responsible_ai",
+        "13_budget_and_funding",
+        "14_expectations_from_fair_services"
       ]
     },
     {
-      "id": "company_overview",
-      "title": "Company Overview",
-      "instructions": "What the company does: its business, services, size, locations, customers and the strategic drivers behind its interest in AI."
-    },
-    {
-      "id": "ai_maturity_level",
-      "title": "AI Maturity Level",
-      "instructions": "The company's current use of AI and related automation, its digital foundations, and a classification of its AI maturity as Low, Moderate or High, with the reasons for it.",
+      "id": "2_company_overview",
+      "title": "2. Company Overview",
+      "instructions": "Founding and ownership, size, sites, services, customer segments, current pressures and strategic goals.",
       "required_items": [
-        "the AI maturity classification: Low, Moderate or High"
+        "number of employees",
+        "latest annual revenue"
       ]
     },
     {
-      "id": "current_solution_development_stage",
-      "title": "Current Solution Development Stage",
-      "instructions": "Whether the company is at the ideation, prototyping or implementation stage, or already has an AI product in use, and what has been done so far toward it."
-    },
-    {
-      "id": "identified_use_cases_and_prioritisation",
-      "title": "Identified Use Cases and Prioritisation",
-      "instructions": "The AI use cases that were identified, how they compare, and which one is prioritised first and why."
-    },
-    {
-      "id": "validity_of_concept_and_authenticity_of_problem_addressed",
-      "title": "Validity of Concept and Authenticity of Problem Addressed",
-      "instructions": "Whether each use case addresses a real, measurable business problem, and how practical and feasible the proposed concepts are."
-    },
-    {
-      "id": "integration_and_importance_of_ai_in_the_idea",
-      "title": "Integration and Importance of AI in the Idea",
-      "instructions": "How central AI is to each use case and how important it is for solving the problem, and how it would fit into the company's existing systems and work."
-    },
-    {
-      "id": "identified_target_market_and_customer_segments",
-      "title": "Identified Target Market and Customer Segments",
-      "instructions": "The company's customer segments and how clearly they are defined, and which of them the AI use cases serve."
-    },
-    {
-      "id": "data_requirement_assessment",
-      "title": "Data Requirement Assessment",
-      "instructions": "The data each use case needs, whether the company has it, in what form and how far back, and what limits its use."
-    },
-    {
-      "id": "data_collection_strategy",
-      "title": "Data Collection Strategy",
-      "instructions": "Whether the company has a strategy for collecting, storing and using data, and what it consists of if it exists.",
+      "id": "3_ai_maturity_level",
+      "title": "3. AI Maturity Level",
+      "instructions": "Current systems, current use of AI and automation, how the work is organised, and the company's motivation. End with the maturity rating and its justification.",
       "required_items": [
-        "whether the company has a strategy for collecting, storing and using data"
+        "AI maturity rating: Low, Moderate or High"
       ]
     },
     {
-      "id": "technical_expertise_and_capability",
-      "title": "Technical Expertise and Capability",
-      "instructions": "The company's in-house technical skills and development capability, and what it depends on partners or vendors for."
-    },
-    {
-      "id": "risks_compliance_and_responsible_ai",
-      "title": "Risks, Compliance and Responsible AI",
-      "instructions": "The main risks, regulatory and contractual constraints, and responsible-use concerns that affect adopting AI."
-    },
-    {
-      "id": "budget_and_funding",
-      "title": "Budget and Funding",
-      "instructions": "What the company has invested in AI so far, what it is willing to invest next, and what funding options it is considering.",
+      "id": "4_current_solution_development_stage",
+      "title": "4. Current Solution Development Stage",
+      "instructions": "The stage of the AI work (for example ideation or pilot), the use cases identified so far, how the relevant processes run today, and the objectives.",
       "required_items": [
-        "the budget the company has indicated for AI investment",
-        "the funding options the company is considering"
+        "development stage of the AI solutions"
       ]
     },
     {
-      "id": "expectations_from_fair_services",
-      "title": "Expectations from FAIR Services",
-      "instructions": "What the company expects from the advisory service and from the next phase of cooperation."
+      "id": "5_identified_use_cases_and_prioritisation",
+      "title": "5. Identified Use Cases and Prioritisation",
+      "instructions": "A table of the identified use cases with current process and pain point, expected benefit, feasibility and priority, followed by short prose on which use case comes first, which next and which is deferred, and why."
     },
     {
-      "id": "recommendations",
-      "title": "Recommendations",
-      "instructions": "Recommendations that follow from the assessment, as practical, specific points that combine analysis with guidance, in the order they should be taken up."
+      "id": "6_validity_of_concept_and_authenticity_of_problem_addressed",
+      "title": "6. Validity of Concept and Authenticity of Problem Addressed",
+      "instructions": "Evidence that the problems are real and measurable, and which concept is closest to implementation."
     },
     {
-      "id": "next_steps_and_action_items",
-      "title": "Next Steps and Action Items",
-      "instructions": "The next steps agreed or proposed, with who is responsible for each and when, where stated."
+      "id": "7_integration_and_importance_of_ai_in_the_idea",
+      "title": "7. Integration and Importance of AI in the Idea",
+      "instructions": "The role of AI in each use case, the technique, and how central it is compared with conventional methods or human work."
+    },
+    {
+      "id": "8_identified_target_market_and_customer_segments",
+      "title": "8. Identified Target Market and Customer Segments",
+      "instructions": "The customer base and segments, attitudes, and which segments the AI initiatives would affect first."
+    },
+    {
+      "id": "9_data_requirement_assessment",
+      "title": "9. Data Requirement Assessment",
+      "instructions": "The data each use case needs, where it is held, its history and quality, and the gaps."
+    },
+    {
+      "id": "10_data_collection_strategy",
+      "title": "10. Data Collection Strategy",
+      "instructions": "Data strategy, owners, how data is recorded and governed, and what is needed to close the gaps."
+    },
+    {
+      "id": "11_technical_expertise_and_capability",
+      "title": "11. Technical Expertise and Capability",
+      "instructions": "In-house skills, external partners, system landscape and readiness for change, and implications for delivery."
+    },
+    {
+      "id": "12_risks_compliance_and_responsible_ai",
+      "title": "12. Risks, Compliance and Responsible AI",
+      "instructions": "Technical, organisational and compliance risks, how public AI tools are used and governed, data protection and ownership, public-sector or regulatory mitigations."
+    },
+    {
+      "id": "13_budget_and_funding",
+      "title": "13. Budget and Funding",
+      "instructions": "Past investments in AI, the willingness to invest, the amount management is willing to commit, and funding options considered.",
+      "required_items": [
+        "the amount management is willing to invest in AI"
+      ]
+    },
+    {
+      "id": "14_expectations_from_fair_services",
+      "title": "14. Expectations from FAIR Services",
+      "instructions": "What the company expects from the advisory service: scoping, advice, policy, training and funding support."
+    },
+    {
+      "id": "15_recommendations",
+      "title": "15. Recommendations",
+      "instructions": "A bulleted list of concrete recommendations made during the assessment: scope, data preparation, human-in-the-loop controls, what to postpone and why."
+    },
+    {
+      "id": "16_next_steps_and_action_items",
+      "title": "16. Next Steps and Action Items",
+      "instructions": "A table of agreed action items with the person responsible and the deadline, and the next meeting.",
+      "required_items": [
+        "date of the next meeting"
+      ]
     },
     {
       "id": "appendix_sources",
       "title": "Appendix: Sources",
-      "instructions": "A list of the source materials the assessment draws on, described by what each one is."
+      "instructions": "A bulleted list of the source materials used, each with its type and date."
     }
   ],
-  "instructions": "- No source has automatic priority, by class or by date. Preserve unresolved contradictions concerning the same subject and applicable context; do not treat historical changes alone as contradictions.\n- Use the (missing: ...) marker only for the items listed as missing and for a section's required items, never for other information the sources do not give. Where the evidence is missing, do not invent anything: write only the marker and add no inferred or loosely related text for that item or section. When a section's only content is the missing marker, write nothing else in that section, even if loosely related facts exist.",
+  "instructions": "- No source has automatic priority, by class or by date. Preserve unresolved contradictions concerning the same subject and applicable context; do not treat historical changes alone as contradictions.\n- Cite each fact by its source file, and add the page, sheet or heading only when the source has one; recordings and photos have none, so cite them by file name alone.\n- Use the (missing: ...) marker only for the items listed as missing and for a section's required items, never for other information the sources do not give. Where the evidence is missing, do not invent anything: write only the marker and add no inferred or loosely related text for that item or section. When a section's only content is the missing marker, write nothing else in that section, even if loosely related facts exist.",
   "sources": {
     "primary": [
-      "inputs/advisory_meeting_notes.txt",
       "inputs/advisory_meeting_recording_part1.mp3",
       "inputs/advisory_meeting_recording_part2.mp3",
+      "inputs/advisory_meeting_recording_part3.mp3",
+      "inputs/advisory_meeting_notes.txt",
       "inputs/company_overview_2026.pdf",
       "inputs/operations_data_extract.xlsx",
       "inputs/process_map_freight_documents.png"
     ],
     "secondary": []
   },
-  "sample_report": "inputs/sample_report.docx",
+  "sample_report": "templates/sample_report.docx",
   "models": {
     "vision": null,
     "transcription": "gpt-4o-transcribe",
@@ -153,6 +168,6 @@
       "reasoning_effort": null,
       "temperature": null
     },
-    "citations": false
+    "citations": true
   }
 }

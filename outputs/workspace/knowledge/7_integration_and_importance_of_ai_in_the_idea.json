@@ -1,0 +1,215 @@
+{
+  "section_id": "7_integration_and_importance_of_ai_in_the_idea",
+  "units": [
+    {
+      "id": "7_integration_and_importance_of_ai_in_the_idea-01",
+      "topic": "freight document processing method",
+      "time_qualifier": "at advisory meeting, 2 October 2026",
+      "summary": "Six document clerks manually enter freight-document information into the transport system.",
+      "quote": "And then we have six document clerks, four in Vantaa, one in Tampere and one in Oulu, who type everything into our transport system by hand.",
+      "source": {
+        "file": "advisory_meeting_recording_part1.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "7_integration_and_importance_of_ai_in_the_idea-02",
+      "topic": "freight document processing method",
+      "time_qualifier": null,
+      "summary": "Clerks manually enter document data into the TMS and enter invoicing-relevant fields into Business Central.",
+      "quote": "Six document clerks (4 in Vantaa, 1 in Tampere, 1 in Oulu) key in the data manually into the TMS and, for invoicing-relevant fields, into Business Central.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "3.1 Freight document processing (highest priority for the company)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "7_integration_and_importance_of_ai_in_the_idea-03",
+      "topic": "freight document AI technique",
+      "time_qualifier": "at advisory meeting, 2 October 2026",
+      "summary": "The advisors proposed testing a vision language model on real documents, including poor-quality photos and handwritten remarks, and comparing its field-level accuracy with clerk entries.",
+      "quote": "And technically, we would test a vision language model on a sample of your real documents, including the bad photos and the handwritten remarks, and measure field level accuracy against what your clerks entered.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "7_integration_and_importance_of_ai_in_the_idea-04",
+      "topic": "freight document AI technique",
+      "time_qualifier": null,
+      "summary": "The advisors identified handwriting as the main risk for document extraction and said it must be tested on real samples.",
+      "quote": "Handwriting is the main risk; must be tested on real samples.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "7. ADVISORS' OBSERVATIONS (internal, Elina & Daniel)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "7_integration_and_importance_of_ai_in_the_idea-05",
+      "topic": "freight document human review",
+      "time_qualifier": "at advisory meeting, 2 October 2026",
+      "summary": "The desired document workflow is for the system to read documents and fill TMS fields, with a person checking uncertain documents.",
+      "quote": "Ideally, the system reads the document, finds the shipment, fills in the fields in the TMS, and a person only checks the uncertain ones.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "7_integration_and_importance_of_ai_in_the_idea-06",
+      "topic": "freight document damage detection",
+      "time_qualifier": "at advisory meeting, 2 October 2026",
+      "summary": "The proposed document system should flag damage remarks promptly so a claim can be made the same day.",
+      "quote": "And it should flag the damage remarks immediately, so the claim can be made the same day.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "7_integration_and_importance_of_ai_in_the_idea-07",
+      "topic": "freight document AI integration",
+      "time_qualifier": null,
+      "summary": "The proposed workflow extracts document fields into the TMS through its API, while a person checks uncertain results.",
+      "quote": "Fields extracted → TMS via API, human checks only uncertain ones",
+      "source": {
+        "file": "process_map_freight_documents.png",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "7_integration_and_importance_of_ai_in_the_idea-08",
+      "topic": "warehouse staffing planning method",
+      "time_qualifier": null,
+      "summary": "Staffing is currently planned weekly by shift supervisors using their experience and customer forecasts when available.",
+      "quote": "Every week the shift supervisors plan the staffing for each warehouse. They use experience, last week's volumes, and the forecasts customers send by email, if they send them.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "7_integration_and_importance_of_ai_in_the_idea-09",
+      "topic": "warehouse labour forecasting technique",
+      "time_qualifier": "at advisory meeting, 2 October 2026",
+      "summary": "The advisors described warehouse forecasting as classic time-series machine learning rather than generative AI.",
+      "quote": "It's classic time series machine learning, not really generative AI.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "7_integration_and_importance_of_ai_in_the_idea-10",
+      "topic": "warehouse labour forecasting assessment",
+      "time_qualifier": "at advisory meeting, 2 October 2026",
+      "summary": "The proposed first step for forecasting is to assess the WMS data; the work could become a thesis topic.",
+      "quote": "Second, for forecasting, the first step is a data assessment.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "7_integration_and_importance_of_ai_in_the_idea-11",
+      "topic": "customer service AI workflow",
+      "time_qualifier": "at advisory meeting, 2 October 2026",
+      "summary": "The proposed AI workflow would classify incoming emails, route them, retrieve shipment status from the TMS, and draft replies for agents.",
+      "quote": "So the idea would be to classify incoming emails, route them, look up the shipment status from the TMS, and draft a reply for the agent?",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "7_integration_and_importance_of_ai_in_the_idea-12",
+      "topic": "customer service human approval",
+      "time_qualifier": "at advisory meeting, 2 October 2026",
+      "summary": "Customer service replies are not intended to be fully automatic; an agent should approve each answer at least initially.",
+      "quote": "But not fully automatic replies. The agent should approve every answer, at least in the beginning.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "7_integration_and_importance_of_ai_in_the_idea-13",
+      "topic": "freight document processing priority",
+      "time_qualifier": "at advisory meeting, 2 October 2026",
+      "summary": "The advisors considered freight document processing the best candidate for the first proof of concept.",
+      "quote": "First, we think the freight document processing is the best candidate for a first proof of concept.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "7_integration_and_importance_of_ai_in_the_idea-14",
+      "topic": "route optimisation idea",
+      "time_qualifier": "at advisory meeting, 2 October 2026",
+      "summary": "Route optimisation was raised because planners override the TMS when it lacks customers' actual unloading times; a vendor update might be available in 2027.",
+      "quote": "Route optimization, because our TMS planning doesn't know the customer's real unloading times, so the planners override it. But the TMS vendor might have an update in 2027.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "7_integration_and_importance_of_ai_in_the_idea-15",
+      "topic": "predictive maintenance idea",
+      "time_qualifier": "at advisory meeting, 2 October 2026",
+      "summary": "Predictive maintenance for trucks was mentioned, and telematics data is available.",
+      "quote": "Predictive maintenance for the trucks, we have telematics data, but our fleet manager wasn't able to join today.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "7_integration_and_importance_of_ai_in_the_idea-16",
+      "topic": "customs declaration automation",
+      "time_qualifier": "at advisory meeting, 2 October 2026",
+      "summary": "Automatic customs declarations were mentioned as an idea, but Kaisa considered them too risky for now.",
+      "quote": "And Kaisa has mentioned automatic customs declarations, but she thinks that's too risky for now.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": []
+}

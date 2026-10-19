@@ -1,0 +1,150 @@
+{
+  "section_id": "14_expectations_from_fair_services",
+  "units": [
+    {
+      "id": "14_expectations_from_fair_services-01",
+      "topic": "proof-of-concept scoping support",
+      "time_qualifier": null,
+      "summary": "The company wanted FAIR to help choose and scope its first proof of concept, with freight document processing as its leading candidate.",
+      "quote": "Help to choose and scope the first proof of concept - the company leans towards freight document processing.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "6. EXPECTATIONS FROM FAIR"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "14_expectations_from_fair_services-02",
+      "topic": "technical advice on document extraction",
+      "time_qualifier": null,
+      "summary": "The company sought technical advice on document extraction, TMS API integration, and human-in-the-loop design.",
+      "quote": "Technical advice on document extraction approach (OCR vs. vision language models), on how to integrate with the TMS API, and on human-in-the-loop design.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "6. EXPECTATIONS FROM FAIR"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "14_expectations_from_fair_services-03",
+      "topic": "WMS data assessment for forecasting",
+      "time_qualifier": null,
+      "summary": "The company wanted an assessment of whether its WMS data was suitable for forecasting.",
+      "quote": "An assessment of whether the WMS data is good enough for forecasting.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "6. EXPECTATIONS FROM FAIR"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "14_expectations_from_fair_services-04",
+      "topic": "AI policy and compliance guidance",
+      "time_qualifier": null,
+      "summary": "The company sought guidance on an AI usage policy and on GDPR and AI Act obligations, particularly for customer service.",
+      "quote": "Guidance on an AI usage policy for staff, GDPR and AI Act obligations (especially for the customer service use case).",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "6. EXPECTATIONS FROM FAIR"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "14_expectations_from_fair_services-05",
+      "topic": "forecasting thesis support",
+      "time_qualifier": "spring 2027",
+      "summary": "The company was interested in possibly having a Master's thesis student work on forecasting in spring 2027.",
+      "quote": "Possibly a Master's thesis student for the forecasting topic (spring 2027).",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "6. EXPECTATIONS FROM FAIR"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "14_expectations_from_fair_services-06",
+      "topic": "funding application support",
+      "time_qualifier": null,
+      "summary": "The company wanted help with a funding application if the proof of concept looked promising.",
+      "quote": "Help with a funding application if the PoC looks promising.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "6. EXPECTATIONS FROM FAIR"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "14_expectations_from_fair_services-07",
+      "topic": "funding sources of interest",
+      "time_qualifier": null,
+      "summary": "The company was interested in public funding from Business Finland or the ELI Center and said it would need help applying.",
+      "quote": "We are also interested in public funding, Business Finland or the ELI Center, but we have never applied, so we would need help with that.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "14_expectations_from_fair_services-08",
+      "topic": "funding application assistance offered",
+      "time_qualifier": null,
+      "summary": "The advisors offered to help with parts of the funding application.",
+      "quote": "We can help with the funding part, at least with parts of the application.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "14_expectations_from_fair_services-09",
+      "topic": "AI policy and Copilot training recommendation",
+      "time_qualifier": null,
+      "summary": "The advisors recommended an AI usage policy and short practical Copilot training, regardless of the pilots.",
+      "quote": "And fourth, regardless of the pilots, we recommend an AI usage policy and short practical training on Copilot.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "14_expectations_from_fair_services-10",
+      "topic": "policy and funding materials offered",
+      "time_qualifier": null,
+      "summary": "The advisor said she would send an AI usage policy template and a list of possible funding instruments.",
+      "quote": "I'll send you an AI usage policy template and a list of possible funding instruments.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "14_expectations_from_fair_services-11",
+      "topic": "forecasting thesis support",
+      "time_qualifier": "spring 2027",
+      "summary": "The company said a thesis worker in spring 2027 would be welcome.",
+      "quote": "A thesis worker in spring 2027 would be great.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": []
+}

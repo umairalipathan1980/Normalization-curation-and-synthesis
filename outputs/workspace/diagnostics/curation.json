@@ -1,173 +1,230 @@
 {
-  "time": "2026-10-17T22:26:22+00:00",
+  "time": "2026-10-19T22:13:24+00:00",
   "usage": {
-    "completion_tokens": 68924,
-    "prompt_tokens": 596843,
-    "total_tokens": 665767
+    "completion_tokens": 99683,
+    "prompt_tokens": 788807,
+    "total_tokens": 888490
   },
-  "dropped": [],
+  "dropped": [
+    {
+      "section_id": "4_current_solution_development_stage",
+      "topic": "Warehouse staffing process",
+      "summary": "Shift supervisors plan staffing weekly using experience, previous weeks’ volumes and customer forecasts sent by email when available; about a third of key customers send forecasts regularly.",
+      "quote": "Staffing for each warehouse is planned weekly by shift supervisors using experience, last week's volumes, and the forecasts customers send by email (if they send them). Only about a third of the key customers send forecasts regularly.",
+      "file": "advisory_meeting_notes.txt",
+      "reason": "quote not found in source"
+    },
+    {
+      "section_id": "14_expectations_from_fair_services",
+      "topic": "funding sources of interest",
+      "summary": "The company was interested in Business Finland or ELY Centre funding and had not applied before.",
+      "quote": "interested in Business Finland or ELY Centre funding. Has not applied before.",
+      "file": "advisory_meeting_notes.txt",
+      "reason": "quote not found in source"
+    },
+    {
+      "section_id": "appendix_sources",
+      "topic": "source date — freight document process map",
+      "summary": "The process map is dated 24 Sept 2026.",
+      "quote": "Lumavaara Logistics Oy · Process mapping workshop, Vantaa, 24 Sept 2026 · drawn by M. Saarinen & J. Koskela",
+      "file": "process_map_freight_documents.png",
+      "reason": "quote not found in source"
+    }
+  ],
   "sections": {
-    "report_details": {
-      "units": 14,
-      "missing": [],
-      "unresolved_conflicts": [
-        {
-          "topic": "company name",
-          "description": "The meeting notes and company overview identify the company as Lumivaara Logistics Oy, while the recording transcript calls it Lumavara Logistics. The instructions give no source priority, so the discrepancy is unresolved."
-        },
-        {
-          "topic": "FAIR advisory participants and roles",
-          "description": "The notes name Elina Rautio as the business advisor and Daniel Okafor as the technical advisor; the recording transcript gives Alina Rocchio and Daniel Akifer for those roles. The instructions give no source priority, so the name discrepancies are unresolved."
-        },
-        {
-          "topic": "Anna Virtanen's meeting attendance",
-          "description": "The notes say Anna Virtanen joined for the customer service part, while the recording transcript says she could not join because she was covering the phone line. The instructions give no source priority, so her attendance is unresolved."
-        }
-      ],
-      "resolved_conflicts": []
-    },
-    "company_overview": {
-      "units": 13,
-      "missing": [],
-      "unresolved_conflicts": [],
-      "resolved_conflicts": []
-    },
-    "ai_maturity_level": {
-      "units": 12,
-      "missing": [],
-      "unresolved_conflicts": [],
-      "resolved_conflicts": []
-    },
-    "current_solution_development_stage": {
-      "units": 10,
-      "missing": [],
-      "unresolved_conflicts": [],
-      "resolved_conflicts": []
-    },
-    "identified_use_cases_and_prioritisation": {
-      "units": 15,
-      "missing": [],
-      "unresolved_conflicts": [
-        {
-          "topic": "freight document volume estimate",
-          "description": "The meeting notes record Mikko’s estimate of about 1,200 documents per day across all sites. The recording gives a TMS-log-based estimate of around 1,000 on a normal working day (while also recording a separate estimate of about 1,200). The instructions establish no source priority, so the volume disagreement is unresolved."
-        }
-      ],
-      "resolved_conflicts": []
-    },
-    "validity_of_concept_and_authenticity_of_problem_addressed": {
-      "units": 28,
-      "missing": [],
-      "unresolved_conflicts": [
-        {
-          "topic": "freight document volume estimate",
-          "description": "The meeting notes estimate about 1,200 documents per day across all sites. The recording gives an alternative estimate of around 1,000 on a normal working day from the TMS log and notes that scanning practices affect the count. The instructions establish no source priority, so the estimates remain unresolved."
-        },
-        {
-          "topic": "AI pilot budget",
-          "description": "The company overview describes a 2027 budget proposal earmarking EUR 50,000 for digitalisation and AI pilots. The meeting notes report that the board would be open to investing EUR 60,000–80,000 in AI-related projects in 2027 if the first pilot shows results. The sources do not establish priority or reconcile the different figures, so the conflict is unresolved."
-        }
-      ],
-      "resolved_conflicts": []
-    },
-    "integration_and_importance_of_ai_in_the_idea": {
-      "units": 22,
-      "missing": [],
-      "unresolved_conflicts": [
-        {
-          "topic": "freight document volume estimate",
-          "description": "The meeting notes give an estimate of about 1,200 documents per day across all sites. The recording gives an estimate of around 1,000 on a normal working day based on the TMS log, with a caveat that paper documents are counted when scanned. The sources provide no hierarchy that resolves the differing estimates."
-        }
-      ],
-      "resolved_conflicts": []
-    },
-    "identified_target_market_and_customer_segments": {
-      "units": 17,
-      "missing": [],
-      "unresolved_conflicts": [],
-      "resolved_conflicts": []
-    },
-    "data_requirement_assessment": {
+    "assessment_details": {
       "units": 19,
       "missing": [],
       "unresolved_conflicts": [
         {
-          "topic": "freight document daily volume",
-          "description": "The meeting notes give an estimate of about 1,200 documents per day across all sites. The recording gives a lower estimate of around 1,000 on a normal working day according to the TMS document log. The sources do not establish which estimate to follow, so the discrepancy is unresolved."
+          "topic": "company name",
+          "description": "The recording says “Lumavara Logistics”; the meeting notes say “Lumivaara Logistics Oy.” The instructions establish no source priority, so the difference in spelling and legal suffix is unresolved."
+        },
+        {
+          "topic": "business advisor",
+          "description": "The recording names Alina Rossio as the business advisor; the meeting notes name Elina Rautio. The instructions establish no source priority, so the differing name is unresolved."
+        },
+        {
+          "topic": "operations director participant",
+          "description": "The recording names Miko Saranen as operations director; the meeting notes name Mikko Saarinen. The instructions establish no source priority, so the differing name is unresolved."
+        },
+        {
+          "topic": "IT manager participant",
+          "description": "The recording names Yari Kaskila as IT manager; the meeting notes name Jari Koskela. The instructions establish no source priority, so the differing name is unresolved."
+        },
+        {
+          "topic": "customer service team lead participant",
+          "description": "The recording says Anna, the customer service team lead, did not join because she was covering the phone line; the meeting notes name Anna Virtanen and say she joined for the customer service part. The instructions establish no source priority, so her attendance is unresolved."
         }
       ],
       "resolved_conflicts": []
     },
-    "data_collection_strategy": {
-      "units": 2,
-      "missing": [],
-      "unresolved_conflicts": [],
-      "resolved_conflicts": []
-    },
-    "technical_expertise_and_capability": {
-      "units": 8,
-      "missing": [],
-      "unresolved_conflicts": [],
-      "resolved_conflicts": []
-    },
-    "risks_compliance_and_responsible_ai": {
-      "units": 18,
+    "2_company_overview": {
+      "units": 28,
       "missing": [],
       "unresolved_conflicts": [
         {
-          "topic": "Contractual limits on data transfers",
-          "description": "The company overview says several customer contracts, especially in pharma, restrict transfer of customer data outside the EU/EEA. The meeting recording says some pharma customer contracts restrict data transfers outside the EU. The stated geographic boundary differs; the instructions give no source priority, so the scope of the contractual restriction remains unresolved."
+          "topic": "employee count",
+          "description": "The recording and meeting notes estimate around/about 130 employees, with agency staff additional; the company overview gives 134 people measured as full-time equivalents at the end of 2025. The discrepancy is unresolved because no source hierarchy determines which figure to follow, and the sources describe the measure differently."
         }
       ],
       "resolved_conflicts": []
     },
-    "budget_and_funding": {
-      "units": 7,
+    "3_ai_maturity_level": {
+      "units": 13,
       "missing": [],
       "unresolved_conflicts": [
         {
-          "topic": "2027 AI investment budget",
-          "description": "The meeting notes and recording say the board would be open to investing EUR 60,000–80,000 in AI-related projects if the first pilot shows results. The company overview says the 2027 budget proposal earmarks EUR 50,000 for digitalisation and AI pilots. The report instructions give no source priority, so the different budget figures remain unresolved."
+          "topic": "proposed 2027 AI investment",
+          "description": "The meeting recording says the board would be open to investing around €60,000–80,000 in AI-related projects if the first pilot shows results. The strategy document says the 2027 budget proposal earmarks EUR 50,000 for digitalisation and AI pilots, with further investment to be decided based on results. The meeting notes flag the strategy document as giving a different figure; the instructions establish no source hierarchy, so the discrepancy is unresolved."
         }
       ],
       "resolved_conflicts": []
     },
-    "expectations_from_fair_services": {
-      "units": 17,
+    "4_current_solution_development_stage": {
+      "units": 24,
       "missing": [],
       "unresolved_conflicts": [
         {
-          "topic": "document-log data requested for 2025",
-          "description": "The meeting notes specify the TMS document log for 2025 (unit 10), while the recording refers to the DMS document log for 2025 (unit 13). The instructions give no source priority to resolve this difference."
+          "topic": "Freight document volume estimate",
+          "description": "Unit 4 reports Miko’s estimate of around 1,200 documents per day across all sites. Unit 5 gives a lower estimate of around 1,000 on a normal working day according to the TMS log, while noting that paper documents are counted when scanned and that the count depends on how it is measured. The report instructions establish no source priority, so the estimates remain unresolved."
         }
       ],
       "resolved_conflicts": []
     },
-    "recommendations": {
-      "units": 12,
+    "5_identified_use_cases_and_prioritisation": {
+      "units": 29,
       "missing": [],
       "unresolved_conflicts": [
         {
-          "topic": "daily freight document volume estimate",
-          "description": "The meeting notes record Mikko's estimate of about 1,200 documents per day across all sites. The recording gives a TMS-document-log estimate of around 1,000 on a normal working day. The notes say the estimate should be checked against volume data; the instructions establish no source priority, so the discrepancy is unresolved."
+          "topic": "next use case in sequence",
+          "description": "The meeting recording presents forecasting as second after document processing (unit 24), and customer service as third (unit 25). The meeting notes instead call email triage a good second step once an AI policy exists (unit 26). The instructions establish no source hierarchy to resolve this disagreement."
         }
       ],
       "resolved_conflicts": []
     },
-    "next_steps_and_action_items": {
+    "6_validity_of_concept_and_authenticity_of_problem_addressed": {
       "units": 20,
       "missing": [],
       "unresolved_conflicts": [
         {
-          "topic": "forecasting and document-log data export",
-          "description": "The meeting notes specify exporting the TMS document log for 2025. The recording says to provide the DMS document log for 2025. The report instructions give no source hierarchy that resolves this difference."
+          "topic": "freight documents received per day",
+          "description": "The part 1 recording gives Mikko's estimate of about 1,200 documents per day across all sites. The part 2 recording gives a lower estimate of around 1,000 on a normal working day based on the TMS document log, while noting that paper documents are registered when scanned. The instructions give no source priority, so the estimates remain unresolved."
         }
       ],
       "resolved_conflicts": []
     },
-    "appendix_sources": {
-      "units": 6,
+    "7_integration_and_importance_of_ai_in_the_idea": {
+      "units": 16,
       "missing": [],
+      "unresolved_conflicts": [],
+      "resolved_conflicts": []
+    },
+    "8_identified_target_market_and_customer_segments": {
+      "units": 20,
+      "missing": [],
+      "unresolved_conflicts": [
+        {
+          "topic": "pharma customer data transfer restrictions",
+          "description": "The meeting recording says some pharma customer contracts restrict data transfers outside the EU, while the company overview says several customer contracts, especially in pharma, restrict transfers outside the EU/EEA. The sources describe different geographic boundaries for the restrictions, and the instructions provide no hierarchy to resolve the difference."
+        }
+      ],
+      "resolved_conflicts": []
+    },
+    "9_data_requirement_assessment": {
+      "units": 33,
+      "missing": [],
+      "unresolved_conflicts": [
+        {
+          "topic": "daily freight document volume",
+          "description": "The part 1 recording and meeting notes give an estimate of about 1,200 documents per day across all sites. The part 2 recording gives a lower estimate of around 1,000 on a normal working day based on the TMS document log, and notes that paper documents are counted when scanned. The instructions establish no source hierarchy, so the difference remains unresolved."
+        }
+      ],
+      "resolved_conflicts": []
+    },
+    "10_data_collection_strategy": {
+      "units": 16,
+      "missing": [],
+      "unresolved_conflicts": [
+        {
+          "topic": "data ownership governance",
+          "description": "The meeting notes state that no data owner roles are defined (unit 1), whereas the data inventory includes data-owner assignments, such as Operations Director (unit 2). The instructions specify no source priority, so the difference is unresolved."
+        },
+        {
+          "topic": "freight document volume estimate",
+          "description": "One estimate is around 1,200 documents per day across all sites (unit 13); another is around 1,000 on a normal working day based on the TMS log, with the caveat that paper documents are counted when scanned (unit 14). No source hierarchy resolves the differing estimates."
+        }
+      ],
+      "resolved_conflicts": []
+    },
+    "11_technical_expertise_and_capability": {
+      "units": 15,
+      "missing": [],
+      "unresolved_conflicts": [
+        {
+          "topic": "IT manager identity",
+          "description": "The meeting recording identifies the IT manager as Yari Kaskila (unit 1), while the meeting notes identify the one-person IT function as Jari (unit 2). The report instructions set no source hierarchy to resolve the discrepancy."
+        },
+        {
+          "topic": "AI project budget",
+          "description": "The meeting recording says the board may be open to investing around EUR 60,000–80,000 in AI-related projects in 2027 if the first pilot shows results (unit 14). The company overview says the 2027 budget proposal earmarks EUR 50,000 for digitalisation and AI pilots, with further investment decided based on pilot results (unit 15). The sources do not establish a hierarchy that resolves these figures."
+        }
+      ],
+      "resolved_conflicts": []
+    },
+    "12_risks_compliance_and_responsible_ai": {
+      "units": 19,
+      "missing": [],
+      "unresolved_conflicts": [
+        {
+          "topic": "use of public AI tools with customer data",
+          "description": "Unit 2 records the CEO's uncertainty about whether customer data is entered into the tools. Unit 18 characterizes public AI use with customer data as an existing risk. The sources do not establish whether this use is confirmed or remains uncertain, and no source hierarchy resolves the difference."
+        },
+        {
+          "topic": "contractual data-transfer restrictions",
+          "description": "Unit 7 says some pharma customer contracts restrict transfers outside the EU; unit 15 says several customer contracts, especially in pharma, restrict transfers outside the EU/EEA. The geographic scope differs, and no source hierarchy resolves which boundary applies."
+        }
+      ],
+      "resolved_conflicts": []
+    },
+    "13_budget_and_funding": {
+      "units": 4,
+      "missing": [],
+      "unresolved_conflicts": [
+        {
+          "topic": "proposed 2027 AI investment",
+          "description": "The meeting recording says the board would be open to investing around €60,000–80,000 in AI-related projects if the first pilot shows results. The company overview says the 2027 budget proposal earmarks EUR 50,000 for digitalisation and AI pilots. The instructions specify no source priority, so the different figures are unresolved."
+        }
+      ],
+      "resolved_conflicts": []
+    },
+    "14_expectations_from_fair_services": {
+      "units": 11,
+      "missing": [],
+      "unresolved_conflicts": [],
+      "resolved_conflicts": []
+    },
+    "15_recommendations": {
+      "units": 23,
+      "missing": [],
+      "unresolved_conflicts": [],
+      "resolved_conflicts": []
+    },
+    "16_next_steps_and_action_items": {
+      "units": 14,
+      "missing": [],
+      "unresolved_conflicts": [],
+      "resolved_conflicts": []
+    },
+    "appendix_sources": {
+      "units": 8,
+      "missing": [
+        "source type for advisory_meeting_recording_part1.mp3",
+        "source type for advisory_meeting_recording_part2.mp3",
+        "source date for advisory_meeting_recording_part2.mp3",
+        "source type for advisory_meeting_recording_part3.mp3",
+        "source date for advisory_meeting_recording_part3.mp3"
+      ],
       "unresolved_conflicts": [],
       "resolved_conflicts": []
     }

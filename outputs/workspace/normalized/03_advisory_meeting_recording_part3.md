@@ -1,0 +1,49 @@
+Thank you, this was very useful.
+
+Thank you Kaisa. Miko, there was a third use case, about customer service.
+
+Yes. Anna, our customer service team lead, would have joined but she's covering the phone line right now, so I'll explain. The team has seven people and one shared mailbox. Roughly 380 emails a day, in December over 600. About half are track and trace questions, where is my shipment? Then booking changes, delivery time requests, damage claims, invoicing questions and quote requests that should go to sales but often stay in the mailbox for days.
+
+And response times?
+
+Our target is four working hours. In peak periods the average is around nine hours. We have no ticketing system, just the Outlook mailbox and flags.
+
+So the idea would be to classify incoming emails, route them, look up the shipment status from the TMS, and draft a reply for the agent?
+
+Exactly. But not fully automatic replies. The agent should approve every answer, at least in the beginning.
+
+That is a sensible approach. One thing to keep in mind is that these emails contain personal data. For your e-commerce customers, you have consumer names, home addresses, and phone numbers. So there are GDPR questions, where the data is processed, and transparency obligations under the AI Act. Also, Jari, I understood that some pharma customer contracts restrict data transfers outside the EU.
+
+Yes, that's right. So any AI service would need to run in the EU.
+
+That is solvable, the major cloud providers offer EU data residency. But it's another reason to have the AI policy in place first.
+
+Were there other ideas you want to mention?
+
+Route optimization, because our TMS planning doesn't know the customer's real unloading times, so the planners override it. But the TMS vendor might have an update in 2027. Predictive maintenance for the trucks, we have telematics data, but our fleet manager wasn't able to join today. And Kaisa has mentioned automatic customs declarations, but she thinks that's too risky for now.
+
+OK. Let me summarize how we see it, and Daniel, please add. First, we think the freight document processing is the best candidate for a first proof of concept. High volume, a clear baseline with clerk hours and error rates, and a clear business case. We would suggest starting narrow, with one document type, the proof of delivery, and one site, Vantaa, and then scaling if it works.
+
+And technically, we would test a vision language model on a sample of your real documents, including the bad photos and the handwritten remarks, and measure field level accuracy against what your clerks entered. The human in the loop design is important, the model gives a confidence level, and only uncertain documents go to a person. And because you have only one IT person, the solution must be low maintenance, or operated by a partner.
+
+That would be important for me, yes. I can't run another system on my own.
+
+Second, for forecasting, the first step is a data assessment. Send us the WMS volumes and we'll check whether the data is good enough. That could become a thesis topic. Third, the customer service case is technically quite easy, but it has the most compliance work, so it's a good second step once you have an AI usage policy. And fourth, regardless of the pilots, we recommend an AI usage policy and short practical training on Copilot. That is a quick win.
+
+That makes sense. What do you need from us?
+
+For the document pilot, a sample of about 200 real documents, anonymized, a mix of types, sites, and languages, and at least 50 with handwritten remarks. And if possible, what the clerks actually entered for those documents, so we can compare.
+
+I can do that by the end of October. And the WMS daily volumes per site since 2020, plus the TMS document log for 2025.
+
+I'll also do a one-week time study in Vantaa, so we know exactly how long each document type takes.
+
+Perfect. From our side, Daniel will prepare a short note on the document extraction options and an outline for the proof of concept, and I'll send you an AI usage policy template and a list of possible funding instruments. Shall we meet again in about six weeks? Maybe on site in Vantaa, so we can see the documents in real life?
+
+Yes. How about the 12th of November?
+
+The 12th of November works for us. And just so you know, our advisory services are free of charge up to a certain number of hours, and we'll let you know well in advance if we get close to that limit.
+
+Very good. Thank you both, this was really helpful.
+
+Thank you, and see you in November.

@@ -1,0 +1,306 @@
+{
+  "section_id": "15_recommendations",
+  "units": [
+    {
+      "id": "15_recommendations-01",
+      "topic": "first proof-of-concept use case",
+      "time_qualifier": null,
+      "summary": "Freight document processing was identified as the best candidate for the first proof of concept because it has high volume, a measurable baseline and a clear business case.",
+      "quote": "First, we think the freight document processing is the best candidate for a first proof of concept. High volume, a clear baseline with clerk hours and error rates, and a clear business case.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "15_recommendations-02",
+      "topic": "first proof-of-concept use case",
+      "time_qualifier": null,
+      "summary": "The advisors identified document processing as the best first candidate, citing its high volume and measurable baseline.",
+      "quote": "Document processing is the best first candidate: high volume, measurable baseline (clerk hours, error rate), clear ROI, and modern vision language models handle mixed-quality photos and multilingual documents reasonably well.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "7. ADVISORS' OBSERVATIONS (internal, Elina & Daniel)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "15_recommendations-03",
+      "topic": "proof-of-concept scope",
+      "time_qualifier": null,
+      "summary": "The advisors recommended starting with proof-of-delivery documents at the Vantaa site and scaling if the pilot works.",
+      "quote": "We would suggest starting narrow, with one document type, the proof of delivery, and one site, Vantaa, and then scaling if it works.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "15_recommendations-04",
+      "topic": "proof-of-concept scope",
+      "time_qualifier": null,
+      "summary": "The advisors recommended beginning with one document type, POD, at one site, Vantaa, before scaling.",
+      "quote": "Start with one document type (POD) and one site (Vantaa) before scaling.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "7. ADVISORS' OBSERVATIONS (internal, Elina & Daniel)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "15_recommendations-05",
+      "topic": "proof-of-concept scope",
+      "time_qualifier": null,
+      "summary": "The workshop listed starting the pilot with Vantaa PODs as a possible approach.",
+      "quote": "Pilot: PODs in Vantaa first?",
+      "source": {
+        "file": "process_map_freight_documents.png",
+        "locator": "Ideas from the workshop (TO-BE)"
+      },
+      "source_class": "primary",
+      "confidence": "medium"
+    },
+    {
+      "id": "15_recommendations-06",
+      "topic": "document pilot testing",
+      "time_qualifier": null,
+      "summary": "The advisors recommended testing a vision language model on real documents, including poor-quality photos and handwritten remarks, and measuring field-level accuracy against clerk entries.",
+      "quote": "And technically, we would test a vision language model on a sample of your real documents, including the bad photos and the handwritten remarks, and measure field level accuracy against what your clerks entered.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "15_recommendations-07",
+      "topic": "document pilot testing",
+      "time_qualifier": null,
+      "summary": "The advisors identified handwriting as the main risk and said it should be tested on real samples.",
+      "quote": "Handwriting is the main risk; must be tested on real samples.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "7. ADVISORS' OBSERVATIONS (internal, Elina & Daniel)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "15_recommendations-08",
+      "topic": "human review of document extraction",
+      "time_qualifier": null,
+      "summary": "The proposed design gives the model a confidence level and sends only uncertain documents to a person for checking.",
+      "quote": "The human in the loop design is important, the model gives a confidence level, and only uncertain documents go to a person.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "15_recommendations-09",
+      "topic": "human review of document extraction",
+      "time_qualifier": null,
+      "summary": "The workshop proposed routing only uncertain extracted documents to human review.",
+      "quote": "Fields extracted → TMS via API, human checks only uncertain ones",
+      "source": {
+        "file": "process_map_freight_documents.png",
+        "locator": "Ideas from the workshop (TO-BE)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "15_recommendations-10",
+      "topic": "document pilot sample preparation",
+      "time_qualifier": "by the end of October",
+      "summary": "The advisors requested about 200 anonymized real documents covering different types, sites and languages, including at least 50 with handwritten remarks, and clerk-entered data if available for comparison.",
+      "quote": "For the document pilot, a sample of about 200 real documents, anonymized, a mix of types, sites, and languages, and at least 50 with handwritten remarks. And if possible, what the clerks actually entered for those documents, so we can compare.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "15_recommendations-11",
+      "topic": "document pilot sample preparation",
+      "time_qualifier": "by 30 October 2026",
+      "summary": "The action items specify an anonymized sample of 200 freight documents across types, sites and languages, including at least 50 with handwritten remarks.",
+      "quote": "[ ] Jari: send anonymised sample of 200 freight documents (mix of types, sites, languages, at least\n    50 with handwritten remarks) - by 30 October 2026.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "8. ACTION ITEMS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "15_recommendations-12",
+      "topic": "document pilot data preparation",
+      "time_qualifier": "by 30 October 2026",
+      "summary": "The action items request daily WMS volumes per site for 2020–2026 and the 2025 TMS document log.",
+      "quote": "[ ] Jari: export daily WMS volumes per site 2020-2026 and the TMS document log for 2025 - by\n    30 October 2026.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "8. ACTION ITEMS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "15_recommendations-13",
+      "topic": "document-processing time study",
+      "time_qualifier": "one week",
+      "summary": "A one-week time study in Vantaa was planned to establish the time taken for each document type.",
+      "quote": "I'll also do a one-week time study in Vantaa, so we know exactly how long each document type takes.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "15_recommendations-14",
+      "topic": "document-processing time study",
+      "time_qualifier": "one week",
+      "summary": "The action items assign a one-week time study in Vantaa to collect current clerk time per document type.",
+      "quote": "[ ] Mikko: collect current clerk time per document type (one-week time study in Vantaa).",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "8. ACTION ITEMS"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "15_recommendations-15",
+      "topic": "TMS integration for document pilot",
+      "time_qualifier": "for a pilot",
+      "summary": "The advisor said a record-by-record API should be sufficient for a pilot because documents are processed one at a time; historical export is more relevant to forecasting.",
+      "quote": "For a pilot, a record-by-record API is usually enough, because you process documents one by one anyway. The historical export matters more for the forecasting case.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "15_recommendations-16",
+      "topic": "forecasting thesis",
+      "time_qualifier": null,
+      "summary": "The advisor said forecasting could be a good topic for a master's thesis.",
+      "quote": "It could be a good topic for a master's thesis student.",
+      "source": {
+        "file": "advisory_meeting_recording_part2.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "15_recommendations-17",
+      "topic": "customer service use-case sequencing",
+      "time_qualifier": null,
+      "summary": "The customer service case was described as technically quite easy but requiring the most compliance work, and was recommended as a second step after an AI usage policy is in place.",
+      "quote": "Third, the customer service case is technically quite easy, but it has the most compliance work, so it's a good second step once you have an AI usage policy.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "15_recommendations-18",
+      "topic": "customer service use-case sequencing",
+      "time_qualifier": null,
+      "summary": "The advisors described email triage as a good second step after an AI policy exists because it has the most compliance work.",
+      "quote": "Email triage is relatively easy technically but has the most compliance work; good second step once an AI policy exists.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "7. ADVISORS' OBSERVATIONS (internal, Elina & Daniel)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "15_recommendations-19",
+      "topic": "AI usage policy and training",
+      "time_qualifier": null,
+      "summary": "The advisors recommended an AI usage policy and short practical Copilot training as quick wins, regardless of the pilots.",
+      "quote": "And fourth, regardless of the pilots, we recommend an AI usage policy and short practical training on Copilot. That is a quick win.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "15_recommendations-20",
+      "topic": "AI usage policy and training",
+      "time_qualifier": null,
+      "summary": "The advisors characterized an AI usage policy and short Copilot training as quick wins regardless of the proof of concept.",
+      "quote": "An AI usage policy and short Copilot training are quick wins regardless of the PoC.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "7. ADVISORS' OBSERVATIONS (internal, Elina & Daniel)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "15_recommendations-21",
+      "topic": "solution maintenance",
+      "time_qualifier": null,
+      "summary": "The advisors said the solution should require little maintenance or be operated by a partner because the company has only one IT person.",
+      "quote": "And because you have only one IT person, the solution must be low maintenance, or operated by a partner.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "15_recommendations-22",
+      "topic": "solution maintenance",
+      "time_qualifier": null,
+      "summary": "The advisors identified the single-person IT function as a risk and said any solution must be low-maintenance or partner-operated.",
+      "quote": "Risk: single IT person = bottleneck. Any solution must be low-maintenance or partner-operated.",
+      "source": {
+        "file": "advisory_meeting_notes.txt",
+        "locator": "7. ADVISORS' OBSERVATIONS (internal, Elina & Daniel)"
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    },
+    {
+      "id": "15_recommendations-23",
+      "topic": "customs declaration automation",
+      "time_qualifier": "for now",
+      "summary": "Automatic customs declarations were considered too risky to pursue for now.",
+      "quote": "And Kaisa has mentioned automatic customs declarations, but she thinks that's too risky for now.",
+      "source": {
+        "file": "advisory_meeting_recording_part3.mp3",
+        "locator": null
+      },
+      "source_class": "primary",
+      "confidence": "high"
+    }
+  ],
+  "missing": [],
+  "conflicts": []
+}

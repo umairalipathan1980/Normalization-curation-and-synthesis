@@ -1,13 +1,37 @@
 {
-  "time": "2026-10-17T22:20:18+00:00",
+  "time": "2026-10-19T22:05:02+00:00",
   "usage": {
-    "prompt_tokens": 13290,
-    "completion_tokens": 3479,
-    "total_tokens": 16769
+    "prompt_tokens": 13317,
+    "completion_tokens": 4315,
+    "total_tokens": 17632
   },
   "sources": [
     {
-      "id": "01_advisory_meeting_notes",
+      "id": "01_advisory_meeting_recording_part1",
+      "file": "advisory_meeting_recording_part1.mp3",
+      "class": "primary",
+      "type": "audio",
+      "tool": "Transcriber",
+      "characters": 4291
+    },
+    {
+      "id": "02_advisory_meeting_recording_part2",
+      "file": "advisory_meeting_recording_part2.mp3",
+      "class": "primary",
+      "type": "audio",
+      "tool": "Transcriber",
+      "characters": 4373
+    },
+    {
+      "id": "03_advisory_meeting_recording_part3",
+      "file": "advisory_meeting_recording_part3.mp3",
+      "class": "primary",
+      "type": "audio",
+      "tool": "Transcriber",
+      "characters": 4537
+    },
+    {
+      "id": "04_advisory_meeting_notes",
       "file": "advisory_meeting_notes.txt",
       "class": "primary",
       "type": "text",
@@ -15,23 +39,7 @@
       "characters": 11457
     },
     {
-      "id": "02_advisory_meeting_recording_part1",
-      "file": "advisory_meeting_recording_part1.mp3",
-      "class": "primary",
-      "type": "audio",
-      "tool": "Transcriber",
-      "characters": 6589
-    },
-    {
-      "id": "03_advisory_meeting_recording_part2",
-      "file": "advisory_meeting_recording_part2.mp3",
-      "class": "primary",
-      "type": "audio",
-      "tool": "Transcriber",
-      "characters": 6655
-    },
-    {
-      "id": "04_company_overview_2026",
+      "id": "05_company_overview_2026",
       "file": "company_overview_2026.pdf",
       "class": "primary",
       "type": "pdf",
@@ -39,7 +47,7 @@
       "characters": 16763
     },
     {
-      "id": "05_operations_data_extract",
+      "id": "06_operations_data_extract",
       "file": "operations_data_extract.xlsx",
       "class": "primary",
       "type": "spreadsheet",
@@ -47,17 +55,16 @@
       "characters": 39288
     },
     {
-      "id": "06_process_map_freight_documents",
+      "id": "07_process_map_freight_documents",
       "file": "process_map_freight_documents.png",
       "class": "primary",
       "type": "image",
       "tool": "VisionParser",
-      "characters": 2050
+      "characters": 2077
     }
   ],
   "warnings": [
-    "Image sources are described by the vision model; check that it accepts images",
-    "The report instructions are empty: state the source hierarchy, or that there is none, so conflicts are not decided by the curator's own examples"
+    "Image sources are described by the vision model; check that it accepts images"
   ],
   "sample_updates": []
 }
